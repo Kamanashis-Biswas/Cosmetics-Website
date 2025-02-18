@@ -4,7 +4,7 @@ const OurStory = () => {
   return (
     <section className="bg-gray-700 mt-16 text-white flex flex-col md:flex-row items-center justify-center p-10">
       <div className="w-full md:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center">
-        <div className="md:w-1/2 p-8 animate-fadeInLeft">
+        <div className="md:w-1/2 p-2 md:p-8 animate-fadeInLeft">
           <h2 className="text-2xl font-bold mb-4">OUR STORY</h2>
           <p className="mb-4">
             Welcome to Australia’s first beauty concept store and Melbourne’s

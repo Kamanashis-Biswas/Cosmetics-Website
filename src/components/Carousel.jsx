@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import React Icons
 
 import img1 from "../assets/Hero1.jpg";
 import img2 from "../assets/Hero2.jpg";
@@ -42,18 +43,24 @@ const Carousel = () => {
           />
         ))}
       </div>
+
+      {/* Left Arrow Icon */}
       <button
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-4 rounded-full"
         onClick={prevSlide}
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white text-3xl"
       >
-        ◀
+        <FaChevronLeft />
       </button>
+
+      {/* Right Arrow Icon */}
       <button
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-4 rounded-full"
         onClick={nextSlide}
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 text-white text-3xl"
       >
-        ▶
+        <FaChevronRight />
       </button>
+
+      {/* Navigation Dots */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
         {images.map((_, index) => (
           <button

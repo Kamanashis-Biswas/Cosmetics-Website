@@ -1,9 +1,14 @@
-import HomePage from "./pages/HomePage";
+// src/App.jsx
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   );
 }
