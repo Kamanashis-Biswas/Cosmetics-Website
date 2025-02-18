@@ -1,5 +1,6 @@
 import { BsTwitterX } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,9 +12,9 @@ const Footer = () => {
             <div className="transition duration-300 hover:scale-105">
               <h2 className="text-2xl font-bold text-white">YourBrand</h2>
               <p className="mt-3 text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur, voluptate. Nam totam magnam unde ullam iure omnis
-                nobis itaque aliquam.
+                Lorem ipsum dolor sit abet consectetur adipisicing elia.
+                Pariah, volute. Nam totem magnum undo ulema ire ornis
+                nobs ibague aliquot.
               </p>
             </div>
 
@@ -40,18 +41,20 @@ const Footer = () => {
 
             {/* Social Media Links */}
             <div className="flex space-x-4 justify-center md:justify-end">
-              <a
-                href="#"
+              <Link
+                to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
                 className="hover:text-gray-400 w-8 transition duration-300 hover:scale-125 text-3xl"
+                target="_blank"
               >
                 <FaFacebook />
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-400 transition duration-300 hover:scale-125 text-3xl"
+              </Link>
+              <Link
+                to="https://x.com/maccosmetics"
+                className="hover:text-gray-400 w-8 transition duration-300 hover:scale-125 text-3xl"
+                target="_blank"
               >
                 <BsTwitterX />
-              </a>
+              </Link>
             </div>
           </div>
 

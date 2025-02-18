@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Haircare = () => {
   return (
@@ -84,7 +84,7 @@ const Haircare = () => {
               <li className="flex items-center">
                 <span className="text-lg text-gray-800 dark:text-gray-300">
                   ✅ **Free from Harmful Chemicals**: Our formulas are free from
-                  sulfates, parabens, and other harmful chemicals.
+                  sulfates, parens, and other harmful chemicals.
                 </span>
               </li>
               <li className="flex items-center">

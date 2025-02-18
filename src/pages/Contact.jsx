@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold">Get in Touch</h1>
           <p className="mt-4 text-lg">
-            We'd love to hear from you! Please fill out the form below.
+            We&apos;d love to hear from you! Please find our location below.
           </p>
         </div>
       </div>
@@ -13,72 +13,23 @@ const Contact = () => {
       {/* Main Content Section */}
       <main className="flex-grow container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Contact Form */}
+          {/* Google Map Section */}
           <div className="bg-white p-8 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
-            <h2 className="text-2xl font-semibold mb-4">Contact Form</h2>
-            <form action="#" method="POST">
-              <div className="space-y-4">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="block text-sm font-medium text-gray-700 dark:text-gray-300"
-                  >
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white dark:border-gray-600"
-                    placeholder="John Doe"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-sm font-medium text-gray-700 dark:text-gray-300"
-                  >
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white dark:border-gray-600"
-                    placeholder="you@example.com"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium text-gray-700 dark:text-gray-300"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="6"
-                    className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white dark:border-gray-600"
-                    placeholder="Your message here..."
-                    required
-                  ></textarea>
-                </div>
-
-                <div className="mt-4">
-                  <button
-                    type="submit"
-                    className="w-full py-3 px-6 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </div>
-            </form>
+            <h2 className="text-2xl font-semibold mb-4">Our Location</h2>
+            {/* Responsive Map Container */}
+            <div className="relative w-full h-96 overflow-hidden rounded-lg">
+              <iframe
+                title="Google Map Location"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                style={{ border: 0 }}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.7670886756131!2d90.42468747564254!3d23.780580122466443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7914cd6e563%3A0x30348126bb9531ab!2sYummy%20Sweets%20%26%20Bakery!5e0!3m2!1sen!2sbd!4v1739905673179!5m2!1sen!2sbd"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
 
           {/* Contact Info Section */}
