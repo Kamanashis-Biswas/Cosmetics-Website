@@ -22,9 +22,6 @@ const OurStory = () => {
             a wide collection of 100% natural skincare, makeup, and body care,
             as well as that beauty game-changer that’s just been discovered.
           </p>
-          <button className="mt-4 px-6 py-2 border border-white text-white hover:bg-white hover:text-gray-900 transition animate-bounce">
-            READ MORE
-          </button>
         </div>
         <div className="md:w-1/2 flex justify-center animate-fadeInRight">
           <img

@@ -1,10 +1,11 @@
 // src/routes/Routes.jsx
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import HomePage from "../pages/HomePage";
+import HomePage from "../Layout/HomePage";
 import Haircare from "../pages/Haircare";
 import Fragrance from "../pages/Fragrance";
 import Contact from "../pages/Contact";
+import Skincare from "../pages/Skincare";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/skincare",
+        element: <Skincare />,
       },
       {
         path: "/haircare",

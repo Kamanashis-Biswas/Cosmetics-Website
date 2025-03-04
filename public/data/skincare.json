@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "NOIR Infinity Bio-Fusion",
+    "price": "125.00",
+    "model": "INF-ES-2021",
+    "origin": "USA",
+    "brand": "NOIR",
+    "image": "/assets/skincare/product-1.png"
+  },
+  {
+    "id": 2,
+    "name": "NOIR Gentle Glow Tonic",
+    "price": "55.00",
+    "model": "GGT-2021",
+    "origin": "USA",
+    "brand": "NOIR",
+    "image": "/assets/skincare/product-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Fortuna Skin",
+    "price": "139.00",
+    "model": "FICO-2021",
+    "origin": "Italy",
+    "brand": "Fortuna",
+    "image": "/assets/skincare/product-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Active Humans Natural",
+    "price": "39.00",
+    "model": "AND-2021",
+    "origin": "Australia",
+    "brand": "Active Humans",
+    "image": "/assets/skincare/product-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Ipsum SPA Body Oil",
+    "price": "95.00",
+    "model": "IGBO-2021",
+    "origin": "France",
+    "brand": "Ipsum",
+    "image": "/assets/skincare/product-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Fortuna Skin Micelle",
+    "price": "140.00",
+    "model": "FEME-2021",
+    "origin": "Italy",
+    "brand": "Fortuna",
+    "image": "/assets/skincare/product-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Nova Organic Skin",
+    "price": "115.00",
+    "model": "NOS-2021",
+    "origin": "Germany",
+    "brand": "Nova",
+    "image": "/assets/skincare/product-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Bio Glow Serum",
+    "price": "49.00",
+    "model": "BGS-2021",
+    "origin": "UK",
+    "brand": "Bio Glow",
+    "image": "/assets/skincare/product-8.png"
+  },
+  {
+    "id": 9,
+    "name": "Pure Essence Night Cream",
+    "price": "69.00",
+    "model": "PENC-2021",
+    "origin": "France",
+    "brand": "Pure Essence",
+    "image": "/assets/skincare/product-9.png"
+  },
+  {
+    "id": 10,
+    "name": "HydraBoost Moisturizer",
+    "price": "89.00",
+    "model": "HBM-2021",
+    "origin": "USA",
+    "brand": "HydraBoost",
+    "image": "/assets/skincare/product-10.png"
+  },
+  {
+    "id": 11,
+    "name": "Zenith Skin Gel",
+    "price": "105.00",
+    "model": "ZSG-2021",
+    "origin": "Japan",
+    "brand": "Zenith",
+    "image": "/assets/skincare/product-11.png"
+  },
+  {
+    "id": 12,
+    "name": "Luxury Serum",
+    "price": "120.00",
+    "model": "LS-2021",
+    "origin": "USA",
+    "brand": "Luxury",
+    "image": "/assets/skincare/product-12.png"
+  },
+  {
+    "id": 13,
+    "name": "Glow Skin Essence",
+    "price": "59.00",
+    "model": "GSE-2021",
+    "origin": "UK",
+    "brand": "Glow",
+    "image": "/assets/skincare/product-13.png"
+  },
+  {
+    "id": 14,
+    "name": "Clear Complexion Gel",
+    "price": "45.00",
+    "model": "CCG-2021",
+    "origin": "Germany",
+    "brand": "Clear",
+    "image": "/assets/skincare/product-14.png"
+  },
+  {
+    "id": 15,
+    "name": "Radiant Skin Elixir",
+    "price": "85.00",
+    "model": "RSE-2021",
+    "origin": "France",
+    "brand": "Radiant",
+    "image": "/assets/skincare/product-15.png"
+  },
+  {
+    "id": 16,
+    "name": "Vibrant Glow Oil",
+    "price": "65.00",
+    "model": "VGO-2021",
+    "origin": "Italy",
+    "brand": "Vibrant",
+    "image": "/assets/skincare/product-16.png"
+  },
+  {
+    "id": 17,
+    "name": "Natural Boost Serum",
+    "price": "125.00",
+    "model": "NBS-2021",
+    "origin": "Australia",
+    "brand": "Natural",
+    "image": "/assets/skincare/product-17.png"
+  },
+  {
+    "id": 18,
+    "name": "Pure Skin Gel",
+    "price": "89.00",
+    "model": "PSG-2021",
+    "origin": "UK",
+    "brand": "Pure",
+    "image": "/assets/skincare/product-18.png"
+  },
+  {
+    "id": 19,
+    "name": "HydraGlow Essence",
+    "price": "99.00",
+    "model": "HGE-2021",
+    "origin": "Japan",
+    "brand": "HydraGlow",
+    "image": "/assets/skincare/product-19.png"
+  },
+  {
+    "id": 20,
+    "name": "Glow Radiance Cream",
+    "price": "135.00",
+    "model": "GRC-2021",
+    "origin": "USA",
+    "brand": "Glow",
+    "image": "/assets/skincare/product-20.png"
+  }
+]

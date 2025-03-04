@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import React Icons
 
-import img1 from "../assets/Hero1.jpg";
-import img2 from "../assets/Hero2.jpg";
-import img3 from "../assets/Hero3.jpg";
+import img1 from "../assets/Carousel/Hero1.jpg";
+import img2 from "../assets/Carousel/Hero2.jpg";
+import img3 from "../assets/Carousel/Hero3.jpg";
 
 const images = [img1, img2, img3];
 

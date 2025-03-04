@@ -1,109 +1,102 @@
-import React from "react";
+import { useEffect, useState } from "react";
+import { Card, Modal } from "flowbite-react";
 
 const Fragrance = () => {
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [openModal, setOpenModal] = useState(false);
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch("../data/fragrance.json")
+      .then((res) => res.json())
+      .then((data) => setProducts(data))
+      .catch((error) => console.error("Error loading products:", error));
+  }, []);
+
+  const handleBuyNow = (product) => {
+    setSelectedProduct(product);
+    setOpenModal(true);
+  };
+
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900">
-      {/* Full-screen Hero Section with Background */}
-      <div className="relative bg-purple-700 text-white py-24 sm:py-32 h-screen flex items-center">
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="container mx-auto text-center relative z-10">
-          <h1 className="text-5xl font-bold">
-            Explore Our Fragrance Collection
-          </h1>
-          <p className="mt-4 text-lg">
-            Discover the perfect scent for every occasion. Browse our exclusive
-            fragrance selection.
-          </p>
-        </div>
+    <section className="max-w-screen-xl mx-auto text-center mt-28">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+        {products.length > 0 ? (
+          products.map((item) => (
+            <Card
+              key={item.id}
+              className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out"
+            >
+              <img
+                src={item.image}
+                alt={item.name}
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-4">
+                <h5 className="text-lg font-semibold text-gray-900">
+                  {item.name}
+                </h5>
+                <p className="text-gray-700">Model: {item.model}</p>
+                <p className="text-gray-700">Brand: {item.brand}</p>
+                <p className="text-gray-700">Origin: {item.origin}</p>
+                <p className="text-xl font-bold text-blue-600 mt-2">
+                  ৳ {item.price}
+                </p>
+                <button
+                  onClick={() => handleBuyNow(item)}
+                  className="mt-4 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </Card>
+          ))
+        ) : (
+          <p className="text-gray-500">Loading products...</p>
+        )}
       </div>
 
-      {/* Main Content Section */}
-      <main className="flex-grow container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Fragrance Collection Information */}
-          <div className="bg-white p-8 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
-            <h2 className="text-2xl font-semibold mb-4">
-              Our Fragrance Collection
-            </h2>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-              Discover our curated fragrance collection, where each scent is
-              crafted to inspire and elevate your mood. Whether you prefer a
-              floral, woody, or fruity scent, we have something for everyone.
-            </p>
-            <ul className="space-y-4">
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  🌸 **Floral Collection**: Sweet, fresh, and romantic scents
-                  perfect for spring and summer.
-                </span>
-              </li>
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  🌲 **Woody Collection**: Warm, earthy fragrances that evoke a
-                  sense of nature and tranquility.
-                </span>
-              </li>
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  🍓 **Fruity Collection**: Sweet, juicy, and energizing scents
-                  for those who love a burst of freshness.
-                </span>
-              </li>
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  🌟 **Oriental Collection**: Bold, exotic, and luxurious scents
-                  for those who love deep, mysterious fragrances.
-                </span>
-              </li>
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  💧 **Fresh Collection**: Clean, crisp, and refreshing
-                  fragrances to give you an instant mood boost.
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Why Choose Our Fragrances Section */}
-          <div className="bg-white p-8 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
-            <h2 className="text-2xl font-semibold mb-4">
-              Why Choose Our Fragrances?
-            </h2>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-              Our fragrances are designed to evoke emotions and memories,
-              offering high-quality, long-lasting scents. Here are just a few
-              reasons why our collection stands out:
-            </p>
-            <ul className="space-y-4">
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  ✅ **Premium Quality**: Carefully crafted with the finest
-                  ingredients for a luxurious experience.
-                </span>
-              </li>
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  ✅ **Long-lasting Scents**: Enjoy our fragrances throughout
-                  the day with lasting freshness.
-                </span>
-              </li>
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  ✅ **Unique Blends**: Exclusive and unique scent profiles that
-                  stand out from the crowd.
-                </span>
-              </li>
-              <li className="flex items-center">
-                <span className="text-lg text-gray-800 dark:text-gray-300">
-                  ✅ **Eco-friendly Packaging**: Sustainable and eco-conscious
-                  packaging to reduce our carbon footprint.
-                </span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </main>
-    </div>
+      {/* Modal Section */}
+      {selectedProduct && (
+        <Modal show={openModal} onClose={() => setOpenModal(false)}>
+          <Modal.Header>{selectedProduct.name}</Modal.Header>
+          <Modal.Body>
+            <div className="flex flex-col items-center">
+              <img
+                src={selectedProduct.image}
+                alt={selectedProduct.name}
+                className="w-80 h-80 object-cover rounded-lg"
+              />
+              <div className="mt-4 text-center">
+                <p className="text-gray-700">
+                  <strong>Model:</strong> {selectedProduct.model}
+                </p>
+                <p className="text-gray-700">
+                  <strong>Brand:</strong> {selectedProduct.brand}
+                </p>
+                <p className="text-gray-700">
+                  <strong>Origin:</strong> {selectedProduct.origin}
+                </p>
+                <p className="text-xl font-bold text-green-600 mt-3">
+                  ৳ {selectedProduct.price}
+                </p>
+              </div>
+            </div>
+          </Modal.Body>
+          <Modal.Footer>
+            <button
+              onClick={() => setOpenModal(false)}
+              className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-all"
+            >
+              Close
+            </button>
+            <button className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-all">
+              Confirm Purchase
+            </button>
+          </Modal.Footer>
+        </Modal>
+      )}
+    </section>
   );
 };
 

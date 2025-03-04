@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "NOIR Infinite Essence",
+    "price": "145.00",
+    "model": "NIE-2023",
+    "origin": "France",
+    "brand": "NOIR",
+    "image": "/assets/fragrance/product-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Elysian Bloom",
+    "price": "130.00",
+    "model": "EBL-2022",
+    "origin": "Italy",
+    "brand": "Elysian",
+    "image": "/assets/fragrance/product-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Mystic Oud",
+    "price": "160.00",
+    "model": "MOD-2023",
+    "origin": "Dubai",
+    "brand": "Royal Essence",
+    "image": "/assets/fragrance/product-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Azure Sky",
+    "price": "125.00",
+    "model": "AZS-2021",
+    "origin": "USA",
+    "brand": "Skyline",
+    "image": "/assets/fragrance/product-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Velvet Petals",
+    "price": "135.00",
+    "model": "VPT-2022",
+    "origin": "UK",
+    "brand": "Luxe Aroma",
+    "image": "/assets/fragrance/product-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Midnight Eclipse",
+    "price": "155.00",
+    "model": "MNE-2023",
+    "origin": "Germany",
+    "brand": "Eclipse",
+    "image": "/assets/fragrance/product-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Amber Woods",
+    "price": "140.00",
+    "model": "AWD-2023",
+    "origin": "France",
+    "brand": "Prestige",
+    "image": "/assets/fragrance/product-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Celestial Breeze",
+    "price": "120.00",
+    "model": "CBR-2021",
+    "origin": "Italy",
+    "brand": "Celestia",
+    "image": "/assets/fragrance/product-8.png"
+  },
+  {
+    "id": 9,
+    "name": "Royal Oud Elixir",
+    "price": "175.00",
+    "model": "ROE-2023",
+    "origin": "Dubai",
+    "brand": "Oud Royal",
+    "image": "/assets/fragrance/product-9.png"
+  },
+  {
+    "id": 10,
+    "name": "Golden Musk",
+    "price": "150.00",
+    "model": "GMK-2022",
+    "origin": "Saudi Arabia",
+    "brand": "Musk Elegance",
+    "image": "/assets/fragrance/product-10.png"
+  },
+  {
+    "id": 11,
+    "name": "Floral Whisper",
+    "price": "110.00",
+    "model": "FWP-2021",
+    "origin": "France",
+    "brand": "Bloom",
+    "image": "/assets/fragrance/product-11.png"
+  },
+  {
+    "id": 12,
+    "name": "Enigma Noir",
+    "price": "165.00",
+    "model": "ENR-2023",
+    "origin": "Italy",
+    "brand": "Mystique",
+    "image": "/assets/fragrance/product-12.png"
+  },
+  {
+    "id": 13,
+    "name": "Serene Ocean",
+    "price": "135.00",
+    "model": "SOC-2022",
+    "origin": "UK",
+    "brand": "Tranquil",
+    "image": "/assets/fragrance/product-13.png"
+  },
+  {
+    "id": 14,
+    "name": "Nocturnal Essence",
+    "price": "155.00",
+    "model": "NES-2023",
+    "origin": "Germany",
+    "brand": "Eclipse",
+    "image": "/assets/fragrance/product-14.png"
+  },
+  {
+    "id": 15,
+    "name": "Divine Jasmine",
+    "price": "140.00",
+    "model": "DJM-2023",
+    "origin": "France",
+    "brand": "Prestige",
+    "image": "/assets/fragrance/product-15.png"
+  },
+  {
+    "id": 16,
+    "name": "Amber Mist",
+    "price": "125.00",
+    "model": "AMB-2021",
+    "origin": "Italy",
+    "brand": "Celestia",
+    "image": "/assets/fragrance/product-16.png"
+  },
+  {
+    "id": 17,
+    "name": "Moonlit Orchid",
+    "price": "175.00",
+    "model": "MLO-2023",
+    "origin": "Dubai",
+    "brand": "Oud Royal",
+    "image": "/assets/fragrance/product-17.png"
+  },
+  {
+    "id": 18,
+    "name": "Cedarwood Elegance",
+    "price": "150.00",
+    "model": "CWE-2022",
+    "origin": "Saudi Arabia",
+    "brand": "Musk Elegance",
+    "image": "/assets/fragrance/product-18.png"
+  },
+  {
+    "id": 19,
+    "name": "Blissful Bloom",
+    "price": "110.00",
+    "model": "BLB-2021",
+    "origin": "France",
+    "brand": "Bloom",
+    "image": "/assets/fragrance/product-19.png"
+  },
+  {
+    "id": 20,
+    "name": "Radiant Sandalwood",
+    "price": "165.00",
+    "model": "RSW-2023",
+    "origin": "Italy",
+    "brand": "Mystique",
+    "image": "/assets/fragrance/product-20.png"
+  }
+]

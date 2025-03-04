@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { Card, Modal } from "flowbite-react";
 
-const Haircare = () => {
+const Skincare = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [openModal, setOpenModal] = useState(false);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("../data/haircare.json")
+    fetch("../data/skincare.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((error) => console.error("Error loading products:", error));
@@ -22,37 +22,41 @@ const Haircare = () => {
     <section className="max-w-screen-xl mx-auto text-center mt-28">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
         {products.length > 0 ? (
-          products.map((item) => (
-            <Card
-              key={item.id}
-              className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out"
-            >
-              <img
-                src={item.image}
-                alt={item.name}
-                className="w-full h-56 object-cover"
-              />
-              <div className="p-4">
-                <h5 className="text-lg font-semibold text-gray-900">
-                  {item.name}
-                </h5>
-                <p className="text-gray-700">Model: {item.model}</p>
-                <p className="text-gray-700">Brand: {item.brand}</p>
-                <p className="text-gray-700">Origin: {item.origin}</p>
-                <p className="text-xl font-bold text-blue-600 mt-2">
-                  ৳ {item.price}
-                </p>
-                <button
-                  onClick={() => handleBuyNow(item)}
-                  className="mt-4 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
-                >
-                  Buy Now
-                </button>
-              </div>
-            </Card>
-          ))
+          products.map(
+            (
+              item 
+            ) => (
+              <Card
+                key={item.id}
+                className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out"
+              >
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-56 object-cover"
+                />
+                <div className="p-4">
+                  <h5 className="text-lg font-semibold text-gray-900">
+                    {item.name}
+                  </h5>
+                  <p className="text-gray-700">Model: {item.model}</p>
+                  <p className="text-gray-700">Brand: {item.brand}</p>
+                  <p className="text-gray-700">Origin: {item.origin}</p>
+                  <p className="text-xl font-bold text-blue-600 mt-2">
+                    ৳ {item.price}
+                  </p>
+                  <button
+                    onClick={() => handleBuyNow(item)}
+                    className="mt-4 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </Card>
+            )
+          )
         ) : (
-          <p className="text-gray-500">Loading products...</p>
+          <p className="text-gray-500">Loading products...</p> 
         )}
       </div>
 
@@ -100,4 +104,4 @@ const Haircare = () => {
   );
 };
 
-export default Haircare;
+export default Skincare;

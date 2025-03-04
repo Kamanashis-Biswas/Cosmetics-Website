@@ -60,7 +60,9 @@ const Testimonial = () => {
   return (
     <div className="mt-28">
       <div className="text-center  mb-10">
-        <h1 className="font-bold text-4xl underline mb-5">Product Review</h1>
+        <h1 className="text-xl md:text-3xl underline font-bold  text-gray-800">
+          PRODUCTS REVIEWS
+        </h1>
       </div>
       <div className="relative max-w-screen-xl mx-auto py-10 text-center bg-gray-100 rounded-lg shadow-lg overflow-hidden">
         <div

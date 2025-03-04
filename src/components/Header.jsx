@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom"; // Use NavLink instead of Link
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false); // For mobile menu
@@ -26,9 +27,7 @@ const Header = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
             to="/"
           >
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Cosmetics
-            </span>
+            <img className="w-16 md:w-24" src={logo} />
           </NavLink>
 
           {/* Hamburger Button (Mobile) */}
@@ -58,6 +57,19 @@ const Header = () => {
               <li>
                 <NavLink
                   to="/"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                      : "block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  }
+                  aria-current="page"
+                >
+                  HOME
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/skincare"
                   className={({ isActive }) =>
                     isActive
                       ? "block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"

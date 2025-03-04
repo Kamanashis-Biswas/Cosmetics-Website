@@ -1,13 +1,13 @@
 import Carousel from "../components/Carousel";
 import OurStory from "../components/OurStory";
-import ProductGrid from "../components/ProductGrid";
+import SkincareFeatureProduct from "../components/SkincareFeatureProduct";
 import Testimonial from "../components/Testimonial";
 
 const HomePage = () => {
   return (
     <div>
       <Carousel />
-      <ProductGrid />
+      <SkincareFeatureProduct />
       <Testimonial />
       <OurStory />
     </div>
