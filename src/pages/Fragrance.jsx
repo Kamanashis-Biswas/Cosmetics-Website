@@ -30,7 +30,7 @@ const Fragrance = () => {
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-full h-56 object-cover"
+                className="w-auto h-44  mx-auto object-cover"
               />
               <div className="p-4">
                 <h5 className="text-lg font-semibold text-gray-900">

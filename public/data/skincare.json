@@ -4,7 +4,7 @@
     "name": "NOIR Infinity Bio-Fusion",
     "price": "125.00",
     "model": "INF-ES-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "image": "/assets/skincare/product-1.png"
   },
@@ -13,7 +13,7 @@
     "name": "NOIR Gentle Glow Tonic",
     "price": "55.00",
     "model": "GGT-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "image": "/assets/skincare/product-2.png"
   },
@@ -22,7 +22,7 @@
     "name": "Fortuna Skin",
     "price": "139.00",
     "model": "FICO-2021",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
     "image": "/assets/skincare/product-3.png"
   },
@@ -31,7 +31,7 @@
     "name": "Active Humans Natural",
     "price": "39.00",
     "model": "AND-2021",
-    "origin": "Australia",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Active Humans",
     "image": "/assets/skincare/product-4.png"
   },
@@ -40,7 +40,7 @@
     "name": "Ipsum SPA Body Oil",
     "price": "95.00",
     "model": "IGBO-2021",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Ipsum",
     "image": "/assets/skincare/product-5.png"
   },
@@ -49,7 +49,7 @@
     "name": "Fortuna Skin Micelle",
     "price": "140.00",
     "model": "FEME-2021",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
     "image": "/assets/skincare/product-6.png"
   },
@@ -58,7 +58,7 @@
     "name": "Nova Organic Skin",
     "price": "115.00",
     "model": "NOS-2021",
-    "origin": "Germany",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Nova",
     "image": "/assets/skincare/product-7.png"
   },
@@ -67,7 +67,7 @@
     "name": "Bio Glow Serum",
     "price": "49.00",
     "model": "BGS-2021",
-    "origin": "UK",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Bio Glow",
     "image": "/assets/skincare/product-8.png"
   },
@@ -76,7 +76,7 @@
     "name": "Pure Essence Night Cream",
     "price": "69.00",
     "model": "PENC-2021",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Pure Essence",
     "image": "/assets/skincare/product-9.png"
   },
@@ -85,7 +85,7 @@
     "name": "HydraBoost Moisturizer",
     "price": "89.00",
     "model": "HBM-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "HydraBoost",
     "image": "/assets/skincare/product-10.png"
   },
@@ -94,7 +94,7 @@
     "name": "Zenith Skin Gel",
     "price": "105.00",
     "model": "ZSG-2021",
-    "origin": "Japan",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
     "brand": "Zenith",
     "image": "/assets/skincare/product-11.png"
   },
@@ -103,7 +103,7 @@
     "name": "Luxury Serum",
     "price": "120.00",
     "model": "LS-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "Luxury",
     "image": "/assets/skincare/product-12.png"
   },
@@ -112,7 +112,7 @@
     "name": "Glow Skin Essence",
     "price": "59.00",
     "model": "GSE-2021",
-    "origin": "UK",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Glow",
     "image": "/assets/skincare/product-13.png"
   },
@@ -121,7 +121,7 @@
     "name": "Clear Complexion Gel",
     "price": "45.00",
     "model": "CCG-2021",
-    "origin": "Germany",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
     "brand": "Clear",
     "image": "/assets/skincare/product-14.png"
   },
@@ -130,7 +130,7 @@
     "name": "Radiant Skin Elixir",
     "price": "85.00",
     "model": "RSE-2021",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Radiant",
     "image": "/assets/skincare/product-15.png"
   },
@@ -139,7 +139,7 @@
     "name": "Vibrant Glow Oil",
     "price": "65.00",
     "model": "VGO-2021",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Vibrant",
     "image": "/assets/skincare/product-16.png"
   },
@@ -148,7 +148,7 @@
     "name": "Natural Boost Serum",
     "price": "125.00",
     "model": "NBS-2021",
-    "origin": "Australia",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Natural",
     "image": "/assets/skincare/product-17.png"
   },
@@ -157,7 +157,7 @@
     "name": "Pure Skin Gel",
     "price": "89.00",
     "model": "PSG-2021",
-    "origin": "UK",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Pure",
     "image": "/assets/skincare/product-18.png"
   },
@@ -166,7 +166,7 @@
     "name": "HydraGlow Essence",
     "price": "99.00",
     "model": "HGE-2021",
-    "origin": "Japan",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
     "brand": "HydraGlow",
     "image": "/assets/skincare/product-19.png"
   },
@@ -175,7 +175,7 @@
     "name": "Glow Radiance Cream",
     "price": "135.00",
     "model": "GRC-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "Glow",
     "image": "/assets/skincare/product-20.png"
   }

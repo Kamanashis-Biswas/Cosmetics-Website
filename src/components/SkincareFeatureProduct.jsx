@@ -37,22 +37,39 @@ const SkincareFeatureProduct = () => {
           products.slice(0, 8).map((item) => (
             <Card
               key={item.id}
-              className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out"
+              className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 px-0 transition duration-300 ease-in-out"
             >
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-full h-56 object-cover"
+                className="w-auto h-44  mx-auto object-cover"
               />
               <div className="p-4">
-                <h5 className="text-lg font-semibold text-gray-900">
-                  {item.name}
+                <h5
+                  className="text-lg font-semibold text-gray-900 truncate"
+                  title={`${item.name} | ${item.model}`}
+                >
+                  {`${
+                    (item.name + " | " + item.model).length > 30
+                      ? (item.name + " | " + item.model).substring(0, 27) +
+                        "..."
+                      : item.name + " | " + item.model
+                  }`}
                 </h5>
-                <p className="text-gray-700">Model: {item.model}</p>
-                <p className="text-gray-700">Brand: {item.brand}</p>
-                <p className="text-gray-700">Origin: {item.origin}</p>
+
+                <div className="flex justify-between mt-2 text-sm font-medium">
+                  <p className="text-gray-700">Brand: {item.brand}</p>
+                  <div className="flex items-center gap-1">
+                    <p>Origin: </p>
+                    <img
+                      className="h-3 w-auto"
+                      src={item.origin}
+                      alt="Origin"
+                    />
+                  </div>
+                </div>
                 <p className="text-xl font-bold text-blue-600 mt-2">
-                  ৳ {item.price}
+                  Price: ৳ {item.price} TK
                 </p>
                 <button
                   onClick={() => handleBuyNow(item)}
