@@ -207,7 +207,7 @@ const SkincareFeatureProduct = () => {
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-auto h-44 mx-auto object-cover"
+                className="w-auto h-44 mx-auto object-cover transition-transform duration-500 group-hover:scale-150"
               />
 
               {/* Hover Buttons */}
