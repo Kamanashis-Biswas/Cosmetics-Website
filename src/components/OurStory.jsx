@@ -2,7 +2,7 @@ import img1 from "../assets/img1.jpg";
 
 const OurStory = () => {
   return (
-    <section className="bg-gray-700 mt-16 text-white flex flex-col md:flex-row items-center justify-center p-10">
+    <section className="bg-gray-700 mt-16 text-white flex flex-col font-poppins md:flex-row items-center justify-center p-10">
       <div className="w-full md:w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center">
         <div className="md:w-1/2 p-2 md:p-8 animate-fadeInLeft">
           <h2 className="text-2xl font-bold mb-4">OUR STORY</h2>

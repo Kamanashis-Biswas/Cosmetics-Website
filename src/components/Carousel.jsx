@@ -65,9 +65,11 @@ const Carousel = () => {
         {images.map((_, index) => (
           <button
             key={index}
-            className={`w-4 h-4 rounded-full ${
-              index === currentIndex ? "bg-purple-400" : "bg-gray-400"
-            }`}
+            className={`${
+              index === currentIndex
+                ? "w-12 h-6 rounded-full bg-primary"
+                : "w-4 h-4 rounded-full bg-primary-light"
+            } transition-all duration-300`}
             onClick={() => setCurrentIndex(index)}
           ></button>
         ))}

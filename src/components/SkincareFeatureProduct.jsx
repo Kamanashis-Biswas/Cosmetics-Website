@@ -30,22 +30,26 @@ const SkincareFeatureProduct = () => {
 
   return (
     <section className="max-w-screen-xl mx-auto text-center mt-28">
-      <div className="flex mb-10 justify-between items-center px-4">
-        <h2 className="text-xl md:text-3xl underline font-bold text-gray-800">
-          SKINCARE
+      <div className="flex mb-10 justify-between items-center font-poppins px-4">
+        <h2 className="text-xl md:text-3xl font-bold text-gray-800 underline decoration-primary underline-offset-8 decoration-[3px]">
+          TOP SELLING SKINCARE
         </h2>
-        <button
-          className="hover:underline hover:text-blue-400 font-semibold"
-          onClick={handleViewAll}
-        >
-          View All{">"}
-        </button>
+        <div className="flex items-center gap-2 justify-center">
+          <button
+            className="hover:underline hover:text-blue-400 font-semibold flex items-center"
+            onClick={handleViewAll}
+          >
+            View All
+            <HiOutlineArrowLongRight className="ml-1" />
+          </button>
+        </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-poppins px-4">
         {products.length > 0 ? (
           products.slice(0, 8).map((item) => (
             <div
               key={item.id}
+              onClick={() => handleBuyNow(item)}
               className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
             >
               <div className="absolute inset-0 w-full h-full rounded-md border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
@@ -59,7 +63,7 @@ const SkincareFeatureProduct = () => {
               <div className="inset-x-0 bottom-0 bg-white p-3 opacity-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center">
                 <button
                   onClick={() => handleBuyNow(item)}
-                  className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all mt-4  relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
+                  className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-all mt-4 relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
                 >
                   <FaShoppingCart /> Buy Now
                 </button>
@@ -71,19 +75,9 @@ const SkincareFeatureProduct = () => {
                 >
                   {item.name} | {item.model}
                 </h5>
-                {/* <div className="flex justify-between mt-2 text-sm font-medium">
-                  <p className="text-gray-700">Brand: {item.brand}</p>
-                  <div className="flex items-center gap-1">
-                    <p>Origin: </p>
-                    <img
-                      className="h-3 w-auto"
-                      src={item.origin}
-                      alt="Origin"
-                    />
-                  </div>
-                </div> */}
-                <p className="text-xl font-bold text-blue-600 mt-2">
-                  Price: ৳ {item.price} TK
+
+                <p className="text-xl font-bold text-primary mt-2">
+                  ৳ {item.price} TK
                 </p>
               </div>
             </div>
@@ -96,9 +90,9 @@ const SkincareFeatureProduct = () => {
       <div className="mt-6">
         <button
           onClick={handleViewAll}
-          className="bg-blue-500 mt-10 text-white text-xl px-6 py-2 rounded-full hover:bg-blue-600 transition-all"
+          className="bg-primary mt-10 text-white text-xl px-6 py-2 rounded-full hover:bg-primary-dark transition-all"
         >
-          <div className="flex justify-between items-center gap-2 group">
+          <div className="flex justify-between items-center gap-2 group font-poppins">
             <p className="text-gray-50 transition-transform transform group-hover:scale-105 group-hover:text-white duration-300 ease-in-out">
               View All
             </p>
@@ -111,7 +105,7 @@ const SkincareFeatureProduct = () => {
       {selectedProduct && (
         <Modal show={openModal} onClose={() => setOpenModal(false)}>
           <Modal.Header className="bg-gradient-to-r text-white p-4 rounded-t-lg flex justify-between items-center"></Modal.Header>
-          <Modal.Body className="p-6 bg-white rounded-lg shadow-lg transition-all duration-300 ease-in-out">
+          <Modal.Body className="p-6 bg-white rounded-lg shadow-lg transition-all duration-300 font-poppins ease-in-out">
             <div className="flex flex-col items-center space-y-6">
               <img
                 src={selectedProduct.image}
@@ -149,7 +143,7 @@ const SkincareFeatureProduct = () => {
               </div>
             </div>
           </Modal.Body>
-          <Modal.Footer className="flex justify-between bg-gray-50 p-4 rounded-b-lg shadow-inner">
+          <Modal.Footer className="flex font-poppins justify-between bg-gray-50 p-4 rounded-b-lg shadow-inner">
             <button
               onClick={() => setOpenModal(false)}
               className="bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-all duration-300"
