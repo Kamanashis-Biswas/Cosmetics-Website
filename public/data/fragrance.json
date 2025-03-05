@@ -4,179 +4,199 @@
     "name": "NOIR Infinite Essence",
     "price": "145.00",
     "model": "NIE-2023",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "NOIR",
-    "image": "/assets/fragrance/product-1.png"
+    "image": "/assets/fragrance/product-1.png",
+    "description": "NOIR Infinite Essence is a deep and mysterious fragrance, crafted with the fine artistry of French perfumers. A blend of night-blooming floral extracts and warm spices, it offers a long-lasting, sophisticated experience."
   },
   {
     "id": 2,
     "name": "Elysian Bloom",
     "price": "130.00",
     "model": "EBL-2022",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Elysian",
-    "image": "/assets/fragrance/product-2.png"
+    "image": "/assets/fragrance/product-2.png",
+    "description": "Inspired by the enchanting flower gardens of Italy, Elysian Bloom is a fresh and vibrant fragrance. A combination of citrus fruits and light floral notes, it evokes the delightful essence of an Italian summer."
   },
   {
     "id": 3,
     "name": "Mystic Oud",
     "price": "160.00",
     "model": "MOD-2023",
-    "origin": "Dubai",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/255px-Flag_of_Saudi_Arabia.svg.png",
     "brand": "Royal Essence",
-    "image": "/assets/fragrance/product-3.png"
+    "image": "/assets/fragrance/product-3.png",
+    "description": "Mystic Oud is a modern interpretation of Dubai’s traditional oud fragrance. A blend of deep oud notes and sweet spices, it provides a regal and mysterious feel, perfect for special occasions."
   },
   {
     "id": 4,
     "name": "Azure Sky",
     "price": "125.00",
     "model": "AZS-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "Skyline",
-    "image": "/assets/fragrance/product-4.png"
+    "image": "/assets/fragrance/product-4.png",
+    "description": "Azure Sky is a fresh and light fragrance that captures the clarity of the American sky. A combination of light aquatic notes and floral scents, it is ideal for everyday wear."
   },
   {
     "id": 5,
     "name": "Velvet Petals",
     "price": "135.00",
     "model": "VPT-2022",
-    "origin": "UK",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Luxe Aroma",
-    "image": "/assets/fragrance/product-5.png"
+    "image": "/assets/fragrance/product-5.png",
+    "description": "Velvet Petals is a soft and comforting fragrance, reminiscent of the gentle rose gardens of Britain. An extract of velvety smooth floral petals and light vanilla, it offers a warm and inviting sensation."
   },
   {
     "id": 6,
     "name": "Midnight Eclipse",
     "price": "155.00",
     "model": "MNE-2023",
-    "origin": "Germany",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
     "brand": "Eclipse",
-    "image": "/assets/fragrance/product-6.png"
+    "image": "/assets/fragrance/product-6.png",
+    "description": "Midnight Eclipse is a powerful and captivating fragrance that embodies the mystery of the German night. A blend of deep wood and spice notes, it imparts a bold and confident feeling."
   },
   {
     "id": 7,
     "name": "Amber Woods",
     "price": "140.00",
     "model": "AWD-2023",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Prestige",
-    "image": "/assets/fragrance/product-7.png"
+    "image": "/assets/fragrance/product-7.png",
+    "description": "Amber Woods is a warm and comforting fragrance that captures the serene environment of French forests. A deep blend of amber and wood, it provides a natural and relaxing sensation."
   },
   {
     "id": 8,
     "name": "Celestial Breeze",
     "price": "120.00",
     "model": "CBR-2021",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Celestia",
-    "image": "/assets/fragrance/product-8.png"
+    "image": "/assets/fragrance/product-8.png",
+    "description": "Celestial Breeze is a light and refreshing fragrance that captures the purity of the Italian sky. A blend of light citrus and floral scents, it offers a heavenly sensation."
   },
   {
     "id": 9,
     "name": "Royal Oud Elixir",
     "price": "175.00",
     "model": "ROE-2023",
-    "origin": "Dubai",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/255px-Flag_of_Saudi_Arabia.svg.png",
     "brand": "Oud Royal",
-    "image": "/assets/fragrance/product-9.png"
+    "image": "/assets/fragrance/product-9.png",
+    "description": "Royal Oud Elixir is a regal and sophisticated fragrance that highlights the excellence of Dubai’s traditional oud scents. A blend of deep oud and golden spices, it imparts a luxurious feeling."
   },
   {
     "id": 10,
     "name": "Golden Musk",
     "price": "150.00",
     "model": "GMK-2022",
-    "origin": "Saudi Arabia",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/255px-Flag_of_Saudi_Arabia.svg.png",
     "brand": "Musk Elegance",
-    "image": "/assets/fragrance/product-10.png"
+    "image": "/assets/fragrance/product-10.png",
+    "description": "Golden Musk is a warm and captivating fragrance, a modern take on Saudi Arabia’s traditional musk. A blend of golden musk and sweet spices, it provides a royal and delightful sensation."
   },
   {
     "id": 11,
     "name": "Floral Whisper",
     "price": "110.00",
     "model": "FWP-2021",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Bloom",
-    "image": "/assets/fragrance/product-11.png"
+    "image": "/assets/fragrance/product-11.png",
+    "description": "Floral Whisper is a light and gentle fragrance that captures the delicacy of French flower gardens. A blend of light floral scents, it offers a calm and delightful sensation."
   },
   {
     "id": 12,
     "name": "Enigma Noir",
     "price": "165.00",
     "model": "ENR-2023",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Mystique",
-    "image": "/assets/fragrance/product-12.png"
+    "image": "/assets/fragrance/product-12.png",
+    "description": "Enigma Noir is a mysterious and captivating fragrance that embodies the enigma of the Italian night. A blend of deep wood and spice notes, it imparts a bold and alluring feeling."
   },
   {
     "id": 13,
     "name": "Serene Ocean",
     "price": "135.00",
     "model": "SOC-2022",
-    "origin": "UK",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Tranquil",
-    "image": "/assets/fragrance/product-13.png"
+    "image": "/assets/fragrance/product-13.png",
+    "description": "Serene Ocean is a fresh and tranquil fragrance that captures the serenity of the British sea. A blend of light aquatic and floral scents, it offers a peaceful sensation."
   },
   {
     "id": 14,
     "name": "Nocturnal Essence",
     "price": "155.00",
     "model": "NES-2023",
-    "origin": "Germany",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
     "brand": "Eclipse",
-    "image": "/assets/fragrance/product-14.png"
+    "image": "/assets/fragrance/product-14.png",
+    "description": "Nocturnal Essence is a deep and mysterious fragrance that captures the darkness of the German night. A blend of deep wood and spice notes, it imparts a bold and mysterious feeling."
   },
   {
     "id": 15,
     "name": "Divine Jasmine",
     "price": "140.00",
     "model": "DJM-2023",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
     "brand": "Prestige",
-    "image": "/assets/fragrance/product-15.png"
+    "image": "/assets/fragrance/product-15.png",
+    "description": "Divine Jasmine is a soft and delightful fragrance that captures the delicacy of French jasmine. A blend of pure jasmine notes, it offers an elegant and pleasing sensation."
   },
   {
     "id": 16,
     "name": "Amber Mist",
     "price": "125.00",
     "model": "AMB-2021",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Celestia",
-    "image": "/assets/fragrance/product-16.png"
+    "image": "/assets/fragrance/product-16.png",
+    "description": "Amber Mist is a light and warm fragrance that captures the subtle essence of Italian amber. A blend of light amber and floral scents, it offers a comforting sensation."
   },
   {
-    "id": 17,
-    "name": "Moonlit Orchid",
-    "price": "175.00",
-    "model": "MLO-2023",
-    "origin": "Dubai",
-    "brand": "Oud Royal",
-    "image": "/assets/fragrance/product-17.png"
-  },
-  {
-    "id": 18,
-    "name": "Cedarwood Elegance",
-    "price": "150.00",
-    "model": "CWE-2022",
-    "origin": "Saudi Arabia",
-    "brand": "Musk Elegance",
-    "image": "/assets/fragrance/product-18.png"
-  },
-  {
-    "id": 19,
-    "name": "Blissful Bloom",
-    "price": "110.00",
-    "model": "BLB-2021",
-    "origin": "France",
-    "brand": "Bloom",
-    "image": "/assets/fragrance/product-19.png"
-  },
-  {
-    "id": 20,
-    "name": "Radiant Sandalwood",
-    "price": "165.00",
-    "model": "RSW-2023",
-    "origin": "Italy",
-    "brand": "Mystique",
-    "image": "/assets/fragrance/product-20.png"
-  }
+        "id": 17,
+        "name": "Moonlit Orchid",
+        "price": "175.00",
+        "model": "MLO-2023",
+        "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/255px-Flag_of_Saudi_Arabia.svg.png",
+        "brand": "Oud Royal",
+        "image": "/assets/fragrance/product-17.png",
+        "description": "Moonlit Orchid is an exotic and enchanting fragrance that captures the allure of a moonlit orchid in the desert night. A luxurious blend of rare orchid and rich oud, it offers a captivating and opulent experience."
+    },
+    {
+        "id": 18,
+        "name": "Cedarwood Elegance",
+        "price": "150.00",
+        "model": "CWE-2022",
+        "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/255px-Flag_of_Saudi_Arabia.svg.png",
+        "brand": "Musk Elegance",
+        "image": "/assets/fragrance/product-18.png",
+        "description": "Cedarwood Elegance is a sophisticated and refined fragrance that highlights the timeless appeal of cedarwood. A harmonious blend of warm cedarwood and elegant musk, it provides a distinguished and comforting sensation."
+    },
+    {
+        "id": 19,
+        "name": "Blissful Bloom",
+        "price": "110.00",
+        "model": "BLB-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+        "brand": "Bloom",
+        "image": "/assets/fragrance/product-19.png",
+        "description": "Blissful Bloom is a joyful and radiant fragrance that captures the essence of a blossoming garden in spring. A delightful blend of fresh blooms and light fruity notes, it offers a cheerful and uplifting experience."
+    },
+    {
+        "id": 20,
+        "name": "Radiant Sandalwood",
+        "price": "165.00",
+        "model": "RSW-2023",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+        "brand": "Mystique",
+        "image": "/assets/fragrance/product-20.png",
+        "description": "Radiant Sandalwood is a sensual and alluring fragrance that highlights the creamy warmth of sandalwood. A captivating blend of smooth sandalwood and subtle spices, it provides a radiant and mesmerizing sensation."
+    }
 ]

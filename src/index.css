@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @keyframes borderAnimation {
+    0% {
+        clip-path: inset(0% 100% 100% 0%);
+    }
+
+    25% {
+        clip-path: inset(0% 0% 100% 0%);
+    }
+
+    50% {
+        clip-path: inset(0% 0% 0% 100%);
+    }
+
+    75% {
+        clip-path: inset(100% 0% 0% 0%);
+    }
+
+    100% {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+.animate-border {
+    animation: borderAnimation 1s linear;
+} */
+
+
+@keyframes borderAnimation {
+    0% {
+        clip-path: inset(0% 100% 100% 0%);
+    }
+
+    25% {
+        clip-path: inset(0% 0% 100% 0%);
+    }
+
+    50% {
+        clip-path: inset(0% 0% 0% 100%);
+    }
+
+    75% {
+        clip-path: inset(100% 0% 0% 0%);
+    }
+
+    100% {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+.animate-border {
+    animation: borderAnimation 2s ease-in-out;
+}

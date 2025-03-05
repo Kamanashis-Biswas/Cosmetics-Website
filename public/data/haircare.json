@@ -4,179 +4,199 @@
     "name": "NOIR Smooth Shine Serum",
     "price": "45.00",
     "model": "NSS-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "image": "/assets/haircare/product-1.png"
+    "image": "/assets/haircare/product-1.png",
+    "description": "A lightweight serum that adds instant shine and smoothness to your hair while protecting it from heat and environmental damage."
   },
   {
     "id": 2,
     "name": "Herbal Essence Shampoo",
     "price": "30.00",
     "model": "HES-2021",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Herbal Essence",
-    "image": "/assets/haircare/product-2.png"
+    "image": "/assets/haircare/product-2.png",
+    "description": "A herbal shampoo enriched with natural extracts to deeply cleanse and nourish your scalp, leaving your hair soft and fresh."
   },
   {
     "id": 3,
     "name": "Fortuna Hair Oil",
     "price": "60.00",
     "model": "FHO-2021",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
-    "image": "/assets/haircare/product-3.png"
+    "image": "/assets/haircare/product-3.png",
+    "description": "Fortified with essential oils, this hair oil deeply hydrates your scalp and strengthens hair from root to tip."
   },
   {
     "id": 4,
     "name": "Active Humans Hair Spray",
     "price": "20.00",
     "model": "AHHS-2021",
-    "origin": "Australia",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Active Humans",
-    "image": "/assets/haircare/product-4.png"
+    "image": "/assets/haircare/product-4.png",
+    "description": "A long-lasting hair spray that provides strong hold without stiffness, keeping your hairstyle intact all day."
   },
   {
     "id": 5,
     "name": "Ipsum Hair Cream",
     "price": "50.00",
     "model": "IHCC-2021",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Ipsum",
-    "image": "/assets/haircare/product-5.png"
+    "image": "/assets/haircare/product-5.png",
+    "description": "A deeply nourishing hair cream that restores hydration, controls frizz, and enhances shine for a healthy look."
   },
   {
     "id": 6,
     "name": "Fortuna Hair Mask",
     "price": "70.00",
     "model": "FHM-2021",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
-    "image": "/assets/haircare/product-6.png"
+    "image": "/assets/haircare/product-6.png",
+    "description": "A luxurious hair mask that repairs damaged hair, restoring its strength, softness, and elasticity."
   },
   {
     "id": 7,
     "name": "Nova Nourishing Oil",
     "price": "40.00",
     "model": "NNO-2021",
-    "origin": "Germany",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Nova",
-    "image": "/assets/haircare/product-7.png"
+    "image": "/assets/haircare/product-7.png",
+    "description": "A nourishing oil rich in vitamins and natural extracts, helping to improve scalp health and promote hair growth."
   },
   {
     "id": 8,
     "name": "Bio Glow Hair Serum",
     "price": "25.00",
     "model": "BGHS-2021",
-    "origin": "UK",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Bio Glow",
-    "image": "/assets/haircare/product-8.png"
+    "image": "/assets/haircare/product-8.png",
+    "description": "A lightweight serum that tames frizz, enhances shine, and provides a silky finish for all hair types."
   },
   {
     "id": 9,
     "name": "Pure Essence Hair Conditioner",
     "price": "35.00",
     "model": "PEHC-2021",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Pure Essence",
-    "image": "/assets/haircare/product-9.png"
+    "image": "/assets/haircare/product-9.png",
+    "description": "A moisture-rich conditioner that detangles, softens, and strengthens your hair while preventing breakage."
   },
   {
     "id": 10,
     "name": "HydraBoost Hair Lotion",
     "price": "50.00",
     "model": "HBHL-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "HydraBoost",
-    "image": "/assets/haircare/product-10.png"
+    "image": "/assets/haircare/product-10.png",
+    "description": "An ultra-hydrating lotion that replenishes moisture and protects hair from dryness and damage."
   },
   {
     "id": 11,
     "name": "Zenith Hair Gel",
     "price": "40.00",
     "model": "ZHG-2021",
-    "origin": "Japan",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
     "brand": "Zenith",
-    "image": "/assets/haircare/product-11.png"
+    "image": "/assets/haircare/product-11.png",
+    "description": "A strong-hold hair gel designed to shape, sculpt, and keep your hairstyle in place without residue."
   },
   {
     "id": 12,
     "name": "Luxury Hair Treatment",
     "price": "65.00",
     "model": "LHT-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "Luxury",
-    "image": "/assets/haircare/product-12.png"
+    "image": "/assets/haircare/product-12.png",
+    "description": "A premium hair treatment formulated to repair, rejuvenate, and deeply condition dry and damaged hair."
   },
   {
     "id": 13,
     "name": "Glow Hair Elixir",
     "price": "55.00",
     "model": "GHE-2021",
-    "origin": "UK",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Glow",
-    "image": "/assets/haircare/product-13.png"
+    "image": "/assets/haircare/product-13.png",
+    "description": "A luxurious elixir that boosts shine, restores health, and protects hair from heat and environmental damage."
   },
   {
     "id": 14,
     "name": "Clear Hair Solution",
     "price": "30.00",
     "model": "CHS-2021",
-    "origin": "Germany",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Clear",
-    "image": "/assets/haircare/product-14.png"
+    "image": "/assets/haircare/product-14.png",
+    "description": "A clarifying hair solution that removes buildup and excess oil, leaving hair fresh and weightless."
   },
   {
     "id": 15,
     "name": "Radiant Hair Booster",
     "price": "45.00",
     "model": "RHB-2021",
-    "origin": "France",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Radiant",
-    "image": "/assets/haircare/product-15.png"
+    "image": "/assets/haircare/product-15.png",
+    "description": "A powerful hair booster that strengthens roots, reduces hair fall, and promotes thicker hair growth."
   },
   {
     "id": 16,
     "name": "Vibrant Hair Oil",
     "price": "35.00",
     "model": "VHO-2021",
-    "origin": "Italy",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Vibrant",
-    "image": "/assets/haircare/product-16.png"
+    "image": "/assets/haircare/product-16.png",
+    "description": "A revitalizing hair oil that deeply conditions and enhances natural shine for silky, smooth hair."
   },
   {
     "id": 17,
     "name": "Natural Boost Hair Serum",
     "price": "50.00",
     "model": "NBHS-2021",
-    "origin": "Australia",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Natural",
-    "image": "/assets/haircare/product-17.png"
+    "image": "/assets/haircare/product-17.png",
+    "description": "A lightweight hair serum enriched with plant-based ingredients to nourish and revitalize hair."
   },
   {
     "id": 18,
     "name": "Pure Hair Treatment",
     "price": "40.00",
     "model": "PHT-2021",
-    "origin": "UK",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Pure",
-    "image": "/assets/haircare/product-18.png"
+    "image": "/assets/haircare/product-18.png",
+    "description": "An intensive hair treatment that restores vitality, prevents breakage, and deeply hydrates strands."
   },
   {
     "id": 19,
     "name": "HydraGlow Hair Essence",
     "price": "60.00",
     "model": "HGHE-2021",
-    "origin": "Japan",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
     "brand": "HydraGlow",
-    "image": "/assets/haircare/product-19.png"
+    "image": "/assets/haircare/product-19.png",
+    "description": "A hydrating hair essence that locks in moisture and adds a healthy glow to dry, lifeless hair."
   },
   {
     "id": 20,
     "name": "Glow Radiance Hair Cream",
     "price": "80.00",
     "model": "GRHC-2021",
-    "origin": "USA",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "Glow",
-    "image": "/assets/haircare/product-20.png"
+    "image": "/assets/haircare/product-20.png",
+    "description": "A premium hair cream infused with natural ingredients to enhance shine, softness, and strength."
   }
 ]
