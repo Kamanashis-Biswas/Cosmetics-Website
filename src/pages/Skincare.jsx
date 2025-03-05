@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { Modal } from "flowbite-react";
 import { Link } from "react-router-dom";
+import { FaShoppingCart, FaTags } from "react-icons/fa";
+import { IoEarth } from "react-icons/io5";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Skincare = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -24,60 +27,26 @@ const Skincare = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
         {products.length > 0 ? (
           products.map((item) => (
-            // <div
-            //   key={item.id}
-            //   className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out"
-            // >
-            //   <img
-            //     src={item.image}
-            //     alt={item.name}
-            //     className="w-auto h-44 mx-auto object-cover"
-            //   />
-            //   <div className="p-4">
-            //     <h5
-            //       className="text-lg font-semibold text-gray-900 truncate"
-            //       title={`${item.name} | ${item.model}`}
-            //     >
-            //       {`${
-            //         (item.name + " | " + item.model).length > 30
-            //           ? (item.name + " | " + item.model).substring(0, 27) +
-            //             "..."
-            //           : item.name + " | " + item.model
-            //       }`}
-            //     </h5>
-
-            //     <div className="flex justify-between mt-2 text-sm font-medium">
-            //       <p className="text-gray-700">Brand: {item.brand}</p>
-            //       <div className="flex items-center gap-1">
-            //         <p>Origin: </p>
-            //         <img
-            //           className="h-3 w-auto"
-            //           src={item.origin}
-            //           alt="Origin"
-            //         />
-            //       </div>
-            //     </div>
-            //     <p className="text-xl font-bold text-blue-600 mt-2">
-            //       Price: ৳ {item.price} TK
-            //     </p>
-            //     <button
-            //       onClick={() => handleBuyNow(item)}
-            //       className="mt-4 w-full relative overflow-hidden px-6 py-3 font-semibold text-white bg-blue-600 rounded-lg transition-all duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
-            //     >
-            //       Buy Now
-            //     </button>
-            //   </div>
-            // </div>
-
             <div
               key={item.id}
-              className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
+              className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
             >
+              <div className="absolute inset-0 w-full h-full border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border rounded-md pointer-events-none"></div>
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-auto h-44 mx-auto object-cover transition-transform duration-500 group-hover:scale-150"
+                className="w-auto h-44 p-7 mx-auto object-cover transition-transform duration-500 group-hover:scale-150"
               />
+
+              {/* Hover Buttons */}
+              <div className="inset-x-0 bottom-0 bg-white p-3 opacity-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center">
+                <button
+                  onClick={() => handleBuyNow(item)}
+                  className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all mt-4  relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
+                >
+                  <FaShoppingCart /> Buy Now
+                </button>
+              </div>
               <div className="p-4">
                 <h5
                   className="text-lg font-semibold text-gray-900 truncate"
@@ -91,7 +60,7 @@ const Skincare = () => {
                   }`}
                 </h5>
 
-                <div className="flex justify-between mt-2 text-sm font-medium">
+                {/* <div className="flex justify-between mt-2 text-sm font-medium">
                   <p className="text-gray-700">Brand: {item.brand}</p>
                   <div className="flex items-center gap-1">
                     <p>Origin: </p>
@@ -101,16 +70,10 @@ const Skincare = () => {
                       alt="Origin"
                     />
                   </div>
-                </div>
+                </div> */}
                 <p className="text-xl font-bold text-blue-600 mt-2">
                   Price: ৳ {item.price} TK
                 </p>
-                <button
-                  onClick={() => handleBuyNow(item)}
-                  className="mt-4 w-full relative overflow-hidden px-6 py-3 font-semibold text-white bg-blue-600 rounded-lg transition-all duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
-                >
-                  Buy Now
-                </button>
               </div>
             </div>
           ))
@@ -122,7 +85,7 @@ const Skincare = () => {
       {/* Modal Section */}
       {selectedProduct && (
         <Modal show={openModal} onClose={() => setOpenModal(false)}>
-          <Modal.Header className="bg-gradient-to-r from-blue-500 to-teal-500 text-white p-4 rounded-t-lg flex justify-between items-center"></Modal.Header>
+          <Modal.Header className="bg-gradient-to-r text-white p-4 rounded-t-lg flex justify-between items-center"></Modal.Header>
           <Modal.Body className="p-6 bg-white rounded-lg shadow-lg transition-all duration-300 ease-in-out">
             <div className="flex flex-col items-center space-y-6">
               <img
@@ -132,19 +95,16 @@ const Skincare = () => {
               />
 
               <div className="text-start">
-                <h2 className="text-gray-800 text-lg">
-                  <strong>Product Name: </strong>
+                <h2 className="text-gray-800 text-2xl mb-3 font-bold">
                   {selectedProduct.name}
                 </h2>
-                <div className="flex justify-between">
-                  <p className="text-gray-800 text-lg">
-                    <strong>Model:</strong> {selectedProduct.model}
-                  </p>
-                  <p className="text-gray-800 text-lg">
-                    <strong>Brand:</strong> {selectedProduct.brand}
-                  </p>
+                <div className="flex items-center gap-5 mb-3">
                   <div className="flex justify-start items-center gap-1">
-                    <p className="text-gray-800 text-lg">Origin:</p>
+                    <FaTags className="text-gray-800 text-3xl h-8" /> :
+                    {selectedProduct.brand}
+                  </div>
+                  <div className="flex justify-start items-center gap-1">
+                    <IoEarth className="text-gray-800 text-3xl h-8" /> :
                     <img
                       className="h-6 w-auto"
                       src={selectedProduct.origin}
@@ -152,11 +112,14 @@ const Skincare = () => {
                     />
                   </div>
                 </div>
-                <p className="text-gray-700 text-lg">
-                  <strong>Description:</strong> {selectedProduct.description}
+
+                <p className="text-3xl font-bold text-green-600 mb-3">
+                  ৳ {selectedProduct.price}
                 </p>
-                <p className="text-3xl font-bold text-green-600 mt-3">
-                  Price: ৳ {selectedProduct.price}
+
+                <p className="text-gray-700 flex gap-2 text-lg">
+                  <RxHamburgerMenu className="text-gray-800 text-3xl h-8" />{" "}
+                  {selectedProduct.description}
                 </p>
               </div>
             </div>

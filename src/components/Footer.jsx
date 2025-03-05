@@ -1,4 +1,4 @@
-import { BsTwitterX } from "react-icons/bs";
+import { BsInstagram, BsYoutube } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo-2.png";
@@ -36,7 +36,14 @@ const Footer = () => {
                 className="hover:text-gray-400 w-8 transition duration-300 hover:scale-125 text-3xl"
                 target="_blank"
               >
-                <BsTwitterX />
+                <BsYoutube />
+              </Link>
+              <Link
+                to="https://x.com/maccosmetics"
+                className="hover:text-gray-400 w-8 transition duration-300 hover:scale-125 text-3xl"
+                target="_blank"
+              >
+                <BsInstagram />
               </Link>
             </div>
           </div>

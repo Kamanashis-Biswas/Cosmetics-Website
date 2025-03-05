@@ -1,3 +1,5 @@
+import { BsInstagram, BsYoutube } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -27,27 +29,28 @@ const Contact = () => {
 
           {/* Contact Info Section */}
           <div className="bg-white p-8 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
-            <div className="flex justify-between items-center p-4">
+            {/* Social Media Links */}
+            <div className="flex space-x-4 justify-start items-center mb-8">
               <Link
                 to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
-                className="hover:text-blue-600 text-3xl"
+                className="hover:text-blue-600 w-8 transition duration-300 hover:scale-125 text-3xl"
                 target="_blank"
               >
-                <h2 className="text-base font-bold">Facebook</h2>
+                <FaFacebook />
               </Link>
               <Link
-                to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
-                className="hover:text-blue-600 text-3xl"
+                to="https://x.com/maccosmetics"
+                className="hover:text-blue-600  w-8 transition duration-300 hover:scale-125 text-3xl"
                 target="_blank"
               >
-                <h2 className="text-base font-bold">YouTube</h2>
+                <BsYoutube />
               </Link>
               <Link
-                to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
-                className="hover:text-blue-600 text-3xl"
+                to="https://x.com/maccosmetics"
+                className="hover:text-blue-600  w-8 transition duration-300 hover:scale-125 text-3xl"
                 target="_blank"
               >
-                <h2 className="text-base font-bold">Instagram</h2>
+                <BsInstagram />
               </Link>
             </div>
             <div>

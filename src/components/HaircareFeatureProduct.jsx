@@ -1,17 +1,19 @@
 import { useEffect, useState } from "react";
 import { Modal } from "flowbite-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaShoppingCart, FaTags } from "react-icons/fa";
 import { IoEarth } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
-const Fragrance = () => {
+const HaircareFeatureProduct = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [openModal, setOpenModal] = useState(false);
   const [products, setProducts] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("../data/fragrance.json")
+    fetch("../data/haircare.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((error) => console.error("Error loading products:", error));
@@ -22,20 +24,35 @@ const Fragrance = () => {
     setOpenModal(true);
   };
 
+  const handleViewAll = () => {
+    navigate("/haircare");
+  };
+
   return (
     <section className="max-w-screen-xl mx-auto text-center mt-28">
+      <div className="flex mb-10 justify-between items-center px-4">
+        <h2 className="text-xl md:text-3xl underline font-bold text-gray-800">
+          HAIRCARE
+        </h2>
+        <button
+          className="hover:underline hover:text-blue-400 font-semibold"
+          onClick={handleViewAll}
+        >
+          View All{">"}
+        </button>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
         {products.length > 0 ? (
-          products.map((item) => (
+          products.slice(0, 8).map((item) => (
             <div
               key={item.id}
               className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
             >
-              <div className="absolute inset-0 w-full h-full border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border rounded-md pointer-events-none"></div>
+              <div className="absolute inset-0 w-full h-full rounded-md border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-auto h-44 p-7 mx-auto object-cover transition-transform duration-500 group-hover:scale-150"
+                className="w-auto h-44 p-7 mx-auto object-cover transition-transform duration-500 group-hover:scale-125"
               />
 
               {/* Hover Buttons */}
@@ -52,15 +69,9 @@ const Fragrance = () => {
                   className="text-lg font-semibold text-gray-900 truncate"
                   title={`${item.name} | ${item.model}`}
                 >
-                  {`${
-                    (item.name + " | " + item.model).length > 30
-                      ? (item.name + " | " + item.model).substring(0, 27) +
-                        "..."
-                      : item.name + " | " + item.model
-                  }`}
+                  {item.name} | {item.model}
                 </h5>
-                {/* 
-                <div className="flex justify-between mt-2 text-sm font-medium">
+                {/* <div className="flex justify-between mt-2 text-sm font-medium">
                   <p className="text-gray-700">Brand: {item.brand}</p>
                   <div className="flex items-center gap-1">
                     <p>Origin: </p>
@@ -80,6 +91,20 @@ const Fragrance = () => {
         ) : (
           <p className="text-gray-500">Loading products...</p>
         )}
+      </div>
+
+      <div className="mt-6">
+        <button
+          onClick={handleViewAll}
+          className="bg-blue-500 mt-10 text-white text-xl px-6 py-2 rounded-full hover:bg-blue-600 transition-all"
+        >
+          <div className="flex justify-between items-center gap-2 group">
+            <p className="text-gray-50 transition-transform transform group-hover:scale-105 group-hover:text-white duration-300 ease-in-out">
+              View All
+            </p>
+            <HiOutlineArrowLongRight className="text-gray-50 transition-transform transform group-hover:scale-105 group-hover:text-white duration-300 ease-in-out" />
+          </div>
+        </button>
       </div>
 
       {/* Modal Section */}
@@ -143,4 +168,4 @@ const Fragrance = () => {
   );
 };
 
-export default Fragrance;
+export default HaircareFeatureProduct;
