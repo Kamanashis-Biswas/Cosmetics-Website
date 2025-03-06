@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import { Modal } from "flowbite-react";
 import { Link } from "react-router-dom";
-import { FaShoppingCart, FaTags } from "react-icons/fa";
-import { IoEarth } from "react-icons/io5";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { FaShoppingCart } from "react-icons/fa";
 
 // Import the haircare cover image
 import haircareCover from "../assets/cover/haircare.jpg"; // Replace with your image path
+import { FaStar } from "react-icons/fa6";
 
 const Haircare = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -91,59 +90,60 @@ const Haircare = () => {
       </div>
       {/* Modal Section */}
       {selectedProduct && (
-        <Modal show={openModal} onClose={() => setOpenModal(false)}>
-          <Modal.Header className="bg-gradient-to-r text-white p-4 rounded-t-lg flex justify-between items-center"></Modal.Header>
-          <Modal.Body className="p-6 bg-white rounded-lg shadow-lg transition-all duration-300 font-poppins ease-in-out">
-            <div className="flex flex-col items-center space-y-6">
+        <Modal
+          className="absolute"
+          show={openModal}
+          onClose={() => setOpenModal(false)}
+        >
+          {/* Close Button (Right Side) */}
+          <button
+            className="absolute top-4 right-4 w-8 h-8 rounded-full -mt-8 -mr-8 text-white bg-primary flex items-center justify-center hover:bg-primary-dark transition-all duration-300 ease-in-out"
+            onClick={() => setOpenModal(false)}
+          >
+            X
+          </button>
+
+          <div className="flex flex-col md:flex-row items-center gap-4 p-6 font-poppins">
+            <div className="w-full md:w-1/2 p-2">
               <img
                 src={selectedProduct.image}
                 alt={selectedProduct.name}
-                className="w-auto h-80 object-cover rounded-lg shadow-xl transition-all duration-300 ease-in-out mix-blend-darken"
+                className="w-full h-64 md:h-80 object-cover rounded-lg shadow-xl transition-all duration-300 ease-in-out mix-blend-darken"
               />
+            </div>
+            <div className="w-full md:w-1/2 p-2">
+              <h2 className="text-gray-800 text-xl md:text-2xl mb-3 font-bold">
+                {selectedProduct.name}
+              </h2>
+              <div className="flex items-center gap-1 mb-3">
+                <FaStar className="text-yellow-400" />
+                <FaStar className="text-yellow-400" />
+                <FaStar className="text-yellow-400" />
+                <FaStar className="text-yellow-400" />
+                <FaStar className="text-yellow-400" />
+              </div>
+              <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
+                ৳ {selectedProduct.price}
+              </p>
+              <Link
+                to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex gap-2 justify-center items-center w-full bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-all">
+                  <FaShoppingCart />
+                  BUY NOW
+                </button>
+              </Link>
 
-              <div className="text-start">
-                <h2 className="text-gray-800 text-2xl mb-3 font-bold">
-                  {selectedProduct.name}
-                </h2>
-                <div className="flex items-center gap-5 mb-3">
-                  <div className="flex justify-start items-center gap-1">
-                    <FaTags className="text-gray-800 text-3xl h-8" /> :
-                    {selectedProduct.brand}
-                  </div>
-                  <div className="flex justify-start items-center gap-1">
-                    <IoEarth className="text-gray-800 text-3xl h-8" /> :
-                    <img
-                      className="h-6 w-auto"
-                      src={selectedProduct.origin}
-                      alt="Origin Flag"
-                    />
-                  </div>
-                </div>
-
-                <p className="text-3xl font-bold text-green-600 mb-3">
-                  ৳ {selectedProduct.price}
-                </p>
-
-                <p className="text-gray-700 flex gap-2 text-lg">
-                  <RxHamburgerMenu className="text-gray-800 text-3xl h-8" />{" "}
+              <div className="mt-6">
+                <p className="text-lg md:text-xl font-bold">About</p>
+                <p className="text-sm md:text-base">
                   {selectedProduct.description}
                 </p>
               </div>
             </div>
-          </Modal.Body>
-          <Modal.Footer className="flex font-poppins justify-between bg-gray-50 p-4 rounded-b-lg shadow-inner">
-            <button
-              onClick={() => setOpenModal(false)}
-              className="bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-all duration-300"
-            >
-              Close
-            </button>
-            <Link to="https://www.facebook.com/wholesaleCosmeticsGallerybd">
-              <button className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-all duration-300">
-                Confirm Purchase
-              </button>
-            </Link>
-          </Modal.Footer>
+          </div>
         </Modal>
       )}
     </section>

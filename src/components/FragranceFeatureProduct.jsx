@@ -109,22 +109,22 @@ const FragranceFeatureProduct = () => {
         >
           {/* Close Button (Right Side) */}
           <button
-            className="absolute top-4 right-4 w-10 h-10 rounded-full -mt-10 -mr-10 text-white bg-primary flex items-center justify-center hover:bg-primary-dark transition-all duration-300 ease-in-out"
+            className="absolute top-4 right-4 w-8 h-8 rounded-full -mt-8 -mr-8 text-white bg-primary flex items-center justify-center hover:bg-primary-dark transition-all duration-300 ease-in-out"
             onClick={() => setOpenModal(false)}
           >
             X
           </button>
 
-          <div className="flex items-center gap-4 p-6 font-poppins">
-            <div className="w-1/2 p-2">
+          <div className="flex flex-col md:flex-row items-center gap-4 p-6 font-poppins">
+            <div className="w-full md:w-1/2 p-2">
               <img
                 src={selectedProduct.image}
                 alt={selectedProduct.name}
-                className="w-auto h-80 object-cover rounded-lg shadow-xl transition-all duration-300 ease-in-out mix-blend-darken"
+                className="w-full h-64 md:h-80 object-cover rounded-lg shadow-xl transition-all duration-300 ease-in-out mix-blend-darken"
               />
             </div>
-            <div className="w-1/2 p-2">
-              <h2 className="text-gray-800 text-2xl mb-3 font-bold">
+            <div className="w-full md:w-1/2 p-2">
+              <h2 className="text-gray-800 text-xl md:text-2xl mb-3 font-bold">
                 {selectedProduct.name}
               </h2>
               <div className="flex items-center gap-1 mb-3">
@@ -134,7 +134,7 @@ const FragranceFeatureProduct = () => {
                 <FaStar className="text-yellow-400" />
                 <FaStar className="text-yellow-400" />
               </div>
-              <p className="text-2xl font-bold text-green-600 mb-3">
+              <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
                 ৳ {selectedProduct.price}
               </p>
               <Link
@@ -149,8 +149,10 @@ const FragranceFeatureProduct = () => {
               </Link>
 
               <div className="mt-6">
-                <p className="text-xl font-bold">About</p>
-                <p className="text-sm">{selectedProduct.description}</p>
+                <p className="text-lg md:text-xl font-bold">About</p>
+                <p className="text-sm md:text-base">
+                  {selectedProduct.description}
+                </p>
               </div>
             </div>
           </div>
