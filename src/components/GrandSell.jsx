@@ -15,7 +15,7 @@ const GrandSell = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto py-8 overflow-hidden relative">
-      <h2 className="text-xl md:text-3xl font-bold text-gray-800 underline decoration-primary underline-offset-8 mb-5 decoration-[3px]">
+      <h2 className="text-lg p-2 md:p-0 md:text-3xl font-bold text-gray-800 underline decoration-primary underline-offset-8 mb-5 decoration-[3px]">
         GRAND SELL for 10 MARCH to 30 MARCH
       </h2>
 

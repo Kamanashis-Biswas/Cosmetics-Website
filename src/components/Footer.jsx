@@ -48,7 +48,9 @@ const Footer = () => {
             {/* Social Media Links (Right Side) */}
             <div className="flex flex-col items-center md:items-end">
               <div>
-                <h2 className="text-lg font-semibold mb-2">Follow Us:</h2>
+                <h2 className="text-lg font-semibold md:mr-9 mb-2">
+                  Follow Us:
+                </h2>
               </div>
               <div className="flex space-x-4">
                 <Link
