@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import { Modal } from "flowbite-react";
 import { Link, useNavigate } from "react-router-dom";
-import { FaShoppingCart, FaTags } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import { IoEarth } from "react-icons/io5";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { FaStar } from "react-icons/fa6";
 
 const FragranceFeatureProduct = () => {
