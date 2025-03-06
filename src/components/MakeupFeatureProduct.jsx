@@ -6,14 +6,14 @@ import { IoEarth } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
-const HaircareFeatureProduct = () => {
+const MakeupFeatureProduct = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [openModal, setOpenModal] = useState(false);
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("../data/haircare.json")
+    fetch("../data/makeup.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((error) => console.error("Error loading products:", error));
@@ -25,16 +25,15 @@ const HaircareFeatureProduct = () => {
   };
 
   const handleViewAll = () => {
-    navigate("/haircare");
+    navigate("/makeup");
   };
 
   return (
     <section className="max-w-screen-xl mx-auto text-center mt-28">
       <div className="flex mb-10 justify-between items-center font-poppins px-4">
         <h2 className="text-xl md:text-3xl font-bold text-gray-800 underline decoration-primary underline-offset-8 decoration-[3px]">
-          TOP SELLING HAIRCARE
+          BEST SELLING MAKEUP
         </h2>
-
         <div className="flex items-center gap-2 justify-center">
           <button
             className="hover:underline hover:text-blue-400 font-semibold flex items-center"
@@ -69,7 +68,6 @@ const HaircareFeatureProduct = () => {
                   <FaShoppingCart /> Buy Now
                 </button>
               </div>
-
               <div className="p-4">
                 <h5
                   className="text-lg font-semibold text-gray-900 truncate"
@@ -77,6 +75,7 @@ const HaircareFeatureProduct = () => {
                 >
                   {item.name} | {item.model}
                 </h5>
+
                 <p className="text-xl font-bold text-primary mt-2">
                   ৳ {item.price} TK
                 </p>
@@ -106,7 +105,7 @@ const HaircareFeatureProduct = () => {
       {selectedProduct && (
         <Modal show={openModal} onClose={() => setOpenModal(false)}>
           <Modal.Header className="bg-gradient-to-r text-white p-4 rounded-t-lg flex justify-between items-center"></Modal.Header>
-          <Modal.Body className="p-6 bg-white rounded-lg shadow-lg font-poppins transition-all duration-300 ease-in-out">
+          <Modal.Body className="p-6 bg-white rounded-lg shadow-lg transition-all duration-300 font-poppins ease-in-out">
             <div className="flex flex-col items-center space-y-6">
               <img
                 src={selectedProduct.image}
@@ -144,7 +143,7 @@ const HaircareFeatureProduct = () => {
               </div>
             </div>
           </Modal.Body>
-          <Modal.Footer className="flex justify-between font-poppins bg-gray-50 p-4 rounded-b-lg shadow-inner">
+          <Modal.Footer className="flex font-poppins justify-between bg-gray-50 p-4 rounded-b-lg shadow-inner">
             <button
               onClick={() => setOpenModal(false)}
               className="bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-all duration-300"
@@ -163,4 +162,4 @@ const HaircareFeatureProduct = () => {
   );
 };
 
-export default HaircareFeatureProduct;
+export default MakeupFeatureProduct;

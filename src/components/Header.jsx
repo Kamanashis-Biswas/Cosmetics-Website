@@ -67,6 +67,7 @@ const Header = () => {
                   HOME
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
                   to="/skincare"
@@ -78,6 +79,20 @@ const Header = () => {
                   aria-current="page"
                 >
                   SKINCARE
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/makeup"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "block py-2 px-3 text-primary underline decoration-primary underline-offset-8 decoration-[2px]"
+                      : "block py-2 px-3 text-gray-900 hover:text-primary-dark"
+                  }
+                  aria-current="page"
+                >
+                  MAKEUP
                 </NavLink>
               </li>
 

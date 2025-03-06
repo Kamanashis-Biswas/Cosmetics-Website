@@ -1,7 +1,6 @@
 import { BsInstagram, BsYoutube } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo-2.png";
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
             <div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
               <div>
                 <h2 className="text-primary font-bold text-2xl">
-                  Shoppers'perk International
+                  Shoppers&apos;perk International
                 </h2>
                 <p className="mt-3 text-gray-300 max-w-md text-center md:text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

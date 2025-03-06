@@ -5,6 +5,9 @@ import { FaShoppingCart, FaTags } from "react-icons/fa";
 import { IoEarth } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
 
+// Import the haircare cover image
+import haircareCover from "../assets/cover/haircare.jpg"; // Replace with your image path
+
 const Haircare = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [openModal, setOpenModal] = useState(false);
@@ -23,48 +26,65 @@ const Haircare = () => {
   };
 
   return (
-    <section className="max-w-screen-xl mx-auto text-center mt-28">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-poppins px-4">
-        {products.length > 0 ? (
-          products.map((item) => (
-            <div
-              key={item.id}
-              onClick={() => handleBuyNow(item)}
-              className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
-            >
-              <div className="absolute inset-0 w-full h-full rounded-md border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
-              <img
-                src={item.image}
-                alt={item.name}
-                className="w-auto h-44 p-7 mx-auto object-cover transition-transform duration-500 group-hover:scale-125"
-              />
+    <section className="max-w-screen-xl mx-auto font-poppins">
+      {/* Cover Photo Section */}
+      <div className="relative w-full h-96 md:h-[50vh] overflow-hidden rounded-lg">
+        <img
+          src={haircareCover}
+          alt="Haircare Cover"
+          className="w-full h-full object-cover rounded-lg"
+        />
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center rounded-lg">
+          <h1 className="text-4xl md:text-6xl font-bold text-white">
+            Haircare Products
+          </h1>
+        </div>
+      </div>
 
-              {/* Hover Buttons */}
-              <div className="inset-x-0 bottom-0 bg-white p-3 opacity-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center">
-                <button
-                  onClick={() => handleBuyNow(item)}
-                  className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-all mt-4 relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
-                >
-                  <FaShoppingCart /> Buy Now
-                </button>
-              </div>
+      {/* Product Grid Section */}
+      <div className="text-center mt-8 px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-poppins">
+          {products.length > 0 ? (
+            products.map((item) => (
+              <div
+                key={item.id}
+                onClick={() => handleBuyNow(item)}
+                className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
+              >
+                <div className="absolute inset-0 w-full h-full rounded-md border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-auto h-44 p-7 mx-auto object-cover transition-transform duration-500 group-hover:scale-125"
+                />
 
-              <div className="p-4">
-                <h5
-                  className="text-lg font-semibold text-gray-900 truncate"
-                  title={`${item.name} | ${item.model}`}
-                >
-                  {item.name} | {item.model}
-                </h5>
-                <p className="text-xl font-bold text-primary mt-2">
-                  ৳ {item.price} TK
-                </p>
+                {/* Hover Buttons */}
+                <div className="inset-x-0 bottom-0 bg-white p-3 opacity-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center">
+                  <button
+                    onClick={() => handleBuyNow(item)}
+                    className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-all mt-4 relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
+                  >
+                    <FaShoppingCart /> Buy Now
+                  </button>
+                </div>
+
+                <div className="p-4">
+                  <h5
+                    className="text-lg font-semibold text-gray-900 truncate"
+                    title={`${item.name} | ${item.model}`}
+                  >
+                    {item.name} | {item.model}
+                  </h5>
+                  <p className="text-xl font-bold text-primary mt-2">
+                    ৳ {item.price} TK
+                  </p>
+                </div>
               </div>
-            </div>
-          ))
-        ) : (
-          <p className="text-gray-500">Loading products...</p>
-        )}
+            ))
+          ) : (
+            <p className="text-gray-500">Loading products...</p>
+          )}
+        </div>
       </div>
 
       {/* Modal Section */}

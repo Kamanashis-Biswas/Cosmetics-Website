@@ -6,6 +6,7 @@ import Haircare from "../pages/Haircare";
 import Fragrance from "../pages/Fragrance";
 import Contact from "../pages/Contact";
 import Skincare from "../pages/Skincare";
+import Makeup from "../pages/Makeup";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/makeup",
+        element: <Makeup />,
       },
       {
         path: "/skincare",

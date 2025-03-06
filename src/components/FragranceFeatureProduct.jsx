@@ -32,7 +32,7 @@ const FragranceFeatureProduct = () => {
     <section className="max-w-screen-xl mx-auto text-center mt-28">
       <div className="flex mb-10 justify-between items-center font-poppins px-4">
         <h2 className="text-xl md:text-3xl font-bold text-gray-800 underline decoration-primary underline-offset-8 decoration-[3px]">
-          TOP SELLING FRAGRANCE
+          BEST SELLING FRAGRANCE
         </h2>
         <div className="flex items-center gap-2 justify-center">
           <button

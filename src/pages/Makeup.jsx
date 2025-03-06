@@ -5,15 +5,16 @@ import { FaShoppingCart, FaTags } from "react-icons/fa";
 import { IoEarth } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-import skincareCover from "../assets/cover/skincare.jpg";
+// Import the makeup cover image
+import makeupCover from "../assets/cover/makeup.jpg"; // Replace with your image path
 
-const Skincare = () => {
+const Makeup = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [openModal, setOpenModal] = useState(false);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("../data/skincare.json")
+    fetch("../data/makeup.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((error) => console.error("Error loading products:", error));
@@ -27,15 +28,15 @@ const Skincare = () => {
   return (
     <section className="max-w-screen-xl mx-auto font-poppins">
       {/* Cover Photo Section */}
-      <div className="relative w-full h-96 md:h-[50vh] overflow-hidden">
+      <div className="relative w-full h-96 md:h-[50vh] overflow-hidden rounded-lg">
         <img
-          src={skincareCover}
-          alt="Skincare Cover"
-          className="w-full h-full object-cover"
+          src={makeupCover}
+          alt="Makeup Cover"
+          className="w-full h-full object-cover rounded-lg"
         />
-        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center rounded-lg">
           <h1 className="text-4xl md:text-6xl font-bold text-white">
-            Skincare Products
+            Makeup Products
           </h1>
         </div>
       </div>
@@ -66,14 +67,14 @@ const Skincare = () => {
                     <FaShoppingCart /> Buy Now
                   </button>
                 </div>
+
                 <div className="p-4">
                   <h5
                     className="text-lg font-semibold text-gray-900 truncate"
-                    title={`${item.name} | {item.model}`}
+                    title={`${item.name} | ${item.model}`}
                   >
                     {item.name} | {item.model}
                   </h5>
-
                   <p className="text-xl font-bold text-primary mt-2">
                     ৳ {item.price} TK
                   </p>
@@ -147,4 +148,4 @@ const Skincare = () => {
   );
 };
 
-export default Skincare;
+export default Makeup;

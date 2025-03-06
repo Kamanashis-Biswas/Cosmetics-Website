@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "name": "Luminous Foundation",
+    "price": "125.00",
+    "model": "LF-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "GlamUp",
+    "image": "/assets/skincare/product-1.png",
+    "description": "A long-lasting foundation for a flawless, luminous finish."
+  },
+  {
+    "id": 2,
+    "name": "Velvet Matte Lipstick",
+    "price": "55.00",
+    "model": "VML-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "ColorPop",
+    "image": "/assets/skincare/product-2.png",
+    "description": "A velvety matte lipstick with rich, vibrant color."
+  },
+  {
+    "id": 3,
+    "name": "Ultra-Fine Powder",
+    "price": "139.00",
+    "model": "UFP-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Bella Italia",
+    "image": "/assets/skincare/product-3.png",
+    "description": "An ultra-fine setting powder for a smooth, airbrushed look."
+  },
+  {
+    "id": 4,
+    "name": "Natural Brow Pencil",
+    "price": "39.00",
+    "model": "NBP-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
+    "brand": "Aussie Beauty",
+    "image": "/assets/skincare/product-4.png",
+    "description": "A natural brow pencil for perfectly defined eyebrows."
+  },
+  {
+    "id": 5,
+    "name": "Shimmering Eyeshadow Palette",
+    "price": "95.00",
+    "model": "SEP-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
+    "brand": "Glow Down Under",
+    "image": "/assets/skincare/product-5.png",
+    "description": "A palette with highly pigmented, shimmering eyeshadows."
+  },
+  {
+    "id": 6,
+    "name": "Liquid Eyeliner",
+    "price": "140.00",
+    "model": "LE-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Italian Flair",
+    "image": "/assets/skincare/product-6.png",
+    "description": "A smudge-proof liquid eyeliner for precise and bold lines."
+  },
+  {
+    "id": 7,
+    "name": "Organic Blush",
+    "price": "115.00",
+    "model": "OB-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Eco Bella",
+    "image": "/assets/skincare/product-7.png",
+    "description": "An organic blush with natural pigments for a healthy flush."
+  },
+  {
+    "id": 8,
+    "name": "Radiant Highlighter",
+    "price": "49.00",
+    "model": "RH-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
+    "brand": "London Glow",
+    "image": "/assets/skincare/product-8.png",
+    "description": "A radiant highlighter for a luminous, dewy glow."
+  },
+  {
+    "id": 9,
+    "name": "Long-Wear Mascara",
+    "price": "69.00",
+    "model": "LWM-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Italian Lashes",
+    "image": "/assets/skincare/product-9.png",
+    "description": "A long-wearing mascara for voluminous and defined lashes."
+  },
+  {
+    "id": 10,
+    "name": "Hydrating Lip Gloss",
+    "price": "89.00",
+    "model": "HLG-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "Glossy Glam",
+    "image": "/assets/skincare/product-10.png",
+    "description": "A hydrating lip gloss for a glossy, plumped pout."
+  },
+  {
+    "id": 11,
+    "name": "Precision Concealer",
+    "price": "105.00",
+    "model": "PC-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
+    "brand": "Tokyo Beauty",
+    "image": "/assets/skincare/product-11.png",
+    "description": "A precision concealer for flawless coverage and a natural finish."
+  },
+  {
+    "id": 12,
+    "name": "Luxury Bronzer",
+    "price": "120.00",
+    "model": "LB-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "Golden Hour",
+    "image": "/assets/skincare/product-12.png",
+    "description": "A luxury bronzer for a sun-kissed, sculpted look."
+  },
+  {
+    "id": 13,
+    "name": "Tinted Lip Balm",
+    "price": "59.00",
+    "model": "TLB-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Bella Lips",
+    "image": "/assets/skincare/product-13.png",
+    "description": "A tinted lip balm for a hint of color and hydration."
+  },
+  {
+    "id": 14,
+    "name": "Color Correcting Palette",
+    "price": "45.00",
+    "model": "CCP-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
+    "brand": "Berlin Beauty",
+    "image": "/assets/skincare/product-14.png",
+    "description": "A color correcting palette for neutralizing imperfections."
+  },
+  {
+    "id": 15,
+    "name": "Matte Liquid Lipstick",
+    "price": "85.00",
+    "model": "MLL-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Italian Touch",
+    "image": "/assets/skincare/product-15.png",
+    "description": "A matte liquid lipstick for a bold, long-lasting lip look."
+  },
+  {
+  "id": 16,
+  "name": "Cream Blush",
+  "price": "65.00",
+  "model": "CB-2021",
+  "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+  "brand": "Italian Touch",
+  "image": "/assets/skincare/product-16.png",
+  "description": "A creamy blush for a natural, dewy flush of color."
+},{
+    "id": 17,
+    "name": "Natural Finish Powder",
+    "price": "125.00",
+    "model": "NFP-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
+    "brand": "Aussie Glow",
+    "image": "/assets/skincare/product-17.png",
+    "description": "A natural finish powder for setting makeup and reducing shine."
+  },
+  {
+    "id": 18,
+    "name": "Eyelash Curler",
+    "price": "89.00",
+    "model": "EC-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
+    "brand": "London Lashes",
+    "image": "/assets/skincare/product-18.png",
+    "description": "A precision eyelash curler for lifted and volumized lashes."
+  },
+  {
+    "id": 19,
+    "name": "Makeup Setting Spray",
+    "price": "99.00",
+    "model": "MSS-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
+    "brand": "Tokyo Fix",
+    "image": "/assets/skincare/product-19.png",
+    "description": "A lightweight setting spray to keep makeup in place all day."
+  },
+  {
+    "id": 20,
+    "name": "Luxury Makeup Brush Set",
+    "price": "135.00",
+    "model": "LMBS-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "Brush Up",
+    "image": "/assets/skincare/product-20.png",
+    "description": "A high-quality makeup brush set for flawless application."
+  }
+]

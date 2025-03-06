@@ -1,17 +1,75 @@
 import { BsInstagram, BsYoutube } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
+import { FaHeadphones, FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900">
-      {/* Main Content Section */}
-      <main className="flex-grow container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Google Map Section */}
+      <main className="flex-grow container mx-auto px-4 py-16 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-3 md:p-10 bg-purple-200 rounded-lg font-poppins items-stretch">
+          <div>
+            <div className="bg-white p-8 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
+              <h2 className="font-bold text-xl">Phone & Email</h2>
+              <div className="flex justify-between items-center">
+                <div>
+                  <div className="flex gap-3 mb-4">
+                    <FaHeadphones className="text-purple-500" />
+                    <p>+880##########</p>
+                  </div>
+                  <div className="flex gap-3">
+                    <FaHeadphones className="text-purple-500" />
+                    <p>+880##########</p>
+                  </div>
+                </div>
+                <div>
+                  <Link
+                    to="https://x.com/maccosmetics"
+                    className="hover:text-blue-600 w-8 transition duration-300 hover:scale-125 text-3xl"
+                    target="_blank"
+                  >
+                    <FaFacebook className="mb-3" />
+                  </Link>
+                  <Link
+                    to="https://x.com/maccosmetics"
+                    className="hover:text-blue-600 w-8 transition duration-300 hover:scale-125 text-3xl"
+                    target="_blank"
+                  >
+                    <BsYoutube className="mb-3" />
+                  </Link>
+                  <Link
+                    to="https://x.com/maccosmetics"
+                    className="hover:text-blue-600  w-8 transition duration-300 hover:scale-125 text-3xl"
+                    target="_blank"
+                  >
+                    <BsInstagram />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg mt-10 dark:bg-gray-800 dark:text-white">
+              <div className="grid gap-2 md:grid-cols-2">
+                <div className="bg-purple-100/20 p-4">
+                  <h2 className="font-bold text-xl rounded-md mb-4">
+                    Address,Shop 1
+                  </h2>
+                  <div className="flex gap-3 items-center">
+                    <FaLocationDot className="text-purple-500" />
+                    <p>123, Dhaka Bangladesh</p>
+                  </div>
+                </div>
+                <div className="bg-purple-100/20 rounded-md p-4">
+                  <h2 className="font-bold text-xl mb-4">Address,Shop 2</h2>
+                  <div className="flex gap-3 items-center">
+                    <FaLocationDot className="text-purple-500" />
+                    <p>123, Dhaka Bangladesh</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="bg-white p-8 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
             <h2 className="text-2xl font-semibold mb-4">Our Location</h2>
-            {/* Responsive Map Container */}
             <div className="relative w-full h-96 overflow-hidden rounded-lg">
               <iframe
                 title="Google Map Location"
@@ -24,104 +82,6 @@ const Contact = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
-            </div>
-          </div>
-
-          {/* Contact Info Section */}
-          <div className="bg-white p-8 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
-            {/* Social Media Links */}
-            <div className="flex space-x-4 justify-start items-center mb-8">
-              <Link
-                to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
-                className="hover:text-blue-600 w-8 transition duration-300 hover:scale-125 text-3xl"
-                target="_blank"
-              >
-                <FaFacebook />
-              </Link>
-              <Link
-                to="https://x.com/maccosmetics"
-                className="hover:text-blue-600  w-8 transition duration-300 hover:scale-125 text-3xl"
-                target="_blank"
-              >
-                <BsYoutube />
-              </Link>
-              <Link
-                to="https://x.com/maccosmetics"
-                className="hover:text-blue-600  w-8 transition duration-300 hover:scale-125 text-3xl"
-                target="_blank"
-              >
-                <BsInstagram />
-              </Link>
-            </div>
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">
-                Contact Information
-              </h2>
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-                Feel free to reach out to us via any of the following methods:
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-blue-600 mr-3"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 10l4 4-4 4m4-4h14"
-                    />
-                  </svg>
-                  <a
-                    href="mailto:contact@cosmetics.com"
-                    className="text-blue-600 hover:underline"
-                  >
-                    contact@cosmetics.com
-                  </a>
-                </li>
-                <li className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-blue-600 mr-3"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 6a9 9 0 0118 0v12a9 9 0 01-18 0V6z"
-                    />
-                  </svg>
-                  <p className="text-gray-800 dark:text-gray-300">
-                    +1 800 123 4567
-                  </p>
-                </li>
-                <li className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-blue-600 mr-3"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 5h12m4 4h-4m0 4h4"
-                    />
-                  </svg>
-                  <p className="text-gray-800 dark:text-gray-300">
-                    123 Beauty St, Melbourne, AU
-                  </p>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
