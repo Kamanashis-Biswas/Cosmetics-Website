@@ -1,5 +1,6 @@
 import Carousel from "../components/Carousel";
 import FragranceFeatureProduct from "../components/FragranceFeatureProduct";
+import GrandSell from "../components/GrandSell";
 import HaircareFeatureProduct from "../components/HaircareFeatureProduct";
 import MakeupFeatureProduct from "../components/MakeupFeatureProduct";
 import OurStory from "../components/OurStory";
@@ -11,6 +12,7 @@ const HomePage = () => {
   return (
     <div>
       <Carousel />
+      <GrandSell />
       <SkincareFeatureProduct />
       <MakeupFeatureProduct />
       <HaircareFeatureProduct />

@@ -25,7 +25,9 @@ const Skincare = () => {
   };
 
   return (
-    <section className="max-w-screen-xl mx-auto font-poppins">
+    <section className="font-poppins">
+      {" "}
+      {/* max-w-screen-xl সরানো হয়েছে */}
       {/* Cover Photo Section */}
       <div className="relative w-full h-96 md:h-[50vh] overflow-hidden">
         <img
@@ -39,9 +41,10 @@ const Skincare = () => {
           </h1>
         </div>
       </div>
-
       {/* Product Grid Section */}
-      <div className="text-center mt-8 px-4">
+      <div className="max-w-screen-xl mx-auto text-center mt-8 px-4">
+        {" "}
+        {/* প্রোডাক্ট গ্রিড কন্টেইনারের মধ্যে */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-poppins">
           {products.length > 0 ? (
             products.map((item) => (
@@ -85,7 +88,6 @@ const Skincare = () => {
           )}
         </div>
       </div>
-
       {/* Modal Section */}
       {selectedProduct && (
         <Modal show={openModal} onClose={() => setOpenModal(false)}>

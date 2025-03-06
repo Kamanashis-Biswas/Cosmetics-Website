@@ -54,3 +54,64 @@
 .animate-border {
     animation: borderAnimation 2s ease-in-out;
 }
+
+
+.marquee-container {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 30px;
+    animation: scroll 20s linear infinite;
+}
+
+.marquee-item {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    width: 280px;
+    text-align: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.marquee-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.marquee-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
