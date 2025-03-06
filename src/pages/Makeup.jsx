@@ -1,16 +1,19 @@
 import { useEffect, useState } from "react";
 import { Modal } from "flowbite-react";
 import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";
+import { FaRegStar, FaShoppingCart } from "react-icons/fa";
 
 // Import the makeup cover image
 import makeupCover from "../assets/cover/makeup.jpg"; // Replace with your image path
 import { FaStar } from "react-icons/fa6";
+import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
 const Makeup = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [openModal, setOpenModal] = useState(false);
   const [products, setProducts] = useState([]);
+
+  const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
     fetch("../data/makeup.json")
@@ -22,6 +25,9 @@ const Makeup = () => {
   const handleBuyNow = (product) => {
     setSelectedProduct(product);
     setOpenModal(true);
+  };
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
   };
 
   return (
@@ -57,7 +63,7 @@ const Makeup = () => {
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-auto h-44 p-7 mx-auto object-cover transition-transform duration-500 group-hover:scale-125"
+                  className="w-72 h-72 mx-auto"
                 />
 
                 {/* Hover Buttons */}
@@ -105,11 +111,7 @@ const Makeup = () => {
 
           <div className="flex flex-col md:flex-row items-center gap-4 p-6 font-poppins">
             <div className="w-full md:w-1/2 p-2">
-              <img
-                src={selectedProduct.image}
-                alt={selectedProduct.name}
-                className="w-full h-64 md:h-80 object-cover rounded-lg shadow-xl transition-all duration-300 ease-in-out mix-blend-darken"
-              />
+              <img src={selectedProduct.image} alt={selectedProduct.name} />
             </div>
             <div className="w-full md:w-1/2 p-2">
               <h2 className="text-gray-800 text-xl md:text-2xl mb-3 font-bold">
@@ -120,7 +122,7 @@ const Makeup = () => {
                 <FaStar className="text-yellow-400" />
                 <FaStar className="text-yellow-400" />
                 <FaStar className="text-yellow-400" />
-                <FaStar className="text-yellow-400" />
+                <FaRegStar className="text-yellow-400" />
               </div>
               <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
                 ৳ {selectedProduct.price}
@@ -136,11 +138,33 @@ const Makeup = () => {
                 </button>
               </Link>
 
-              <div className="mt-6">
+              <div className="mt-6 relative">
                 <p className="text-lg md:text-xl font-bold">About</p>
-                <p className="text-sm md:text-base">
-                  {selectedProduct.description}
-                </p>
+                <div>
+                  <p className="text-sm md:text-base">
+                    {isExpanded
+                      ? selectedProduct.description
+                      : selectedProduct.description.length > 50
+                      ? selectedProduct.description.slice(0, 50) + "..."
+                      : selectedProduct.description}
+                  </p>
+                  {selectedProduct.description.length > 50 && (
+                    <button
+                      onClick={toggleExpand}
+                      className="absolute bottom-2 right-2 cursor-pointer flex items-center"
+                    >
+                      {isExpanded ? (
+                        <>
+                          <AiOutlineUp className="absolute " />
+                        </>
+                      ) : (
+                        <>
+                          <AiOutlineDown className=" absolute " />
+                        </>
+                      )}
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
           </div>

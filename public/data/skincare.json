@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "NOIR Infinity Bio-Fusion",
-    "price": "125.00",
-    "discount_price": "115.00",
+    "name": "CeraVe Foaming Facial Cleanser for Oily Skin",
+    "price": "3200",
+    "discount_price": "3000",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "image": "/assets/skincare/product-1.png",
-    "description": "A premium bio-fusion skincare formula for deep hydration and rejuvenation."
+    "image": "/assets/skincare/cerave.png",
+    "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration& soothing."
   },
   {
     "id": 2,

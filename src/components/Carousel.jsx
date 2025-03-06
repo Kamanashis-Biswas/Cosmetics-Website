@@ -4,6 +4,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import img1 from "../assets/Carousel/Hero1.jpg";
 import img2 from "../assets/Carousel/Hero2.jpg";
 import img3 from "../assets/Carousel/Hero3.jpg";
+import img4 from "../assets/Carousel/Hero4.jpg";
 
 const slides = [
   {
@@ -17,6 +18,10 @@ const slides = [
   {
     src: img3,
     exploreLink: "/haircare",
+  },
+  {
+    src: img4,
+    exploreLink: "/makeup",
   },
 ];
 
@@ -42,7 +47,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full h-[600px] overflow-hidden font-poppins mb-10">
+    <div className="relative w-full h-[600px] overflow-hidden font-poppins">
       <div
         className="flex transition-transform ease-in-out duration-500 h-full"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}

@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
 import { Modal } from "flowbite-react";
 import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";
-
-import skincareCover from "../assets/cover/skincare.jpg";
+import { FaRegStar, FaShoppingCart } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
+import skincareCover from "../assets/cover/skincare.jpg";
+import { AiOutlineDown, AiOutlineUp } from "react-icons/ai"; // Import icons
 
 const Skincare = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [openModal, setOpenModal] = useState(false);
   const [products, setProducts] = useState([]);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
     fetch("../data/skincare.json")
@@ -21,13 +22,15 @@ const Skincare = () => {
   const handleBuyNow = (product) => {
     setSelectedProduct(product);
     setOpenModal(true);
+    setIsExpanded(false); // Reset expansion when modal opens
+  };
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
   };
 
   return (
     <section className="font-poppins">
-      {" "}
-      {/* max-w-screen-xl সরানো হয়েছে */}
-      {/* Cover Photo Section */}
       <div className="relative w-full h-96 md:h-[50vh] overflow-hidden">
         <img
           src={skincareCover}
@@ -40,10 +43,7 @@ const Skincare = () => {
           </h1>
         </div>
       </div>
-      {/* Product Grid Section */}
       <div className="max-w-screen-xl mx-auto text-center mt-8 px-4">
-        {" "}
-        {/* প্রোডাক্ট গ্রিড কন্টেইনারের মধ্যে */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-poppins">
           {products.length > 0 ? (
             products.map((item) => (
@@ -56,14 +56,14 @@ const Skincare = () => {
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-auto h-44 p-7 mx-auto object-cover transition-transform duration-500 group-hover:scale-125"
+                  className="w-72 h-72 mx-auto"
                 />
 
                 {/* Hover Buttons */}
                 <div className="inset-x-0 bottom-0 bg-white p-3 opacity-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center">
                   <button
                     onClick={() => handleBuyNow(item)}
-                    className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-all mt-4 relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
+                    className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-all  relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
                   >
                     <FaShoppingCart /> Buy Now
                   </button>
@@ -104,11 +104,7 @@ const Skincare = () => {
 
           <div className="flex flex-col md:flex-row items-center gap-4 p-6 font-poppins">
             <div className="w-full md:w-1/2 p-2">
-              <img
-                src={selectedProduct.image}
-                alt={selectedProduct.name}
-                className="w-full h-64 md:h-80 object-cover rounded-lg shadow-xl transition-all duration-300 ease-in-out mix-blend-darken"
-              />
+              <img src={selectedProduct.image} alt={selectedProduct.name} />
             </div>
             <div className="w-full md:w-1/2 p-2">
               <h2 className="text-gray-800 text-xl md:text-2xl mb-3 font-bold">
@@ -119,7 +115,7 @@ const Skincare = () => {
                 <FaStar className="text-yellow-400" />
                 <FaStar className="text-yellow-400" />
                 <FaStar className="text-yellow-400" />
-                <FaStar className="text-yellow-400" />
+                <FaRegStar className="text-yellow-400" />
               </div>
               <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
                 ৳ {selectedProduct.price}
@@ -135,11 +131,33 @@ const Skincare = () => {
                 </button>
               </Link>
 
-              <div className="mt-6">
+              <div className="mt-6 relative">
                 <p className="text-lg md:text-xl font-bold">About</p>
-                <p className="text-sm md:text-base">
-                  {selectedProduct.description}
-                </p>
+                <div>
+                  <p className="text-sm md:text-base">
+                    {isExpanded
+                      ? selectedProduct.description
+                      : selectedProduct.description.length > 50
+                      ? selectedProduct.description.slice(0, 50) + "..."
+                      : selectedProduct.description}
+                  </p>
+                  {selectedProduct.description.length > 50 && (
+                    <button
+                      onClick={toggleExpand}
+                      className="absolute bottom-2 right-2 cursor-pointer flex items-center"
+                    >
+                      {isExpanded ? (
+                        <>
+                          <AiOutlineUp className="absolute " />
+                        </>
+                      ) : (
+                        <>
+                          <AiOutlineDown className=" absolute " />
+                        </>
+                      )}
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
           </div>
