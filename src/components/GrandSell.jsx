@@ -88,7 +88,7 @@ const GrandSell = () => {
           <div className="relative bg-white w-[700px] h-[500px] p-6 rounded-lg shadow-lg z-10">
             {/* Close Button (Right Side) */}
             <button
-              className="absolute top-4 right-4 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark transition-all duration-300 ease-in-out"
+              className="absolute -top-4 -right-4 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark transition-all duration-300 ease-in-out"
               onClick={closeModal}
             >
               X
