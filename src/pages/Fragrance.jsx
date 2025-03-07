@@ -10,7 +10,8 @@ const Fragrance = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [openModal, setOpenModal] = useState(false);
   const [products, setProducts] = useState([]);
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [showDescription, setShowDescription] = useState(false);
+  const [activeImage, setActiveImage] = useState(null);
 
   useEffect(() => {
     fetch("../data/fragrance.json")
@@ -22,10 +23,16 @@ const Fragrance = () => {
   const handleBuyNow = (product) => {
     setSelectedProduct(product);
     setOpenModal(true);
+    setActiveImage(product.image); // Set the main image to the first image
+    setShowDescription(false);
   };
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
+  const toggleDescription = () => {
+    setShowDescription(!showDescription);
+  };
+
+  const handleImageClick = (image) => {
+    setActiveImage(image);
   };
 
   return (
@@ -52,7 +59,7 @@ const Fragrance = () => {
                 onClick={() => handleBuyNow(item)}
                 className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
               >
-                <div className="absolute inset-0 w-full h-full rounded-md border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
+                <div className="absolute inset-0 w-full h-full rounded-md border-2 border-primary opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
                 <img
                   src={item.image}
                   alt={item.name}
@@ -95,7 +102,7 @@ const Fragrance = () => {
           onClose={() => setOpenModal(false)}
         >
           <div className="fixed inset-0 bg-black opacity-50"></div>
-          <div className="relative bg-white md:w-[700px] md:h-[500px] p-6 rounded-lg shadow-lg z-10">
+          <div className="relative bg-white md:w-[800px] md:h-[600px] p-6 rounded-lg shadow-lg z-10">
             {/* Close Button (Right Side) */}
             <button
               className="absolute -top-4 -right-4 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark transition-all duration-300 ease-in-out"
@@ -104,9 +111,45 @@ const Fragrance = () => {
               X
             </button>
 
-            <div className="flex flex-col md:flex-row h-full justify-center items-center gap-4 p-4 font-poppins">
-              <div className="w-full h-full md:w-1/2 p-2">
-                <img src={selectedProduct.image} alt={selectedProduct.name} />
+            <div className="relative flex flex-col md:flex-row h-full justify-center gap-4 p-4 font-poppins">
+              <div className="relative w-full h-full md:w-1/2 p-2 flex items-center justify-center">
+                <div className="absolute left-0 top-0 flex flex-col items-center gap-4 mb-4">
+                  <img
+                    src={selectedProduct.image}
+                    alt={`${selectedProduct.name} small 1`}
+                    className={`w-20 h-auto cursor-pointer ${
+                      activeImage === selectedProduct.image
+                        ? "border-2 border-primary"
+                        : ""
+                    }`}
+                    onClick={() => handleImageClick(selectedProduct.image)}
+                  />
+                  <img
+                    src={selectedProduct.image2}
+                    alt={`${selectedProduct.name} small 2`}
+                    className={`w-20 h-auto cursor-pointer ${
+                      activeImage === selectedProduct.image2
+                        ? "border-2 border-primary"
+                        : ""
+                    }`}
+                    onClick={() => handleImageClick(selectedProduct.image2)}
+                  />
+                  <img
+                    src={selectedProduct.image3}
+                    alt={`${selectedProduct.name} small 3`}
+                    className={`w-20 h-auto cursor-pointer ${
+                      activeImage === selectedProduct.image3
+                        ? "border-2 border-primary"
+                        : ""
+                    }`}
+                    onClick={() => handleImageClick(selectedProduct.image3)}
+                  />
+                </div>
+                <img
+                  src={activeImage}
+                  alt={selectedProduct.name}
+                  className="w-full h-auto ml-16 object-cover"
+                />
               </div>
               <div className="w-full h-full md:w-1/2 p-2">
                 <h2 className="text-gray-800 text-xl md:text-2xl mb-3 font-bold">
@@ -134,32 +177,26 @@ const Fragrance = () => {
                 </Link>
 
                 <div className="mt-6 relative">
-                  <p className="text-lg md:text-xl font-bold">About</p>
-                  <div>
-                    <p className="text-sm md:text-base">
-                      {isExpanded
-                        ? selectedProduct.description
-                        : selectedProduct.description.length > 50
-                        ? selectedProduct.description.slice(0, 50) + "..."
-                        : selectedProduct.description}
-                    </p>
-                    {selectedProduct.description.length > 50 && (
-                      <button
-                        onClick={toggleExpand}
-                        className="absolute bottom-2 right-2 cursor-pointer flex items-center"
-                      >
-                        {isExpanded ? (
-                          <>
-                            <AiOutlineUp className="absolute " />
-                          </>
-                        ) : (
-                          <>
-                            <AiOutlineDown className=" absolute " />
-                          </>
-                        )}
-                      </button>
-                    )}
+                  <div className="flex justify-between items-center">
+                    <p className="text-lg md:text-xl font-bold">About</p>
+                    <button
+                      onClick={toggleDescription}
+                      className="ml-2 cursor-pointer flex items-center"
+                    >
+                      {showDescription ? (
+                        <AiOutlineUp className="ml-1" />
+                      ) : (
+                        <AiOutlineDown className="ml-1" />
+                      )}
+                    </button>
                   </div>
+                  {showDescription && (
+                    <div>
+                      <p className="text-sm md:text-base">
+                        {selectedProduct.description}
+                      </p>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

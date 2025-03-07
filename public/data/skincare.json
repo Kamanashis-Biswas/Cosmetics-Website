@@ -8,18 +8,22 @@
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "image": "/assets/skincare/cerave.png",
-    "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration& soothing."
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
+    "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration & soothing."
   },
   {
     "id": 2,
-    "name": "NOIR Gentle Glow Tonic",
+    "name": "CARE:NEL by Dr.SKIN",
     "price": "55.00",
     "discount_price": "50.00",
     "model": "GGT-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "image": "/assets/skincare/product-2.png",
-    "description": "A gentle glow tonic that brightens skin and improves texture with natural extracts."
+    "image": "/assets/skincare/carenel-2.png",
+    "image2": "/assets/skincare/carenel-1.png",
+    "image3": "/assets/skincare/product-6.png",
+    "description": "Care:nel by Dr. Skin is a skincare solution designed to hydrate, nourish, and rejuvenate, promoting healthier, smoother, and glowing skin."
   },
   {
     "id": 3,
@@ -27,9 +31,11 @@
     "price": "139.00",
     "discount_price": "123.00",
     "model": "FICO-2021",
-    "origin": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
     "image": "/assets/skincare/product-3.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "An advanced Italian skincare solution for smooth and youthful skin."
   },
   {
@@ -38,9 +44,11 @@
     "price": "39.00",
     "discount_price": "34.00",
     "model": "AND-2021",
-    "origin": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
+    "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Active Humans",
     "image": "/assets/skincare/product-4.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A natural skincare formula designed for active lifestyles."
   },
   {
@@ -52,6 +60,8 @@
     "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Ipsum",
     "image": "/assets/skincare/product-5.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A luxurious spa-quality body oil for deep moisture and relaxation."
   },
   {
@@ -63,6 +73,8 @@
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
     "image": "/assets/skincare/product-6.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A micellar water formula that gently cleanses and hydrates the skin."
   },
   {
@@ -73,7 +85,9 @@
     "model": "NOS-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Nova",
-    "image": "/assets/skincare/product-7.png",
+    "image": "/assets/skincare/product-1.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A 100% organic skincare solution for nourishing and protecting your skin."
   },
   {
@@ -84,7 +98,9 @@
     "model": "BGS-2021",
     "origin": "https://upload.wikimedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Bio Glow",
-    "image": "/assets/skincare/product-8.png",
+    "image": "/assets/skincare/product-2.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A lightweight serum that boosts skin glow and reduces fine lines."
   },
   {
@@ -95,7 +111,10 @@
     "model": "PENC-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Pure Essence",
-    "image": "/assets/skincare/product-9.png",
+    "image": "/assets/skincare/product-4.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
+    
     "description": "A deeply hydrating night cream that repairs and revitalizes your skin overnight."
   },
   {
@@ -106,7 +125,9 @@
     "model": "HBM-2021",
     "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "HydraBoost",
-    "image": "/assets/skincare/product-10.png",
+    "image": "/assets/skincare/product-4.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A fast-absorbing moisturizer for long-lasting hydration and protection."
   },
   {
@@ -117,7 +138,9 @@
     "model": "ZSG-2021",
     "origin": "https://upload.wikimedia/commons/9/9e/Flag_of_Japan.svg",
     "brand": "Zenith",
-    "image": "/assets/skincare/product-11.png",
+    "image": "/assets/skincare/product-3.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A refreshing skin gel that soothes irritation and provides instant hydration."
   },
   {
@@ -128,7 +151,9 @@
     "model": "LS-2021",
     "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "Luxury",
-    "image": "/assets/skincare/product-12.png",
+    "image": "/assets/skincare/product-5.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A high-end serum enriched with essential vitamins for glowing skin."
   },
   {
@@ -139,7 +164,9 @@
     "model": "GSE-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Glow",
-    "image": "/assets/skincare/product-13.png",
+    "image": "/assets/skincare/product-3.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A nourishing skin essence that boosts hydration and natural radiance."
   },
   {
@@ -150,7 +177,10 @@
     "model": "CCG-2021",
     "origin": "https://upload.wikimedia/commons/b/ba/Flag_of_Germany.svg",
     "brand": "Clear",
-    "image": "/assets/skincare/product-14.png",
+    "image": "/assets/skincare/product-2.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
+
     "description": "A gentle gel for acne-prone skin, reducing redness and blemishes."
   },
   {
@@ -161,62 +191,9 @@
     "model": "RSE-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Radiant",
-    "image": "/assets/skincare/product-15.png",
+    "image": "/assets/skincare/product-1.png",
+    "image2": "/assets/skincare/product-6.png",
+    "image3": "/assets/skincare/product-3.png",
     "description": "A skin elixir infused with botanical extracts for youthful glow."
-  },
-  {
-    "id": 16,
-    "name": "Vibrant Glow Oil",
-    "price": "65.00",
-    "discount_price": "60.00",
-    "model": "VGO-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Vibrant",
-    "image": "/assets/skincare/product-16.png",
-    "description": "A lightweight facial oil that enhances skin brightness and softness."
-  },
-  {
-    "id": 17,
-    "name": "Natural Boost Serum",
-    "price": "125.00",
-    "discount_price": "113.00",
-    "model": "NBS-2021",
-    "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
-    "brand": "Natural",
-    "image": "/assets/skincare/product-17.png",
-    "description": "A boosting serum for improving skin elasticity and rejuvenation."
-  },
-  {
-    "id": 18,
-    "name": "Pure Skin Gel",
-    "price": "89.00",
-    "discount_price": "84.00",
-    "model": "PSG-2021",
-    "origin": "https://upload.wikimedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
-    "brand": "Pure",
-    "image": "/assets/skincare/product-18.png",
-    "description": "A soothing gel that provides a deep cleanse and keeps the skin fresh."
-  },
-  {
-    "id": 19,
-    "name": "HydraGlow Essence",
-    "price": "99.00",
-    "discount_price": "93.00",
-    "model": "HGE-2021",
-    "origin": "https://upload.wikimedia/commons/9/9e/Flag_of_Japan.svg",
-    "brand": "HydraGlow",
-    "image": "/assets/skincare/product-19.png",
-    "description": "A light essence that hydrates and adds glow to dull skin."
-  },
-  {
-    "id": 20,
-    "name": "Glow Radiance Cream",
-    "price": "135.00",
-    "discount_price": "121.00",
-    "model": "GRC-2021",
-    "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "Glow",
-    "image": "/assets/skincare/product-20.png",
-    "description": "A rich cream that brightens skin while providing deep hydration and nourishment."
   }
 ]

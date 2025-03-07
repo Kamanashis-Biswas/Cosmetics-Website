@@ -116,3 +116,8 @@
     }
 }
 
+.custom-accordion-title {
+    border: none;
+    background: none;
+}
+
