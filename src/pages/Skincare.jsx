@@ -77,9 +77,9 @@ const Skincare = () => {
                 <div className="p-4">
                   <h5
                     className="text-lg font-semibold text-gray-900 truncate"
-                    title={`${item.name} | {item.model}`}
+                    title={`${item.name}`}
                   >
-                    {item.name} | {item.model}
+                    {item.name}
                   </h5>
 
                   <p className="text-xl font-bold text-primary mt-2">
@@ -143,11 +143,11 @@ const Skincare = () => {
                   onClick={() => handleImageClick(selectedProduct.image3)}
                 />
               </div>
-              <div className="shrink flex items-center justify-center">
+              <div className="shrink flex items-center p-5 justify-center">
                 <img
                   src={activeImage}
                   alt={selectedProduct.name}
-                  className="bg-slate-50 rounded-md"
+                  className="bg-slate-50 w-full rounded-md"
                 />
               </div>
               <div className="">

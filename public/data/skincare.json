@@ -27,16 +27,16 @@
   },
   {
     "id": 3,
-    "name": "Fortuna Skin",
+    "name": " Mucin Powder Essence",
     "price": "139.00",
     "discount_price": "123.00",
     "model": "FICO-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
-    "image": "/assets/skincare/product-3.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "An advanced Italian skincare solution for smooth and youthful skin."
+    "image": "/assets/skincare/mucin.png",
+    "image2": "/assets/skincare/mucin-2.png",
+    "image3": "/assets/skincare/mucin-3.png",
+    "description": "Advanced Snail 96 Mucin Powder Essence deeply hydrates and repairs skin, boosting elasticity and texture with snail mucin for a smoother, glowing complexion."
   },
   {
     "id": 4,
