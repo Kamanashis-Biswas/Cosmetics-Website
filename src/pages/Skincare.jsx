@@ -25,7 +25,7 @@ const Skincare = () => {
   const handleBuyNow = (product) => {
     setSelectedProduct(product);
     setOpenModal(true);
-    setActiveImage(product.images[0]); // প্রথম ইমেজ সেট করবো
+    setActiveImage(product.images[0]);
     setShowDescription(false);
   };
 
