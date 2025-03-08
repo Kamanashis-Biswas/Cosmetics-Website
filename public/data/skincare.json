@@ -7,9 +7,7 @@
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "image": "/assets/skincare/cerave.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
+    "images": ["/assets/skincare/cerave.png"],
     "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration & soothing."
   },
   {
@@ -20,22 +18,25 @@
     "model": "GGT-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "image": "/assets/skincare/carenel-2.png",
-    "image2": "/assets/skincare/carenel-1.png",
-    "image3": "/assets/skincare/product-6.png",
+    "images": [
+      "/assets/skincare/carenel-2.png",
+      "/assets/skincare/carenel-1.png"
+    ],
     "description": "Care:nel by Dr. Skin is a skincare solution designed to hydrate, nourish, and rejuvenate, promoting healthier, smoother, and glowing skin."
   },
   {
     "id": 3,
-    "name": " Mucin Powder Essence",
+    "name": "Mucin Powder Essence",
     "price": "139.00",
     "discount_price": "123.00",
     "model": "FICO-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
-    "image": "/assets/skincare/mucin.png",
-    "image2": "/assets/skincare/mucin-2.png",
-    "image3": "/assets/skincare/mucin-3.png",
+    "images": [
+      "/assets/skincare/mucin.png",
+      "/assets/skincare/mucin-2.png",
+      "/assets/skincare/mucin-3.png"
+    ],
     "description": "Advanced Snail 96 Mucin Powder Essence deeply hydrates and repairs skin, boosting elasticity and texture with snail mucin for a smoother, glowing complexion."
   },
   {
@@ -46,9 +47,11 @@
     "model": "AND-2021",
     "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Active Humans",
-    "image": "/assets/skincare/eye-makeup.png",
-    "image2": "/assets/skincare/eye-makeup-2.png",
-    "image3": "/assets/skincare/eye-makeup-3.png",
+    "images": [
+      "/assets/skincare/eye-makeup.png",
+      "/assets/skincare/eye-makeup-2.png",
+      "/assets/skincare/eye-makeup-3.png"
+    ],
     "description": "Dr. Clinic Eye Makeup Remover gently removes makeup without irritation, leaving the delicate eye area clean and refreshed while maintaining skin moisture."
   },
   {
@@ -59,9 +62,11 @@
     "model": "IGBO-2021",
     "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
     "brand": "Ipsum",
-    "image": "/assets/skincare/day-night.png",
-    "image2": "/assets/skincare/day-night-2.png",
-    "image3": "/assets/skincare/day-night-3.png",
+    "images": [
+      "/assets/skincare/day-night.png",
+      "/assets/skincare/day-night-2.png",
+      "/assets/skincare/day-night-3.png"
+    ],
     "description": "Care:nel Day and Night Cream provides deep hydration and nourishment, protecting skin during the day and repairing it overnight for a smooth, rejuvenated complexion."
   },
   {
@@ -72,9 +77,11 @@
     "model": "FEME-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Fortuna",
-    "image": "/assets/skincare/night-cream.png",
-    "image2": "/assets/skincare/day-night-2.png",
-    "image3": "/assets/skincare/night-cream-3.png",
+    "images": [
+      "/assets/skincare/night-cream.png",
+      "/assets/skincare/day-night-2.png",
+      "/assets/skincare/night-cream-3.png"
+    ],
     "description": "Natural Aura Night Cream deeply nourishes and revitalizes the skin overnight, promoting a smooth, hydrated, and glowing complexion by morning."
   },
   {
@@ -85,9 +92,11 @@
     "model": "NOS-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Nova",
-    "image": "/assets/skincare/whitemn-cream.png",
-    "image2": "/assets/skincare/whitemn-cream-2.png",
-    "image3": "/assets/skincare/whitemn-cream-3.png",
+    "images": [
+      "/assets/skincare/whitemn-cream.png",
+      "/assets/skincare/whitemn-cream-2.png",
+      "/assets/skincare/whitemn-cream-3.png"
+    ],
     "description": "Anti Melasma Whitemn Cream targets dark spots and hyperpigmentation, brightening and evening skin tone while reducing the appearance of melasma for a clearer complexion."
   },
   {
@@ -98,9 +107,11 @@
     "model": "BGS-2021",
     "origin": "https://upload.wikimedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "brand": "Bio Glow",
-    "image": "/assets/skincare/brighter-cream.png",
-    "image2": "/assets/skincare/brighter-cream-2.png",
-    "image3": "/assets/skincare/brighter-cream-3.png",
+    "images": [
+      "/assets/skincare/brighter-cream.png",
+      "/assets/skincare/brighter-cream-2.png",
+      "/assets/skincare/brighter-cream-3.png"
+    ],
     "description": "Care:nel Brighter Cream is designed to brighten and even out skin tone, helping to reduce dark spots and hyperpigmentation for a radiant, glowing complexion."
   },
   {
@@ -111,9 +122,11 @@
     "model": "PENC-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
     "brand": "Pure Essence",
-    "image": "/assets/skincare/cream21.png",
-    "image2": "/assets/skincare/cream21-2.png",
-    "image3": "/assets/skincare/cream21-3.png",
+    "images": [
+      "/assets/skincare/cream21.png",
+      "/assets/skincare/cream21-2.png",
+      "/assets/skincare/cream21-3.png"
+    ],
     "description": "Creme 21 from Germany is a nourishing, non-greasy moisturizer that deeply hydrates the skin, leaving it soft, smooth, and revitalized for daily use."
   },
   {
@@ -124,75 +137,11 @@
     "model": "HBM-2021",
     "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "HydraBoost",
-    "image": "/assets/skincare/spot-currecting.png",
-    "image2": "/assets/skincare/spot-currecting-2.png",
-    "image3": "/assets/skincare/spot-currecting-3.png",
+    "images": [
+      "/assets/skincare/spot-currecting.png",
+      "/assets/skincare/spot-currecting-2.png",
+      "/assets/skincare/spot-currecting-3.png"
+    ],
     "description": "Dark Spot Correcting Cream targets hyperpigmentation, reducing the appearance of dark spots and uneven skin tone for a clearer, brighter complexion."
-  },
-  {
-    "id": 11,
-    "name": "Zenith Skin Gel",
-    "price": "105.00",
-    "discount_price": "95.00",
-    "model": "ZSG-2021",
-    "origin": "https://upload.wikimedia/commons/9/9e/Flag_of_Japan.svg",
-    "brand": "Zenith",
-    "image": "/assets/skincare/product-3.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A refreshing skin gel that soothes irritation and provides instant hydration."
-  },
-  {
-    "id": 12,
-    "name": "Luxury Serum",
-    "price": "120.00",
-    "discount_price": "112.00",
-    "model": "LS-2021",
-    "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "Luxury",
-    "image": "/assets/skincare/product-5.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A high-end serum enriched with essential vitamins for glowing skin."
-  },
-  {
-    "id": 13,
-    "name": "Glow Skin Essence",
-    "price": "59.00",
-    "discount_price": "53.00",
-    "model": "GSE-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Glow",
-    "image": "/assets/skincare/product-3.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A nourishing skin essence that boosts hydration and natural radiance."
-  },
-  {
-    "id": 14,
-    "name": "Clear Complexion Gel",
-    "price": "45.00",
-    "discount_price": "41.00",
-    "model": "CCG-2021",
-    "origin": "https://upload.wikimedia/commons/b/ba/Flag_of_Germany.svg",
-    "brand": "Clear",
-    "image": "/assets/skincare/product-2.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-
-    "description": "A gentle gel for acne-prone skin, reducing redness and blemishes."
-  },
-  {
-    "id": 15,
-    "name": "Radiant Skin Elixir",
-    "price": "85.00",
-    "discount_price": "78.00",
-    "model": "RSE-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Radiant",
-    "image": "/assets/skincare/product-1.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A skin elixir infused with botanical extracts for youthful glow."
   }
 ]

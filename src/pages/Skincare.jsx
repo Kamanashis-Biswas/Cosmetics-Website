@@ -16,15 +16,17 @@ const Skincare = () => {
   useEffect(() => {
     fetch("../data/skincare.json")
       .then((res) => res.json())
-      .then((data) => setProducts(data))
+      .then((data) => {
+        setProducts(data);
+      })
       .catch((error) => console.error("Error loading products:", error));
   }, []);
 
   const handleBuyNow = (product) => {
     setSelectedProduct(product);
     setOpenModal(true);
-    setActiveImage(product.image); // Set the main image to the first image
-    setShowDescription(false); // Reset description visibility when modal opens
+    setActiveImage(product.images[0]); // প্রথম ইমেজ সেট করবো
+    setShowDescription(false);
   };
 
   const toggleDescription = () => {
@@ -50,7 +52,7 @@ const Skincare = () => {
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto text-center mt-8 px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-poppins">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.length > 0 ? (
             products.map((item) => (
               <div
@@ -58,30 +60,28 @@ const Skincare = () => {
                 onClick={() => handleBuyNow(item)}
                 className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
               >
-                <div className="absolute inset-0 w-full h-full rounded-md border-2 border-primary opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
                 <img
-                  src={item.image}
+                  src={item.images[0]}
                   alt={item.name}
                   className="w-72 h-72 mx-auto"
                 />
-
                 {/* Hover Buttons */}
-                <div className="inset-x-0 bottom-0 bg-white p-3 opacity-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center">
+                <div className="inset-x-0 bottom-0 bg-white px-3 opacity-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center">
                   <button
                     onClick={() => handleBuyNow(item)}
-                    className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-all  relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
+                    className="w-full px-4 py-2 flex items-center justify-center gap-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-all mt-4 relative overflow-hidden font-semibold duration-500 before:absolute before:inset-x-1/2 before:top-0 before:h-full before:w-0 before:bg-white/20 before:transition-all before:duration-500 hover:before:w-full hover:before:inset-x-0"
                   >
                     <FaShoppingCart /> Buy Now
                   </button>
                 </div>
+
                 <div className="p-4">
                   <h5
                     className="text-lg font-semibold text-gray-900 truncate"
-                    title={`${item.name}`}
+                    title={item.name}
                   >
                     {item.name}
                   </h5>
-
                   <p className="text-xl font-bold text-primary mt-2">
                     ৳ {item.price} TK
                   </p>
@@ -100,48 +100,29 @@ const Skincare = () => {
           show={openModal}
           onClose={() => setOpenModal(false)}
         >
-          <div className="fixed inset-0 bg-black opacity-50"></div>
           <div className="relative bg-white md:w-[800px] md:h-[550px] p-2 rounded-lg shadow-lg z-10">
-            {/* Close Button (Right Side) */}
             <button
-              className="absolute -top-4 -right-4 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark transition-all duration-300 ease-in-out"
+              className="absolute -top-4 -right-4 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark"
               onClick={() => setOpenModal(false)}
             >
               X
             </button>
-
-            <div className="md:flex h-full justify-center gap-4 p-4 font-poppins">
+            <div className="md:flex h-full justify-center gap-4 p-4">
               <div className="flex flex-row md:flex-col items-center gap-4 mb-4">
-                <img
-                  src={selectedProduct.image}
-                  alt={`${selectedProduct.name} small 1`}
-                  className={`w-20 h-auto object-cover cursor-pointer ${
-                    activeImage === selectedProduct.image
-                      ? "border-2 border-primary bg-slate-50 rounded-md"
-                      : ""
-                  }`}
-                  onClick={() => handleImageClick(selectedProduct.image)}
-                />
-                <img
-                  src={selectedProduct.image2}
-                  alt={`${selectedProduct.name} small 2`}
-                  className={`w-20 h-auto object-cover cursor-pointer ${
-                    activeImage === selectedProduct.image2
-                      ? "border-2 border-primary bg-slate-50 rounded-md"
-                      : ""
-                  }`}
-                  onClick={() => handleImageClick(selectedProduct.image2)}
-                />
-                <img
-                  src={selectedProduct.image3}
-                  alt={`${selectedProduct.name} small 3`}
-                  className={`w-20 h-auto object-cover cursor-pointer ${
-                    activeImage === selectedProduct.image3
-                      ? "border-2 border-primary bg-slate-50 rounded-md"
-                      : ""
-                  }`}
-                  onClick={() => handleImageClick(selectedProduct.image3)}
-                />
+                {selectedProduct.images &&
+                  selectedProduct.images.map((image, index) => (
+                    <img
+                      key={index}
+                      src={image}
+                      alt={`${selectedProduct.name} ${index}`}
+                      className={`w-20 h-auto object-cover cursor-pointer ${
+                        activeImage === image
+                          ? "border-2 border-primary bg-slate-50 rounded-md"
+                          : ""
+                      }`}
+                      onClick={() => handleImageClick(image)}
+                    />
+                  ))}
               </div>
               <div className="shrink flex items-center p-5 justify-center">
                 <img
@@ -154,16 +135,13 @@ const Skincare = () => {
                 <h2 className="text-gray-800 text-xl md:text-2xl mb-3 font-bold">
                   {selectedProduct.name}
                 </h2>
-                <div>
-                  <p className="text-lg md:text-xl font-bold my-2">
-                    {selectedProduct.model}
-                  </p>
-                </div>
+                <p className="text-lg md:text-xl font-bold my-2">
+                  {selectedProduct.model}
+                </p>
                 <div className="flex items-center gap-1 mb-3">
-                  <FaStar className="text-yellow-400" />
-                  <FaStar className="text-yellow-400" />
-                  <FaStar className="text-yellow-400" />
-                  <FaStar className="text-yellow-400" />
+                  {[...Array(4)].map((_, i) => (
+                    <FaStar key={i} className="text-yellow-400" />
+                  ))}
                   <FaRegStar className="text-yellow-400" />
                 </div>
                 <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
@@ -175,17 +153,15 @@ const Skincare = () => {
                   rel="noopener noreferrer"
                 >
                   <button className="flex gap-2 justify-center items-center w-full bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-all">
-                    <FaShoppingCart />
-                    BUY NOW
+                    <FaShoppingCart /> BUY NOW
                   </button>
                 </Link>
-
-                <div className="mt-6 relative">
+                <div className="mt-6">
                   <div className="flex justify-between items-center">
                     <p className="text-lg md:text-xl font-bold">About</p>
                     <button
                       onClick={toggleDescription}
-                      className="ml-2 cursor-pointer flex items-center"
+                      className="ml-2 flex items-center"
                     >
                       {showDescription ? (
                         <AiOutlineUp className="ml-1" />
@@ -195,11 +171,9 @@ const Skincare = () => {
                     </button>
                   </div>
                   {showDescription && (
-                    <div>
-                      <p className="text-xs md:text-base md:w-52">
-                        {selectedProduct.description}
-                      </p>
-                    </div>
+                    <p className="text-xs md:text-base md:w-52">
+                      {selectedProduct.description}
+                    </p>
                   )}
                 </div>
               </div>

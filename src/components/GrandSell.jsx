@@ -12,7 +12,7 @@ const GrandSell = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
-    fetch("/data/skincare.json")
+    fetch("/data/makeup.json")
       .then((res) => res.json())
       .then((data) => {
         console.log("Loaded products:", data);
