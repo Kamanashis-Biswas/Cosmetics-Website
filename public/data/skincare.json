@@ -79,7 +79,6 @@
     "brand": "Fortuna",
     "images": [
       "/assets/skincare/night-cream.png",
-      "/assets/skincare/day-night-2.png",
       "/assets/skincare/night-cream-3.png"
     ],
     "description": "Natural Aura Night Cream deeply nourishes and revitalizes the skin overnight, promoting a smooth, hydrated, and glowing complexion by morning."
@@ -143,5 +142,35 @@
       "/assets/skincare/spot-currecting-3.png"
     ],
     "description": "Dark Spot Correcting Cream targets hyperpigmentation, reducing the appearance of dark spots and uneven skin tone for a clearer, brighter complexion."
+  },
+  {
+    "id": 11,
+    "name": "CeraVe Psoriasis Cleanser",
+    "price": "2200",
+    "discount_price": "2000",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/skincare/psoriasis.png",
+      "/assets/skincare/psoriasis-2.png",
+      "/assets/skincare/psoriasis-3.png"
+    ],
+    "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration & soothing."
+  },
+  {
+    "id": 11,
+    "name": "St. Ives Renewing Moisturizer",
+    "price": "2200",
+    "discount_price": "2000",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/skincare/StIves.png",
+      "/assets/skincare/StIves-2.png",
+      "/assets/skincare/StIves-3.png"
+    ],
+    "description": "A hydrating moisturizer with collagen and elastin to nourish and rejuvenate skin, leaving it soft, smooth, and youthful-looking."
   }
 ]
