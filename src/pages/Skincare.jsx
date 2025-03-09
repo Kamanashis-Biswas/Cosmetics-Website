@@ -5,6 +5,7 @@ import { FaRegStar, FaShoppingCart } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
 import skincareCover from "../assets/cover/skincare.jpg";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
+import LoadingScreen from "../components/LoadingScreen";
 
 const Skincare = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -89,7 +90,7 @@ const Skincare = () => {
               </div>
             ))
           ) : (
-            <p className="text-gray-500">Loading products...</p>
+            <LoadingScreen />
           )}
         </div>
       </div>

@@ -5,6 +5,7 @@ import { FaRegStar, FaShoppingCart } from "react-icons/fa";
 import fragranceCover from "../assets/cover/fragrance.jpg";
 import { FaStar } from "react-icons/fa6";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
+import LoadingScreen from "../components/LoadingScreen";
 
 const Fragrance = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -90,7 +91,7 @@ const Fragrance = () => {
               </div>
             ))
           ) : (
-            <p className="text-gray-500">Loading products...</p>
+            <LoadingScreen />
           )}
         </div>
       </div>
