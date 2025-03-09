@@ -1,199 +1,222 @@
 [
   {
     "id": 1,
-    "name": "CeraVe Foaming Facial Cleanser for Oily Skin",
-    "price": "3200",
-    "discount_price": "3000",
+    "name": "Daily Tone-Up Vitamin Cica Sunscreen",
+    "price": "100",
+    "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "image": "/assets/skincare/cerave.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration & soothing."
+    "images": [
+      "/assets/haircare/daily-tone-up.png",
+      "/assets/haircare/daily-tone-up-2.png"
+    ],
+    "description": "A lightweight sunscreen with Vitamin C and Cica that brightens, soothes, and protects skin from UV rays while providing a natural tone-up effect."
   },
   {
     "id": 2,
-    "name": "NOIR Gentle Glow Tonic",
-    "price": "55.00",
-    "discount_price": "50.00",
-    "model": "GGT-2021",
+    "name": "Lois Chloe Sunscreen Cream SPF Protection",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "image": "/assets/skincare/product-2.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A gentle glow tonic that brightens skin and improves texture with natural extracts."
+    "images": [
+      "/assets/haircare/lois-chloe-cream.png",
+      "/assets/haircare/lois-chloe-cream-2.png",
+      "/assets/haircare/lois-chloe-cream-3.png"
+    ],
+    "description": "A hydrating sunscreen cream that shields skin from harmful UV rays while nourishing and keeping it soft, smooth, and naturally radiant all day."
   },
   {
     "id": 3,
-    "name": "Fortuna Skin",
-    "price": "139.00",
-    "discount_price": "123.00",
-    "model": "FICO-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Fortuna",
-    "image": "/assets/skincare/product-3.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "An advanced Italian skincare solution for smooth and youthful skin."
+    "name": "Neogence UV Defense Hydrating Sunscreen",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/neogence-sunscreen.png",
+      "/assets/haircare/neogence-sunscreen-2.png"
+    ],
+    "description": "A lightweight, hydrating sunscreen that protects against UVA/UVB rays while keeping skin moisturized, smooth, and radiant without a greasy feel."
   },
   {
     "id": 4,
-    "name": "Active Humans Natural",
-    "price": "39.00",
-    "discount_price": "34.00",
-    "model": "AND-2021",
-    "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
-    "brand": "Active Humans",
-    "image": "/assets/skincare/product-4.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A natural skincare formula designed for active lifestyles."
+    "name": "Guerniss Everyday Protection Lotion",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/guerniss-protection.png",
+      "/assets/haircare/guerniss-protection-2.png",
+      "/assets/haircare/guerniss-protection-3.png"
+    ],
+    "description": "A lightweight, non-greasy lotion that hydrates and protects skin from environmental damage, keeping it soft, smooth, and nourished all day long."
   },
   {
     "id": 5,
-    "name": "Ipsum SPA Body Oil",
-    "price": "95.00",
-    "discount_price": "87.00",
-    "model": "IGBO-2021",
-    "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
-    "brand": "Ipsum",
-    "image": "/assets/skincare/product-5.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A luxurious spa-quality body oil for deep moisture and relaxation."
+    "name": "Nior Aqua Splash Sunscreen",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/nior-aqua-splash.png",
+      "/assets/haircare/nior-aqua-splash-2.png",
+      "/assets/haircare/nior-aqua-splash-3.png",
+      "/assets/haircare/nior-aqua-splash-4.png"
+    ],
+    "description": "A lightweight, water-resistant sunscreen that hydrates and protects skin from UV rays, leaving a fresh, non-greasy finish for all-day defense."
   },
   {
     "id": 6,
-    "name": "Fortuna Skin Micelle",
-    "price": "140.00",
-    "discount_price": "130.00",
-    "model": "FEME-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Fortuna",
-    "image": "/assets/skincare/product-6.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A micellar water formula that gently cleanses and hydrates the skin."
+    "name": "Eucerin Oil Control Sunscreen",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/eucerin-oil.png",
+      "/assets/haircare/eucerin-oil-2.png",
+      "/assets/haircare/eucerin-oil-3.png"
+    ],
+    "description": "A mattifying, lightweight sunscreen with SPF protection that controls excess oil, reduces shine, and helps prevent sun-induced skin damage."
   },
   {
     "id": 7,
-    "name": "Nova Organic Skin",
-    "price": "115.00",
-    "discount_price": "108.00",
-    "model": "NOS-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Nova",
-    "image": "/assets/skincare/product-1.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A 100% organic skincare solution for nourishing and protecting your skin."
+    "name": "HeedBeauty Sunscreen SPF 50",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/heedbeauty-sunscreen.png",
+      "/assets/haircare/heedbeauty-sunscreen-2.png"
+    ],
+    "description": "A lightweight, non-greasy sunscreen that provides broad-spectrum protection, hydrates the skin, and prevents sun damage for a radiant, healthy glow."
   },
   {
     "id": 8,
-    "name": "Bio Glow Serum",
-    "price": "49.00",
-    "discount_price": "44.00",
-    "model": "BGS-2021",
-    "origin": "https://upload.wikimedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
-    "brand": "Bio Glow",
-    "image": "/assets/skincare/product-2.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A lightweight serum that boosts skin glow and reduces fine lines."
+    "name": "Weightless Full Cover Fit Foundation",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/guerniss-protection.png",
+      "/assets/haircare/guerniss-protection-2.png",
+      "/assets/haircare/guerniss-protection-3.png"
+    ],
+    "description": "A high-coverage, lightweight foundation that blends seamlessly, providing a flawless, natural matte finish while keeping skin hydrated and breathable."
   },
   {
     "id": 9,
-    "name": "Pure Essence Night Cream",
-    "price": "69.00",
-    "discount_price": "63.00",
-    "model": "PENC-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Pure Essence",
-    "image": "/assets/skincare/product-4.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    
-    "description": "A deeply hydrating night cream that repairs and revitalizes your skin overnight."
+    "name": "I Love Extreme Volume Mascara",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/i-love-maskara.png",
+      "/assets/makeup/i-love-maskara-2.png",
+      "/assets/makeup/i-love-maskara-3.png"
+    ],
+    "description": "A high-impact mascara that delivers intense volume and bold, dramatic lashes with a deep black formula, ensuring long-lasting, smudge-proof wear."
   },
   {
     "id": 10,
-    "name": "HydraBoost Moisturizer",
-    "price": "89.00",
-    "discount_price": "81.00",
-    "model": "HBM-2021",
-    "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "HydraBoost",
-    "image": "/assets/skincare/product-4.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A fast-absorbing moisturizer for long-lasting hydration and protection."
+    "name": "Beauti4me Matte Finish Primer",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/beauti4me.png",
+      "/assets/makeup/beauti4me-2.png",
+      "/assets/makeup/beauti4me-3.png"
+    ],
+    "description": "A lightweight primer that controls oil, minimizes pores, and creates a smooth matte finish, ensuring a flawless, long-lasting makeup look."
   },
   {
     "id": 11,
-    "name": "Zenith Skin Gel",
-    "price": "105.00",
-    "discount_price": "95.00",
-    "model": "ZSG-2021",
-    "origin": "https://upload.wikimedia/commons/9/9e/Flag_of_Japan.svg",
-    "brand": "Zenith",
-    "image": "/assets/skincare/product-3.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A refreshing skin gel that soothes irritation and provides instant hydration."
+    "name": "Beauti4me Light Beige Concealer Stick",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/beige-concealer.png",
+      "/assets/makeup/beige-concealer-2.png",
+      "/assets/makeup/beige-concealer-3.png"
+    ],
+    "description": "A smooth, lightweight concealer that hides dark circles, blemishes, and imperfections while providing a natural, long-lasting finish."
   },
   {
     "id": 12,
-    "name": "Luxury Serum",
-    "price": "120.00",
-    "discount_price": "112.00",
-    "model": "LS-2021",
-    "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "Luxury",
-    "image": "/assets/skincare/product-5.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A high-end serum enriched with essential vitamins for glowing skin."
+    "name": "Beauti4me VD Brown Matte Lipstick",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/beauti4me-Lipstick.png",
+      "/assets/makeup/beauti4me-Lipstick-2.png"
+    ],
+    "description": "A richly pigmented brown matte lipstick that glides smoothly, delivering long-lasting, comfortable wear with a bold, velvety finish"
   },
   {
     "id": 13,
-    "name": "Glow Skin Essence",
-    "price": "59.00",
-    "discount_price": "53.00",
-    "model": "GSE-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Glow",
-    "image": "/assets/skincare/product-3.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A nourishing skin essence that boosts hydration and natural radiance."
+    "name": "Everly Beauties Blush & Sculpt Kit",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/sculpt-kit.png",
+      "/assets/makeup/sculpt-kit-2.png"
+    ],
+    "description": "A versatile blush and contour kit that enhances your natural glow, adding warmth and dimension for a sculpted, radiant complexion all day long."
   },
   {
     "id": 14,
-    "name": "Clear Complexion Gel",
-    "price": "45.00",
-    "discount_price": "41.00",
-    "model": "CCG-2021",
-    "origin": "https://upload.wikimedia/commons/b/ba/Flag_of_Germany.svg",
-    "brand": "Clear",
-    "image": "/assets/skincare/product-2.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-
-    "description": "A gentle gel for acne-prone skin, reducing redness and blemishes."
+    "name": "Essence Lash Princess Mascara",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/princess-mascara.png",
+      "/assets/makeup/princess-mascara-2.png",
+      "/assets/makeup/princess-mascara-3.png"
+    ],
+    "description": "This mascara lifts, lengthens, and defines for bold, long-lasting eye makeup."
   },
   {
     "id": 15,
-    "name": "Radiant Skin Elixir",
-    "price": "85.00",
-    "discount_price": "78.00",
-    "model": "RSE-2021",
-    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
-    "brand": "Radiant",
-    "image": "/assets/skincare/product-1.png",
-    "image2": "/assets/skincare/product-6.png",
-    "image3": "/assets/skincare/product-3.png",
-    "description": "A skin elixir infused with botanical extracts for youthful glow."
+    "name": "Bote Makeup Instyle Matte Powder 04",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/matte-powder.png",
+      "/assets/makeup/matte-powder-2.png"
+    ],
+    "description": " A lightweight matte powder that controls shine, blurs imperfections, and provides a smooth, flawless finish for a long-lasting, natural look."
   }
 ]

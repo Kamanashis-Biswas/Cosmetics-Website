@@ -176,5 +176,48 @@
       "/assets/makeup/beauti4me-Lipstick-2.png"
     ],
     "description": "A richly pigmented brown matte lipstick that glides smoothly, delivering long-lasting, comfortable wear with a bold, velvety finish"
+  },
+  {
+    "id": 13,
+    "name": "Everly Beauties Blush & Sculpt Kit",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/sculpt-kit.png",
+      "/assets/makeup/sculpt-kit-2.png"
+    ],
+    "description": "A versatile blush and contour kit that enhances your natural glow, adding warmth and dimension for a sculpted, radiant complexion all day long."
+  },
+  {
+    "id": 14,
+    "name": "Essence Lash Princess Mascara",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/princess-mascara.png",
+      "/assets/makeup/princess-mascara-2.png",
+      "/assets/makeup/princess-mascara-3.png"
+    ],
+    "description": "This mascara lifts, lengthens, and defines for bold, long-lasting eye makeup."
+  },
+  {
+    "id": 15,
+    "name": "Bote Makeup Instyle Matte Powder 04",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/matte-powder.png",
+      "/assets/makeup/matte-powder-2.png"
+    ],
+    "description": " A lightweight matte powder that controls shine, blurs imperfections, and provides a smooth, flawless finish for a long-lasting, natural look."
   }
 ]
