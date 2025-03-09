@@ -104,119 +104,94 @@
   },
   {
     "id": 8,
-    "name": "Weightless Full Cover Fit Foundation",
+    "name": "Palette Intensive Color Creme 1.1 Blue Black",
     "price": "100",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "images": [
-      "/assets/haircare/guerniss-protection.png",
-      "/assets/haircare/guerniss-protection-2.png",
-      "/assets/haircare/guerniss-protection-3.png"
+      "/assets/haircare/intensive-color-11.png",
+      "/assets/haircare/intensive-color-11-2.png"
     ],
-    "description": "A high-coverage, lightweight foundation that blends seamlessly, providing a flawless, natural matte finish while keeping skin hydrated and breathable."
+    "description": " A rich, long-lasting blue-black hair color with deep conditioning formula that nourishes hair while providing vibrant shine and intense coverage."
   },
   {
     "id": 9,
-    "name": "I Love Extreme Volume Mascara",
+    "name": "Palette Intensive Color Creme 7.1 Cool Brown",
     "price": "100",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "images": [
-      "/assets/makeup/i-love-maskara.png",
-      "/assets/makeup/i-love-maskara-2.png",
-      "/assets/makeup/i-love-maskara-3.png"
-    ],
-    "description": "A high-impact mascara that delivers intense volume and bold, dramatic lashes with a deep black formula, ensuring long-lasting, smudge-proof wear."
+    "images": ["/assets/haircare/intensive-color-71.png"],
+    "description": "A deep cool brown hair color with long-lasting shine, full gray coverage, and a nourishing formula that keeps hair soft, healthy, and vibrant."
   },
   {
     "id": 10,
-    "name": "Beauti4me Matte Finish Primer",
+    "name": "Palette Intensive Color Creme 4.0 Middle Brown",
     "price": "100",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "images": [
-      "/assets/makeup/beauti4me.png",
-      "/assets/makeup/beauti4me-2.png",
-      "/assets/makeup/beauti4me-3.png"
-    ],
-    "description": "A lightweight primer that controls oil, minimizes pores, and creates a smooth matte finish, ensuring a flawless, long-lasting makeup look."
+    "images": ["/assets/haircare/intensive-color-40.png"],
+    "description": "Achieve rich, natural middle brown hair with full gray coverage. The nourishing formula enhances shine, softness, and long-lasting vibrant color."
   },
   {
     "id": 11,
-    "name": "Beauti4me Light Beige Concealer Stick",
+    "name": "Palette Intensive Color Creme 4-88 Dark Red",
     "price": "100",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "images": [
-      "/assets/makeup/beige-concealer.png",
-      "/assets/makeup/beige-concealer-2.png",
-      "/assets/makeup/beige-concealer-3.png"
+      "/assets/haircare/intensive-color-488.png",
+      "/assets/haircare/intensive-color-488-2.png"
     ],
-    "description": "A smooth, lightweight concealer that hides dark circles, blemishes, and imperfections while providing a natural, long-lasting finish."
+    "description": "Get an intense dark red shade with deep pigmentation and lasting vibrancy. The nourishing formula ensures rich color, shine, and full gray coverage."
   },
   {
     "id": 12,
-    "name": "Beauti4me VD Brown Matte Lipstick",
+    "name": "Palette Intensive Color Creme 4-89 Aubergine",
     "price": "100",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "images": [
-      "/assets/makeup/beauti4me-Lipstick.png",
-      "/assets/makeup/beauti4me-Lipstick-2.png"
+      "/assets/haircare/intensive-color-489.png",
+      "/assets/haircare/intensive-color-489-2.png"
     ],
-    "description": "A richly pigmented brown matte lipstick that glides smoothly, delivering long-lasting, comfortable wear with a bold, velvety finish"
+    "description": "Achieve a bold aubergine shade with long-lasting vibrancy. This nourishing formula provides deep color, shine, and full gray coverage for a stunning look."
   },
   {
     "id": 13,
-    "name": "Everly Beauties Blush & Sculpt Kit",
+    "name": "Palette Intensive Color Creme 8-0 Brown",
     "price": "100",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "images": [
-      "/assets/makeup/sculpt-kit.png",
-      "/assets/makeup/sculpt-kit-2.png"
+      "/assets/haircare/intensive-color-80.png",
+      "/assets/haircare/intensive-color-80-2.png"
     ],
-    "description": "A versatile blush and contour kit that enhances your natural glow, adding warmth and dimension for a sculpted, radiant complexion all day long."
+    "description": "Get a natural brown shade with rich, long-lasting color. This formula deeply nourishes hair while providing full gray coverage and a radiant, glossy finish."
   },
   {
     "id": 14,
-    "name": "Essence Lash Princess Mascara",
+    "name": "Palette Intensive Color Creme Ash Blonde",
     "price": "100",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "images": [
-      "/assets/makeup/princess-mascara.png",
-      "/assets/makeup/princess-mascara-2.png",
-      "/assets/makeup/princess-mascara-3.png"
+      "/assets/haircare/intensive-color-102.png",
+      "/assets/haircare/intensive-color-102-2.png"
     ],
-    "description": "This mascara lifts, lengthens, and defines for bold, long-lasting eye makeup."
-  },
-  {
-    "id": 15,
-    "name": "Bote Makeup Instyle Matte Powder 04",
-    "price": "100",
-    "discount_price": "90",
-    "model": "INF-ES-2021",
-    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "NOIR",
-    "images": [
-      "/assets/makeup/matte-powder.png",
-      "/assets/makeup/matte-powder-2.png"
-    ],
-    "description": " A lightweight matte powder that controls shine, blurs imperfections, and provides a smooth, flawless finish for a long-lasting, natural look."
+    "description": "Achieve a cool, ashy blonde shade with intense, long-lasting color. The nourishing formula provides full gray coverage and leaves hair silky and vibrant."
   }
 ]
