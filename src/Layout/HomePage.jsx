@@ -17,8 +17,8 @@ const HomePage = () => {
       <MakeupFeatureProduct />
       <HaircareFeatureProduct />
       <FragranceFeatureProduct />
-      <Testimonial />
-      <OurStory />
+      {/* <Testimonial /> */}
+      {/* <OurStory /> */}
       <PaymentMethod />
     </div>
   );

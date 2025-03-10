@@ -13,9 +13,9 @@ const Header = () => {
   return (
     <div className="w-full">
       {/* Announcement Bar - Fixed at the top */}
-      <div className="bg-black py-2 flex justify-between items-center ">
-        <marquee className="max-w-screen-xl mx-auto text-white">
-          FREE AU EXPRESS SHIPPING OVER $120 AND FREE SAMPLES WITH ALL ORDERS
+      <div className="bg-black py-2 flex justify-between items-center font-poppins mx-auto text-white text-base">
+        <marquee className="max-w-screen-xl font-semibold mx-auto text-white">
+          Shoppers&apos; perk & Shoppers&apos; perk life style
         </marquee>
       </div>
 

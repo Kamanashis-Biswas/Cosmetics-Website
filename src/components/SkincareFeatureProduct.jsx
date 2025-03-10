@@ -89,9 +89,9 @@ const SkincareFeatureProduct = () => {
                   {item.name} | {item.model}
                 </h5>
 
-                <p className="text-xl font-bold text-primary mt-2">
+                {/* <p className="text-xl font-bold text-primary mt-2">
                   ৳ {item.price} TK
-                </p>
+                </p> */}
               </div>
             </div>
           ))
@@ -165,11 +165,11 @@ const SkincareFeatureProduct = () => {
                   ))}
                   <FaRegStar className="text-yellow-400" />
                 </div>
-                <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
+                {/* <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
                   ৳ {selectedProduct.price}
-                </p>
+                </p> */}
                 <Link
-                  to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
+                  to="https://www.facebook.com/shoppersperk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -192,7 +192,7 @@ const SkincareFeatureProduct = () => {
                     </button>
                   </div>
                   {showDescription && (
-                    <p className="text-xs md:text-base md:w-52">
+                    <p className="text-xs md:text-base md:w-56">
                       {selectedProduct.description}
                     </p>
                   )}

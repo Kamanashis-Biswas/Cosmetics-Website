@@ -61,6 +61,7 @@ const Haircare = () => {
                 onClick={() => handleBuyNow(item)}
                 className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out group"
               >
+                <div className="absolute inset-0 w-full h-full rounded-md border-2 border-primary opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
                 <img
                   src={item.images[0]}
                   alt={item.name}
@@ -83,14 +84,14 @@ const Haircare = () => {
                   >
                     {item.name}
                   </h5>
-                  <p className="text-xl font-bold text-primary mt-2">
+                  {/* <p className="text-xl font-bold text-primary mt-2">
                     ৳ {item.price} TK
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))
           ) : (
-            <LoadingScreen/>
+            <LoadingScreen />
           )}
         </div>
       </div>
@@ -145,11 +146,11 @@ const Haircare = () => {
                   ))}
                   <FaRegStar className="text-yellow-400" />
                 </div>
-                <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
+                {/* <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
                   ৳ {selectedProduct.price}
-                </p>
+                </p> */}
                 <Link
-                  to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
+                  to="https://www.facebook.com/shoppersperk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -172,7 +173,7 @@ const Haircare = () => {
                     </button>
                   </div>
                   {showDescription && (
-                    <p className="text-xs md:text-base md:w-52">
+                    <p className="text-xs md:text-base md:w-56">
                       {selectedProduct.description}
                     </p>
                   )}

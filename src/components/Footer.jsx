@@ -14,11 +14,9 @@ const Footer = () => {
                   Shoppers&apos;perk International
                 </h2>
                 <p className="mt-3 text-gray-300 max-w-md text-center md:text-left">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Pariatur, voluptas. Nam totam magni unde ullam iure omnis
-                  nobis itaque aliquid. Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Ipsum unde voluptatum, eos harum adipisci
-                  doloremque iure. Aspernatur nisi nesciunt et.
+                  We offer excellent value to our customers by bringing them
+                  high quality & original brand products from UK, USA & Around
+                  the world at competitive prices.
                 </p>
               </div>
               <div className="flex space-x-4 mt-4">
@@ -48,29 +46,27 @@ const Footer = () => {
             {/* Social Media Links (Right Side) */}
             <div className="flex flex-col items-center md:items-end">
               <div>
-                <h2 className="text-lg font-semibold md:mr-9 mb-2">
-                  Follow Us:
-                </h2>
+                <h2 className="text-lg font-semibold mb-2">Follow Us:</h2>
               </div>
               <div className="flex space-x-4">
                 <Link
-                  to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
+                  to="https://www.facebook.com/shoppersperk"
                   className="hover:text-gray-400 transition duration-300 hover:scale-125 text-3xl"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaFacebook />
                 </Link>
-                <Link
+                {/* <Link
                   to="https://x.com/maccosmetics"
                   className="hover:text-gray-400 transition duration-300 hover:scale-125 text-3xl"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <BsYoutube />
-                </Link>
+                </Link> */}
                 <Link
-                  to="https://x.com/maccosmetics"
+                  to="https://www.instagram.com/shoppers.perk/"
                   className="hover:text-gray-400 transition duration-300 hover:scale-125 text-3xl"
                   target="_blank"
                   rel="noopener noreferrer"

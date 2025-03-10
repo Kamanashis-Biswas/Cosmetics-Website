@@ -25,12 +25,12 @@ const FragranceFeatureProduct = () => {
   const handleBuyNow = (product) => {
     setSelectedProduct(product);
     setOpenModal(true);
-    setActiveImage(product.image); // Set the main image to the first image
+    setActiveImage(product.images[0]); // Set the main image to the first image
     setShowDescription(false); // Reset description visibility when modal opens
   };
 
   const handleViewAll = () => {
-    navigate("/fragrance");
+    navigate("/haircare");
   };
 
   const toggleDescription = () => {
@@ -67,7 +67,7 @@ const FragranceFeatureProduct = () => {
             >
               <div className="absolute inset-0 w-full h-full rounded-md border-2 border-primary opacity-0 group-hover:opacity-100 transition-all duration-500 animate-border pointer-events-none"></div>
               <img
-                src={item.image}
+                src={item.images[0]}
                 alt={item.name}
                 className="w-72 h-72 mx-auto transition-transform duration-500 group-hover:scale-105"
               />
@@ -89,9 +89,9 @@ const FragranceFeatureProduct = () => {
                   {item.name} | {item.model}
                 </h5>
 
-                <p className="text-xl font-bold text-primary mt-2">
+                {/* <p className="text-xl font-bold text-primary mt-2">
                   ৳ {item.price} TK
-                </p>
+                </p> */}
               </div>
             </div>
           ))
@@ -121,87 +121,68 @@ const FragranceFeatureProduct = () => {
           show={openModal}
           onClose={() => setOpenModal(false)}
         >
-          <div className="fixed inset-0 bg-black opacity-50"></div>
-          <div className="relative bg-white md:w-[800px] md:h-[600px] p-6 rounded-lg shadow-lg z-10">
-            {/* Close Button (Right Side) */}
+          <div className="relative bg-white md:w-[800px] md:h-[550px] p-2 rounded-lg shadow-lg z-10">
             <button
-              className="absolute -top-4 -right-4 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark transition-all duration-300 ease-in-out"
+              className="absolute -top-4 -right-4 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark"
               onClick={() => setOpenModal(false)}
             >
               X
             </button>
-
-            <div className="relative flex flex-col md:flex-row h-full justify-center gap-4 p-4 font-poppins">
-              <div className="relative w-full h-full md:w-1/2 p-2 flex items-center justify-center">
-                <div className="absolute left-0 top-0 flex flex-col items-center gap-4 mb-4">
-                  <img
-                    src={selectedProduct.image}
-                    alt={`${selectedProduct.name} small 1`}
-                    className={`w-20 h-auto object-cover cursor-pointer ${
-                      activeImage === selectedProduct.image
-                        ? "border-2 border-primary"
-                        : ""
-                    }`}
-                    onClick={() => handleImageClick(selectedProduct.image)}
-                  />
-                  <img
-                    src={selectedProduct.image2}
-                    alt={`${selectedProduct.name} small 2`}
-                    className={`w-20 h-auto object-cover cursor-pointer ${
-                      activeImage === selectedProduct.image2
-                        ? "border-2 border-primary"
-                        : ""
-                    }`}
-                    onClick={() => handleImageClick(selectedProduct.image2)}
-                  />
-                  <img
-                    src={selectedProduct.image3}
-                    alt={`${selectedProduct.name} small 3`}
-                    className={`w-20 h-auto object-cover cursor-pointer ${
-                      activeImage === selectedProduct.image3
-                        ? "border-2 border-primary"
-                        : ""
-                    }`}
-                    onClick={() => handleImageClick(selectedProduct.image3)}
-                  />
-                </div>
+            <div className="md:flex h-full justify-center gap-4 p-4">
+              <div className="flex flex-row md:flex-col items-center gap-4 mb-4">
+                {selectedProduct.images &&
+                  selectedProduct.images.map((image, index) => (
+                    <img
+                      key={index}
+                      src={image}
+                      alt={`${selectedProduct.name} ${index}`}
+                      className={`w-20 h-auto object-cover cursor-pointer ${
+                        activeImage === image
+                          ? "border-2 border-primary bg-slate-50 rounded-md"
+                          : ""
+                      }`}
+                      onClick={() => handleImageClick(image)}
+                    />
+                  ))}
+              </div>
+              <div className="shrink flex items-center p-5 justify-center">
                 <img
                   src={activeImage}
                   alt={selectedProduct.name}
-                  className="w-full h-auto ml-16 object-cover"
+                  className="bg-slate-50 w-full rounded-md"
                 />
               </div>
-              <div className="w-full h-full md:w-1/2 p-2">
+              <div className="">
                 <h2 className="text-gray-800 text-xl md:text-2xl mb-3 font-bold">
                   {selectedProduct.name}
                 </h2>
+                <p className="text-lg md:text-xl font-bold my-2">
+                  {selectedProduct.model}
+                </p>
                 <div className="flex items-center gap-1 mb-3">
-                  <FaStar className="text-yellow-400" />
-                  <FaStar className="text-yellow-400" />
-                  <FaStar className="text-yellow-400" />
-                  <FaStar className="text-yellow-400" />
+                  {[...Array(4)].map((_, i) => (
+                    <FaStar key={i} className="text-yellow-400" />
+                  ))}
                   <FaRegStar className="text-yellow-400" />
                 </div>
-                <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
+                {/* <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
                   ৳ {selectedProduct.price}
-                </p>
+                </p> */}
                 <Link
-                  to="https://www.facebook.com/wholesaleCosmeticsGallerybd"
+                  to="https://www.facebook.com/shoppersperk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="flex gap-2 justify-center items-center w-full bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-all">
-                    <FaShoppingCart />
-                    BUY NOW
+                    <FaShoppingCart /> BUY NOW
                   </button>
                 </Link>
-
-                <div className="mt-6 relative">
+                <div className="mt-6">
                   <div className="flex justify-between items-center">
                     <p className="text-lg md:text-xl font-bold">About</p>
                     <button
                       onClick={toggleDescription}
-                      className="ml-2 cursor-pointer flex items-center"
+                      className="ml-2 flex items-center"
                     >
                       {showDescription ? (
                         <AiOutlineUp className="ml-1" />
@@ -211,11 +192,9 @@ const FragranceFeatureProduct = () => {
                     </button>
                   </div>
                   {showDescription && (
-                    <div>
-                      <p className="text-sm md:text-base">
-                        {selectedProduct.description}
-                      </p>
-                    </div>
+                    <p className="text-xs md:text-base md:w-56">
+                      {selectedProduct.description}
+                    </p>
                   )}
                 </div>
               </div>
