@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "CARE:NEL by Dr.SKIN",
+    "name": "CARE:NEL Dr. Skin Niacinamide Zinc Serum",
     "price": "55.00",
     "discount_price": "50.00",
     "model": "GGT-2021",
@@ -26,7 +26,7 @@
   },
   {
     "id": 3,
-    "name": "Mucin Powder Essence",
+    "name": "Mucin Powder Essence - Hydrating & Repairing 50g",
     "price": "139.00",
     "discount_price": "123.00",
     "model": "FICO-2021",
@@ -41,7 +41,7 @@
   },
   {
     "id": 4,
-    "name": "Eye Makeup Remover",
+    "name": "Dr. Clinic Eye Makeup Remover - Gentle & Effective",
     "price": "39.00",
     "discount_price": "34.00",
     "model": "AND-2021",
@@ -71,7 +71,7 @@
   },
   {
     "id": 6,
-    "name": "Natural Aura Night Cream",
+    "name": "Olay Natural Aura Night Cream & Day Cream SPF 15",
     "price": "140.00",
     "discount_price": "130.00",
     "model": "FEME-2021",
@@ -115,7 +115,7 @@
   },
   {
     "id": 9,
-    "name": "Creme 21",
+    "name": "Creme 21 All Day Cream With Vitamin E",
     "price": "69.00",
     "discount_price": "63.00",
     "model": "PENC-2021",

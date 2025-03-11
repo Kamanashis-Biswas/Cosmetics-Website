@@ -13,7 +13,7 @@ const GrandSell = () => {
   const [activeImage, setActiveImage] = useState(null);
 
   useEffect(() => {
-    fetch("../data/skincare.json")
+    fetch("../data/grandsell.json")
       .then((res) => res.json())
       .then((data) => {
         console.log("Loaded products:", data);

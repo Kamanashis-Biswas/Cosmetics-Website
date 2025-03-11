@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
-import { Modal } from "flowbite-react";
 import { Link, useNavigate } from "react-router-dom";
-import { FaRegStar, FaShoppingCart } from "react-icons/fa";
+import { FaRegStar, FaShoppingCart, FaStar } from "react-icons/fa";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import { FaStar } from "react-icons/fa6";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
 const FragranceFeatureProduct = () => {
@@ -30,19 +28,11 @@ const FragranceFeatureProduct = () => {
   };
 
   const handleViewAll = () => {
-    navigate("/haircare");
-  };
-
-  const toggleDescription = () => {
-    setShowDescription(!showDescription);
-  };
-
-  const handleImageClick = (image) => {
-    setActiveImage(image);
+    navigate("/fragrance");
   };
 
   return (
-    <section className="max-w-screen-xl mx-auto text-center mt-28">
+    <section className="max-w-screen-xl mx-auto text-center mt-14 md:mt-28">
       <div className="flex mb-10 justify-between items-center font-poppins px-4">
         <h2 className="text-xl md:text-3xl font-bold text-gray-800 underline decoration-primary underline-offset-8 decoration-[3px]">
           BEST SELLING FRAGRANCE
@@ -88,10 +78,6 @@ const FragranceFeatureProduct = () => {
                 >
                   {item.name} | {item.model}
                 </h5>
-
-                {/* <p className="text-xl font-bold text-primary mt-2">
-                  ৳ {item.price} TK
-                </p> */}
               </div>
             </div>
           ))
@@ -115,92 +101,86 @@ const FragranceFeatureProduct = () => {
       </div>
 
       {/* Modal Section */}
-      {selectedProduct && (
-        <Modal
-          className="fixed inset-0 flex items-center justify-center z-50"
-          show={openModal}
-          onClose={() => setOpenModal(false)}
-        >
-          <div className="relative bg-white md:w-[800px] md:h-[550px] p-2 rounded-lg shadow-lg z-10">
+      {openModal && selectedProduct && (
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black/50 p-2">
+          <div className="relative bg-white w-full max-w-[800px] h-auto max-h-[90vh] p-4 rounded-lg shadow-lg z-10 flex flex-col md:flex-row overflow-hidden">
+            {/* Close Button */}
             <button
-              className="absolute -top-4 -right-4 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark"
+              className="absolute top-2 right-2 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark"
               onClick={() => setOpenModal(false)}
             >
               X
             </button>
-            <div className="md:flex h-full justify-center gap-4 p-4">
-              <div className="flex flex-row md:flex-col items-center gap-4 mb-4">
-                {selectedProduct.images &&
-                  selectedProduct.images.map((image, index) => (
-                    <img
-                      key={index}
-                      src={image}
-                      alt={`${selectedProduct.name} ${index}`}
-                      className={`w-20 h-auto object-cover cursor-pointer ${
-                        activeImage === image
-                          ? "border-2 border-primary bg-slate-50 rounded-md"
-                          : ""
-                      }`}
-                      onClick={() => handleImageClick(image)}
-                    />
-                  ))}
+
+            {/* Left - Small Images */}
+            <div className="w-full md:w-20 flex md:flex-col items-center gap-4 overflow-x-auto md:overflow-y-auto py-2">
+              {selectedProduct.images &&
+                selectedProduct.images.map((image, index) => (
+                  <img
+                    key={index}
+                    src={image}
+                    alt={`${selectedProduct.name} ${index}`}
+                    className={`w-16 h-16 object-cover cursor-pointer rounded-md ${
+                      activeImage === image
+                        ? "border-2 border-primary bg-slate-50"
+                        : ""
+                    }`}
+                    onClick={() => setActiveImage(image)}
+                  />
+                ))}
+            </div>
+
+            {/* Middle - Large Image */}
+            <div className="w-full md:w-96 flex items-center justify-center p-4">
+              <img
+                src={activeImage}
+                alt={selectedProduct.name}
+                className="w-full max-h-[300px] md:max-h-[400px] object-contain bg-slate-50 rounded-md"
+              />
+            </div>
+
+            {/* Right - Product Info */}
+            <div className="w-full md:w-80 p-4">
+              <h2 className="text-gray-800 text-xl md:text-2xl font-bold mb-2 text-start">
+                {selectedProduct.name}
+              </h2>
+              <p className="text-lg font-bold text-start my-2">
+                {selectedProduct.model}
+              </p>
+              <div className="flex items-center gap-1 mb-3">
+                {[...Array(4)].map((_, i) => (
+                  <FaStar key={i} className="text-yellow-400" />
+                ))}
+                <FaRegStar className="text-yellow-400" />
               </div>
-              <div className="shrink flex items-center p-5 justify-center">
-                <img
-                  src={activeImage}
-                  alt={selectedProduct.name}
-                  className="bg-slate-50 w-full rounded-md"
-                />
-              </div>
-              <div className="">
-                <h2 className="text-gray-800 text-xl md:text-2xl mb-3 font-bold">
-                  {selectedProduct.name}
-                </h2>
-                <p className="text-lg md:text-xl font-bold my-2">
-                  {selectedProduct.model}
-                </p>
-                <div className="flex items-center gap-1 mb-3">
-                  {[...Array(4)].map((_, i) => (
-                    <FaStar key={i} className="text-yellow-400" />
-                  ))}
-                  <FaRegStar className="text-yellow-400" />
-                </div>
-                {/* <p className="text-xl md:text-2xl font-bold text-green-600 mb-3">
-                  ৳ {selectedProduct.price}
-                </p> */}
-                <Link
-                  to="https://www.facebook.com/shoppersperk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="flex gap-2 justify-center items-center w-full bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-all">
-                    <FaShoppingCart /> BUY NOW
+              <Link
+                to="https://www.facebook.com/shoppersperk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex gap-2 justify-center items-center w-full bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-all">
+                  <FaShoppingCart /> BUY NOW
+                </button>
+              </Link>
+              <div className="mt-6">
+                <div className="flex justify-between items-center">
+                  <p className="text-lg font-bold">About</p>
+                  <button
+                    onClick={() => setShowDescription(!showDescription)}
+                    className="ml-2 flex items-center"
+                  >
+                    {showDescription ? <AiOutlineUp /> : <AiOutlineDown />}
                   </button>
-                </Link>
-                <div className="mt-6">
-                  <div className="flex justify-between items-center">
-                    <p className="text-lg md:text-xl font-bold">About</p>
-                    <button
-                      onClick={toggleDescription}
-                      className="ml-2 flex items-center"
-                    >
-                      {showDescription ? (
-                        <AiOutlineUp className="ml-1" />
-                      ) : (
-                        <AiOutlineDown className="ml-1" />
-                      )}
-                    </button>
-                  </div>
-                  {showDescription && (
-                    <p className="text-xs md:text-base md:w-56">
-                      {selectedProduct.description}
-                    </p>
-                  )}
                 </div>
+                {showDescription && (
+                  <p className="text-sm text-start">
+                    {selectedProduct.description}
+                  </p>
+                )}
               </div>
             </div>
           </div>
-        </Modal>
+        </div>
       )}
     </section>
   );

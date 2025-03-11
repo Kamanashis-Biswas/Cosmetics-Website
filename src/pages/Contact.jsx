@@ -55,7 +55,7 @@ const Contact = () => {
                     <CiShop className="w-8 h-8 font-extrabold text-primary" />
                     <h3 className="font-medium">Shop - 1</h3>
                   </div>
-                  <h2 className="font-bold text-xl rounded-md mb-4">
+                  <h2 className="font-bold text-lg rounded-md mb-4">
                     Shoppers&apos; perk
                   </h2>
                   <div className="flex gap-3 items-center">
@@ -74,7 +74,7 @@ const Contact = () => {
                     <CiShop className="w-8 h-8 font-extrabold text-primary" />
                     <h3 className="font-medium">Shop - 2</h3>
                   </div>
-                  <h2 className="font-bold text-xl whitespace-nowrap mb-4">
+                  <h2 className="font-bold text-lg whitespace-nowrap mb-4">
                     Shoppers&apos; perk life style
                   </h2>
                   <div className="flex gap-3 items-center">

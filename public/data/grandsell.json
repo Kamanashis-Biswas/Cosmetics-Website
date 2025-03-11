@@ -1,0 +1,190 @@
+[
+  {
+    "id": 1,
+    "name": "Daily Tone-Up Vitamin Cica Sunscreen",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/daily-tone-up.png",
+      "/assets/haircare/daily-tone-up-2.png"
+    ],
+    "description": "A lightweight sunscreen with Vitamin C and Cica that brightens, soothes, and protects skin from UV rays while providing a natural tone-up effect."
+  },
+  {
+    "id": 2,
+    "name": "Lois Chloe Sunscreen Cream SPF Protection",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/lois-chloe-cream.png",
+      "/assets/haircare/lois-chloe-cream-2.png",
+      "/assets/haircare/lois-chloe-cream-3.png"
+    ],
+    "description": "A hydrating sunscreen cream that shields skin from harmful UV rays while nourishing and keeping it soft, smooth, and naturally radiant all day."
+  },
+  {
+    "id": 3,
+    "name": "Neogence UV Defense Hydrating Sunscreen",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/neogence-sunscreen.png",
+      "/assets/haircare/neogence-sunscreen-2.png"
+    ],
+    "description": "A lightweight, hydrating sunscreen that protects against UVA/UVB rays while keeping skin moisturized, smooth, and radiant without a greasy feel."
+  },
+  {
+    "id": 9,
+    "name": "You're the One Fragrance Mist",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/you're-the-one.png",
+      "/assets/fragrance/you're-the-one-2.png"
+    ],
+    "description": "Delight in the irresistible charm of You're the One. A romantic blend of rose, vanilla, and white birch, this fragrance mist creates a captivating, warm, and enchanting scent."
+  },
+  {
+    "id": 10,
+    "name": "Zara Man Silver Eau de Toilette",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/zara=man-silve.png",
+      "/assets/fragrance/zara=man-silve-2.png"
+    ],
+    "description": "Zara Man Silver is a bold and fresh fragrance with notes of citrus, lavender, and wood. Ideal for the modern man, it exudes sophistication and confidence throughout the day."
+  },
+  {
+    "id": 9,
+    "name": "Creme 21",
+    "price": "69.00",
+    "discount_price": "63.00",
+    "model": "PENC-2021",
+    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Pure Essence",
+    "images": [
+      "/assets/skincare/cream21.png",
+      "/assets/skincare/cream21-2.png",
+      "/assets/skincare/cream21-3.png"
+    ],
+    "description": "Creme 21 from Germany is a nourishing, non-greasy moisturizer that deeply hydrates the skin, leaving it soft, smooth, and revitalized for daily use."
+  },
+  {
+    "id": 10,
+    "name": "Dark Spot Correcting Cream",
+    "price": "89.00",
+    "discount_price": "81.00",
+    "model": "HBM-2021",
+    "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "HydraBoost",
+    "images": [
+      "/assets/skincare/spot-currecting.png",
+      "/assets/skincare/spot-currecting-2.png",
+      "/assets/skincare/spot-currecting-3.png"
+    ],
+    "description": "Dark Spot Correcting Cream targets hyperpigmentation, reducing the appearance of dark spots and uneven skin tone for a clearer, brighter complexion."
+  },
+  {
+    "id": 11,
+    "name": "CeraVe Psoriasis Cleanser",
+    "price": "2200",
+    "discount_price": "2000",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/skincare/psoriasis.png",
+      "/assets/skincare/psoriasis-2.png",
+      "/assets/skincare/psoriasis-3.png"
+    ],
+    "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration & soothing."
+  },
+  {
+    "id": 11,
+    "name": "St. Ives Renewing Moisturizer",
+    "price": "2200",
+    "discount_price": "2000",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/skincare/StIves.png",
+      "/assets/skincare/StIves-2.png",
+      "/assets/skincare/StIves-3.png"
+    ],
+    "description": "A hydrating moisturizer with collagen and elastin to nourish and rejuvenate skin, leaving it soft, smooth, and youthful-looking."
+  },
+  {
+    "id": 12,
+    "name": "Beauti4me VD Brown Matte Lipstick",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/beauti4me-Lipstick.png",
+      "/assets/makeup/beauti4me-Lipstick-2.png"
+    ],
+    "description": "A richly pigmented brown matte lipstick that glides smoothly, delivering long-lasting, comfortable wear with a bold, velvety finish"
+  },
+  {
+    "id": 13,
+    "name": "Everly Beauties Blush & Sculpt Kit",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/sculpt-kit.png",
+      "/assets/makeup/sculpt-kit-2.png"
+    ],
+    "description": "A versatile blush and contour kit that enhances your natural glow, adding warmth and dimension for a sculpted, radiant complexion all day long."
+  },
+  {
+    "id": 14,
+    "name": "Essence Lash Princess Mascara",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/princess-mascara.png",
+      "/assets/makeup/princess-mascara-2.png",
+      "/assets/makeup/princess-mascara-3.png"
+    ],
+    "description": "This mascara lifts, lengthens, and defines for bold, long-lasting eye makeup."
+  },
+  {
+    "id": 15,
+    "name": "Bote Makeup Instyle Matte Powder 04",
+    "price": "100",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/matte-powder.png",
+      "/assets/makeup/matte-powder-2.png"
+    ],
+    "description": " A lightweight matte powder that controls shine, blurs imperfections, and provides a smooth, flawless finish for a long-lasting, natural look."
+  }
+]
