@@ -81,7 +81,7 @@ const GrandSell = () => {
       {/* Modal Section */}
       {isModalOpen && selectedProduct && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black/50 p-2">
-          <div className="relative bg-white w-full max-w-[800px] h-auto max-h-[90vh] p-4 rounded-lg shadow-lg z-10 flex flex-col md:flex-row overflow-hidden">
+          <div className="relative bg-white w-full max-w-[800px] h-auto md:max-h-[90vh] p-4 rounded-lg shadow-lg z-10 flex flex-col md:flex-row overflow-hidden">
             {/* Close Button */}
             <button
               className="absolute top-2 right-2 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark"

@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaRegStar, FaShoppingCart, FaStar } from "react-icons/fa";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
+import LoadingScreen from "./LoadingScreen";
 
 const HaircareFeatureProduct = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -82,7 +83,7 @@ const HaircareFeatureProduct = () => {
             </div>
           ))
         ) : (
-          <p className="text-gray-500">Loading products...</p>
+          <LoadingScreen />
         )}
       </div>
 
@@ -103,7 +104,7 @@ const HaircareFeatureProduct = () => {
       {/* Modal Section */}
       {openModal && selectedProduct && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black/50 p-2">
-          <div className="relative bg-white w-full max-w-[800px] h-auto max-h-[90vh] p-4 rounded-lg shadow-lg z-10 flex flex-col md:flex-row overflow-hidden">
+          <div className="relative bg-white w-full max-w-[800px] h-auto md:max-h-[90vh] p-4 rounded-lg shadow-lg z-10 flex flex-col md:flex-row overflow-hidden">
             {/* Close Button */}
             <button
               className="absolute top-2 right-2 w-8 h-8 rounded-full text-white bg-primary flex items-center justify-center hover:bg-primary-dark"
