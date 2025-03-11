@@ -59,10 +59,10 @@ const Carousel = () => {
               alt={`Slide ${index + 1}`}
               className="w-full h-full object-cover"
             />
-            <div className="absolute bottom-10 right-10">
+            <div className="absolute bottom-5 md:bottom-10 right-5 md:right-10">
               <a
                 href={slide.exploreLink}
-                className="bg-primary text-white py-2 px-4 rounded-md hover:bg-primary-dark transition-all"
+                className="bg-primary text-white py-2 px-2 md:px-4 rounded-md hover:bg-primary-dark text-xs md:text-lg transition-all"
               >
                 Explore Now
               </a>
