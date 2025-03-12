@@ -60,7 +60,7 @@ const MakeupFeatureProduct = () => {
               <img
                 src={item.images[0]}
                 alt={item.name}
-                className="w-72 h-72 mx-auto transition-transform duration-500 group-hover:scale-105"
+                className="w-64 h-64 mx-auto pt-3 transition-transform duration-500 group-hover:scale-105"
               />
 
               {/* Hover Buttons */}
@@ -121,10 +121,8 @@ const MakeupFeatureProduct = () => {
                     key={index}
                     src={image}
                     alt={`${selectedProduct.name} ${index}`}
-                    className={`w-16 h-16 object-cover cursor-pointer rounded-md ${
-                      activeImage === image
-                        ? "border-2 border-primary bg-slate-50"
-                        : ""
+                    className={`w-16 h-20 object-cover bg-slate-50 p-1 cursor-pointer rounded-md ${
+                      activeImage === image ? "border-2 border-primary" : ""
                     }`}
                     onClick={() => setActiveImage(image)}
                   />

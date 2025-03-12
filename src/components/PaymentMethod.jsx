@@ -18,8 +18,7 @@ const PaymentMethod = () => {
   ];
 
   return (
-    <div className="px-4 md:px-0">
-      {" "}
+    <div className="px-4 mb-8 md:mb-16 md:px-0">
       {/* মোবাইল ডিভাইসে প্যাডিং যোগ করা হয়েছে */}
       <section className="max-w-screen-xl mx-auto mt-28 font-poppins">
         <div>

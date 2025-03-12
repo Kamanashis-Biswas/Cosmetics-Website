@@ -40,7 +40,7 @@ const Haircare = () => {
           </h1>
         </div>
       </div>
-      <section className="max-w-screen-xl mx-auto text-center mt-14 md:mt-28">
+      <section className="max-w-screen-xl mx-auto mb-8 md:mb-16 text-center mt-14 md:mt-28">
         <div className="flex mb-10 justify-between items-center font-poppins px-4"></div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-poppins px-4">
           {products.length > 0 ? (
@@ -54,7 +54,7 @@ const Haircare = () => {
                 <img
                   src={item.images[0]}
                   alt={item.name}
-                  className="w-72 h-72 mx-auto transition-transform duration-500 group-hover:scale-105"
+                  className="w-64 h-64 mx-auto pt-3 transition-transform duration-500 group-hover:scale-105"
                 />
 
                 {/* Hover Buttons */}
@@ -101,10 +101,8 @@ const Haircare = () => {
                       key={index}
                       src={image}
                       alt={`${selectedProduct.name} ${index}`}
-                      className={`w-16 h-16 object-cover cursor-pointer rounded-md ${
-                        activeImage === image
-                          ? "border-2 border-primary bg-slate-50"
-                          : ""
+                      className={`w-16 h-16 object-cover bg-slate-50 p-1 cursor-pointer rounded-md ${
+                        activeImage === image ? "border-2 border-primary " : ""
                       }`}
                       onClick={() => setActiveImage(image)}
                     />

@@ -29,7 +29,7 @@ const Contact = () => {
                     className="hover:text-primary-dark w-8 transition duration-300 hover:scale-125 text-3xl"
                     target="_blank"
                   >
-                    <FaFacebook className="mb-3" />
+                    <FaFacebook className="mb-3 text-blue-500 hover:text-blue-700 transition duration-300 hover:scale-105" />
                   </Link>
                   {/* <Link
                     to="https://x.com/maccosmetics"
@@ -43,7 +43,7 @@ const Contact = () => {
                     className="hover:text-primary-dark  w-8 transition duration-300 hover:scale-125 text-3xl"
                     target="_blank"
                   >
-                    <BsInstagram />
+                    <BsInstagram className="text-pink-600 hover:text-pink-800 transition duration-300 hover:scale-105" />
                   </Link>
                 </div>
               </div>

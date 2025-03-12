@@ -172,5 +172,20 @@
       "/assets/skincare/StIves-3.png"
     ],
     "description": "A hydrating moisturizer with collagen and elastin to nourish and rejuvenate skin, leaving it soft, smooth, and youthful-looking."
+  },
+  {
+    "id": 12,
+    "name": "Care:Nel Anti-Melasma Cica Cream - Dark Spot Corrector 50ml",
+    "price": "2200",
+    "discount_price": "2000",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/skincare/anti-melasma.png",
+      "/assets/skincare/anti-melasma-2.png",
+      "/assets/skincare/anti-melasma-3.png"
+    ],
+    "description": "Care:Nel Anti-Melasma Cica Cream helps reduce melasma, dark spots, and redness with soothing cica and brightening ingredients. Achieve an even, radiant complexion with daily use."
   }
 ]
