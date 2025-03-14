@@ -35,7 +35,7 @@ const HaircareFeatureProduct = () => {
   return (
     <section className="max-w-screen-xl mx-auto text-center mt-14 md:mt-28">
       <div className="flex mb-10 justify-between items-center font-poppins px-4">
-        <h2 className="text-xl md:text-3xl font-bold text-gray-800 underline decoration-primary underline-offset-8 decoration-[3px]">
+        <h2 className="text-xl md:text-3xl font-bold text-gray-800">
           BEST SELLING HAIRCARE
         </h2>
         <div className="flex items-center gap-2 justify-center">
@@ -134,7 +134,7 @@ const HaircareFeatureProduct = () => {
               <img
                 src={activeImage}
                 alt={selectedProduct.name}
-                className="w-full max-h-[300px] md:max-h-[400px] object-contain bg-slate-50 rounded-md"
+                className="w-full max-h-[200px] md:max-h-[400px] object-contain bg-slate-50 rounded-md"
               />
             </div>
 

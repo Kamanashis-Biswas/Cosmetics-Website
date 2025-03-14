@@ -51,18 +51,17 @@ const Footer = () => {
                   <div className="w-10 h-10 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/1200px-Flag_of_the_United_States_%28Pantone%29.svg.png"
-                      alt="USA Flag"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
                     />
                   </div>
-                  <p>United States</p>
+                  <p>United Kingdom</p>
                 </div>
               </div>
             </div>
             <div>
               <div className="mb-10">
                 <h2 className="  text-lg font-semibold mb-2 text-center md:text-end">
-                  Payment Methods:
+                  Payment Methods
                 </h2>
                 <div className="grid grid-cols-4 gap-4">
                   {paymentMethods.map((method) => (
@@ -78,7 +77,7 @@ const Footer = () => {
               {/* Social Media Links (Right Side) */}
               <div className="flex flex-col items-center md:items-end mt-6 md:mt-0">
                 <div>
-                  <h2 className="text-lg font-semibold mb-2">Follow Us:</h2>
+                  <h2 className="text-lg font-semibold mb-2">Follow Us</h2>
                 </div>
                 <div className="flex space-x-4">
                   <Link

@@ -11,6 +11,7 @@ const Skincare = () => {
   const [products, setProducts] = useState([]);
   const [showDescription, setShowDescription] = useState(false);
   const [activeImage, setActiveImage] = useState(null);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     fetch("../data/skincare.json")
@@ -30,6 +31,10 @@ const Skincare = () => {
     setShowDescription(false); // Reset description visibility when modal opens
   };
 
+  const filteredProducts = products.filter((product) =>
+    product.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div>
       <div className="relative w-full h-64  md:h-[50vh] overflow-hidden">
@@ -45,10 +50,19 @@ const Skincare = () => {
         </div>
       </div>
       <section className="max-w-screen-xl mx-auto mb-8 md:mb-16 text-center mt-14 md:mt-28">
+        <div className=" flex justify-end mb-6 px-4">
+          <input
+            type="text"
+            placeholder="Search products..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+          />
+        </div>
         <div className="flex mb-10 justify-between items-center font-poppins px-4"></div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-poppins px-4">
-          {products.length > 0 ? (
-            products.map((item) => (
+          {filteredProducts.length > 0 ? (
+            filteredProducts.map((item) => (
               <div
                 key={item.id}
                 onClick={() => handleBuyNow(item)}
@@ -118,7 +132,7 @@ const Skincare = () => {
                 <img
                   src={activeImage}
                   alt={selectedProduct.name}
-                  className="w-full max-h-[300px] md:max-h-[400px] object-contain bg-slate-50 rounded-md"
+                  className="w-full max-h-[200px] md:max-h-[400px] object-contain bg-slate-50 rounded-md"
                 />
               </div>
 

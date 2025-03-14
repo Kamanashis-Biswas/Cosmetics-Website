@@ -61,7 +61,7 @@ const Contact = () => {
                     <div>
                       <p>
                         <span className="font-semibold mr-1">Shop: 222,</span>
-                        Genetic Plaza,
+                        Level-2,Genetic Plaza,
                       </p>
                       <p>Dhanmondi-27, DHAKA</p>
                     </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                 <div className="bg-purple-100/20 border border-slate-200 shadow-xl rounded-md p-4">
                   <div className="flex items-center justify-start gap-2 mb-3">
                     <CiShop className="w-8 h-8 font-extrabold text-primary" />
-                    <h3 className="font-medium">Shop - 2</h3>
+                    <h3 className="font-medium">Shop-2</h3>
                   </div>
                   <h2 className="font-bold text-lg whitespace-nowrap mb-4">
                     Shoppers&apos; perk life style
@@ -80,7 +80,7 @@ const Contact = () => {
                     <div>
                       <p>
                         <span className="font-semibold mr-1">Shop: 137,</span>
-                        Genetic Plaza,
+                        Level-1, Genetic Plaza,
                       </p>
                       <p>Dhanmondi-27, DHAKA</p>
                     </div>
