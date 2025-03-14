@@ -19,6 +19,10 @@ const Skincare = () => {
       .catch((error) => console.error("Error loading products:", error));
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component is rendered
+  }, []);
+
   const handleBuyNow = (product) => {
     setSelectedProduct(product);
     setOpenModal(true);

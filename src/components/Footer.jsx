@@ -1,8 +1,25 @@
 import { BsInstagram, BsYoutube } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import payment1 from "../assets/payment/cod.png";
+import payment2 from "../assets/payment/bkash.png";
+import payment3 from "../assets/payment/dbbl.png";
+import payment4 from "../assets/payment/master.png";
+import payment5 from "../assets/payment/nagad.png";
+import payment6 from "../assets/payment/rocket.png";
+import payment7 from "../assets/payment/visa.png";
 
 const Footer = () => {
+  const paymentMethods = [
+    { id: 1, src: payment1, alt: "Cash on Delivery" },
+    { id: 2, src: payment2, alt: "Bkash" },
+    { id: 3, src: payment3, alt: "DBBL" },
+    { id: 4, src: payment4, alt: "Mastercard" },
+    { id: 5, src: payment5, alt: "Nagad" },
+    { id: 6, src: payment6, alt: "Rocket" },
+    { id: 7, src: payment7, alt: "Visa" },
+  ];
+
   return (
     <div>
       <footer className="bg-black text-white font-poppins py-10">
@@ -42,37 +59,45 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-
-            {/* Social Media Links (Right Side) */}
-            <div className="flex flex-col items-center md:items-end">
-              <div>
-                <h2 className="text-lg font-semibold mb-2">Follow Us:</h2>
+            <div>
+              <div className="mb-10">
+                <h2 className="  text-lg font-semibold mb-2 text-center md:text-end">
+                  Payment Methods:
+                </h2>
+                <div className="grid grid-cols-4 gap-4">
+                  {paymentMethods.map((method) => (
+                    <img
+                      key={method.id}
+                      src={method.src}
+                      alt={method.alt}
+                      className="w-16 h-7"
+                    />
+                  ))}
+                </div>
               </div>
-              <div className="flex space-x-4">
-                <Link
-                  to="https://www.facebook.com/shoppersperk"
-                  className="text-blue-500 hover:text-blue-700 transition duration-300 hover:scale-105 text-3xl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebook />
-                </Link>
-                {/* <Link
-                  to="https://x.com/maccosmetics"
-                  className="hover:text-gray-400 transition duration-300 hover:scale-125 text-3xl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsYoutube />
-                </Link> */}
-                <Link
-                  to="https://www.instagram.com/shoppers.perk/"
-                  className="text-pink-400 hover:text-pink-600 transition duration-300 text-3xl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsInstagram />
-                </Link>
+              {/* Social Media Links (Right Side) */}
+              <div className="flex flex-col items-center md:items-end mt-6 md:mt-0">
+                <div>
+                  <h2 className="text-lg font-semibold mb-2">Follow Us:</h2>
+                </div>
+                <div className="flex space-x-4">
+                  <Link
+                    to="https://www.facebook.com/shoppersperk"
+                    className="text-blue-500 hover:text-blue-700 transition duration-300 hover:scale-105 text-3xl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFacebook />
+                  </Link>
+                  <Link
+                    to="https://www.instagram.com/shoppers.perk/"
+                    className="text-pink-400 hover:text-pink-600 transition duration-300 text-3xl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <BsInstagram />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

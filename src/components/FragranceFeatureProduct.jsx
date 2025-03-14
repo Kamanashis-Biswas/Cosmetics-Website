@@ -33,7 +33,7 @@ const FragranceFeatureProduct = () => {
   };
 
   return (
-    <section className="max-w-screen-xl mx-auto text-center mt-14 md:mt-28">
+    <section className="max-w-screen-xl mx-auto text-center mt-14 md:mt-28 mb-5 md:mb-10">
       <div className="flex mb-10 justify-between items-center font-poppins px-4">
         <h2 className="text-xl md:text-3xl font-bold text-gray-800 underline decoration-primary underline-offset-8 decoration-[3px]">
           BEST SELLING FRAGRANCE

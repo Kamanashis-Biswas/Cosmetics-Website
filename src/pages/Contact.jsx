@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BsInstagram, BsYoutube } from "react-icons/bs";
 import { CiPhone, CiShop } from "react-icons/ci";
 import { FaFacebook, FaWhatsapp } from "react-icons/fa";
@@ -5,6 +6,10 @@ import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component is rendered
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900">
       <main className="flex-grow container mx-auto px-4 py-16 ">
@@ -31,13 +36,6 @@ const Contact = () => {
                   >
                     <FaFacebook className="mb-3 text-blue-500 hover:text-blue-700 transition duration-300 hover:scale-105" />
                   </Link>
-                  {/* <Link
-                    to="https://x.com/maccosmetics"
-                    className="hover:text-blue-600 w-8 transition duration-300 hover:scale-125 text-3xl"
-                    target="_blank"
-                  >
-                    <BsYoutube className="mb-3" />
-                  </Link> */}
                   <Link
                     to="https://www.instagram.com/shoppers.perk/"
                     className="hover:text-primary-dark  w-8 transition duration-300 hover:scale-125 text-3xl"

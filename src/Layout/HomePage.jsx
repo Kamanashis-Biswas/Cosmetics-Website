@@ -4,7 +4,6 @@ import GrandSell from "../components/GrandSell";
 import HaircareFeatureProduct from "../components/HaircareFeatureProduct";
 import MakeupFeatureProduct from "../components/MakeupFeatureProduct";
 import OurStory from "../components/OurStory";
-import PaymentMethod from "../components/PaymentMethod";
 import SkincareFeatureProduct from "../components/SkincareFeatureProduct";
 import Testimonial from "../components/Testimonial";
 
@@ -19,7 +18,6 @@ const HomePage = () => {
       <FragranceFeatureProduct />
       {/* <Testimonial /> */}
       {/* <OurStory /> */}
-      <PaymentMethod />
     </div>
   );
 };

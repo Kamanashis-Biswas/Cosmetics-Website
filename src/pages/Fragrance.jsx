@@ -19,6 +19,10 @@ const Fragrance = () => {
       .catch((error) => console.error("Error loading products:", error));
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component is rendered
+  }, []);
+
   const handleBuyNow = (product) => {
     setSelectedProduct(product);
     setOpenModal(true);
@@ -28,10 +32,10 @@ const Fragrance = () => {
 
   return (
     <div>
-      <div className="relative w-full h-64  md:h-[50vh] overflow-hidden">
+      <div className="relative w-full h-64 md:h-[50vh] overflow-hidden">
         <img
           src={fragranceCover}
-          alt="Skincare Cover"
+          alt="Fragrance Cover"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
