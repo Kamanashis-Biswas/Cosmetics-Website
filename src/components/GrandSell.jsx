@@ -113,7 +113,7 @@ const GrandSell = () => {
               <img
                 src={activeImage}
                 alt={selectedProduct.name}
-                className="w-full max-h-[300px] md:max-h-[400px] object-contain bg-slate-50 rounded-md"
+                className="w-full max-h-[200px] md:max-h-[400px] object-contain bg-slate-50 rounded-md"
               />
             </div>
 
