@@ -15,7 +15,6 @@ const GrandSell = () => {
     fetch("../data/grandsell.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log("Loaded products:", data);
         setProducts(data);
       })
       .catch((error) => console.error("Error loading products:", error));
@@ -61,9 +60,9 @@ const GrandSell = () => {
                     {product.name} | {product.model}
                   </h3>
                   <p className="flex items-center">
-                    {/* <span className="line-through text-gray-500">
+                    <span className=" text-gray-500">
                       ৳ {product.price}
-                    </span> */}
+                    </span>
 
                     {/* {product.discount_price && (
                       <span className="ml-2 text-red-600 font-bold">
@@ -131,6 +130,11 @@ const GrandSell = () => {
                 ))}
                 <FaRegStar className="text-yellow-400" />
               </div>
+              <div>
+                <h2 className="text-gray-800 text-xl md:text-2xl font-bold mb-2 text-start">
+                ৳ {selectedProduct.price}
+                </h2>
+                </div>
               <Link
                 to="https://www.facebook.com/shoppersperk"
                 target="_blank"

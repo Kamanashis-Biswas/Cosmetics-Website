@@ -91,6 +91,7 @@ const Skincare = () => {
                   >
                     {item.name} | {item.model}
                   </h5>
+                  <h3 className="text-lg text-primary font-semibold text-gray-900">৳ {item.price}</h3>
                 </div>
               </div>
             ))
@@ -141,6 +142,7 @@ const Skincare = () => {
                 <h2 className="text-gray-800 text-xl md:text-2xl font-bold mb-2 text-start">
                   {selectedProduct.name}
                 </h2>
+                
                 <p className="text-lg font-bold text-start my-2">
                   {selectedProduct.model}
                 </p>
@@ -149,6 +151,11 @@ const Skincare = () => {
                     <FaStar key={i} className="text-yellow-400" />
                   ))}
                   <FaRegStar className="text-yellow-400" />
+                </div>
+                <div>
+                <h2 className="text-gray-800 text-xl md:text-2xl font-bold mb-2 text-start">
+                ৳ {selectedProduct.price}
+                </h2>
                 </div>
                 <Link
                   to="https://www.facebook.com/shoppersperk"

@@ -1,79 +1,122 @@
 [
   {
     "id": 1,
-    "name": "Daily Tone-Up Vitamin Cica Sunscreen",
-    "price": "100",
-    "discount_price": "90",
+    "name": "CeraVe Foaming Facial Cleanser for Oily Skin",
+    "price": "3200",
+    "discount_price": "3000",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
-    "images": [
-      "/assets/haircare/daily-tone-up.png",
-      "/assets/haircare/daily-tone-up-2.png"
-    ],
-    "description": "A lightweight sunscreen with Vitamin C and Cica that brightens, soothes, and protects skin from UV rays while providing a natural tone-up effect."
+    "images": ["/assets/skincare/cerave.png"],
+    "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration & soothing."
   },
   {
     "id": 2,
-    "name": "Lois Chloe Sunscreen Cream SPF Protection",
-    "price": "100",
-    "discount_price": "90",
-    "model": "INF-ES-2021",
+    "name": "CARE:NEL by Dr.SKIN",
+    "price": "1150",
+    "discount_price": "50.00",
+    "model": "GGT-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",
     "images": [
-      "/assets/haircare/lois-chloe-cream.png",
-      "/assets/haircare/lois-chloe-cream-2.png",
-      "/assets/haircare/lois-chloe-cream-3.png"
+      "/assets/skincare/carenel-2.png",
+      "/assets/skincare/carenel-1.png"
     ],
-    "description": "A hydrating sunscreen cream that shields skin from harmful UV rays while nourishing and keeping it soft, smooth, and naturally radiant all day."
+    "description": "Care:nel by Dr. Skin is a skincare solution designed to hydrate, nourish, and rejuvenate, promoting healthier, smoother, and glowing skin."
   },
   {
     "id": 3,
-    "name": "Neogence UV Defense Hydrating Sunscreen",
-    "price": "100",
-    "discount_price": "90",
-    "model": "INF-ES-2021",
-    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "NOIR",
+    "name": "Mucin Powder Essence",
+    "price": "1850",
+    "discount_price": "123.00",
+    "model": "FICO-2021",
+    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Fortuna",
     "images": [
-      "/assets/haircare/neogence-sunscreen.png",
-      "/assets/haircare/neogence-sunscreen-2.png"
+      "/assets/skincare/mucin.png",
+      "/assets/skincare/mucin-2.png",
+      "/assets/skincare/mucin-3.png"
     ],
-    "description": "A lightweight, hydrating sunscreen that protects against UVA/UVB rays while keeping skin moisturized, smooth, and radiant without a greasy feel."
+    "description": "Advanced Snail 96 Mucin Powder Essence deeply hydrates and repairs skin, boosting elasticity and texture with snail mucin for a smoother, glowing complexion."
   },
   {
-    "id": 9,
-    "name": "You're the One Fragrance Mist",
-    "price": "100",
-    "discount_price": "90",
-    "model": "INF-ES-2021",
-    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "NOIR",
+    "id": 4,
+    "name": "Dr. Clinic Eye Makeup Remover",
+    "price": "1600",
+    "discount_price": "34.00",
+    "model": "AND-2021",
+    "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
+    "brand": "Active Humans",
     "images": [
-      "/assets/fragrance/you're-the-one.png",
-      "/assets/fragrance/you're-the-one-2.png"
+      "/assets/skincare/eye-makeup.png",
+      "/assets/skincare/eye-makeup-2.png",
+      "/assets/skincare/eye-makeup-3.png"
     ],
-    "description": "Delight in the irresistible charm of You're the One. A romantic blend of rose, vanilla, and white birch, this fragrance mist creates a captivating, warm, and enchanting scent."
+    "description": "Dr. Clinic Eye Makeup Remover gently removes makeup without irritation, leaving the delicate eye area clean and refreshed while maintaining skin moisture."
   },
   {
-    "id": 10,
-    "name": "Zara Man Silver Eau de Toilette",
-    "price": "100",
-    "discount_price": "90",
-    "model": "INF-ES-2021",
-    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "NOIR",
+    "id": 5,
+    "name": "Day and Night Cream",
+    "price": "1450",
+    "discount_price": "87.00",
+    "model": "IGBO-2021",
+    "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
+    "brand": "Ipsum",
     "images": [
-      "/assets/fragrance/zara=man-silve.png",
-      "/assets/fragrance/zara=man-silve-2.png"
+      "/assets/skincare/day-night.png",
+      "/assets/skincare/day-night-2.png",
+      "/assets/skincare/day-night-3.png"
     ],
-    "description": "Zara Man Silver is a bold and fresh fragrance with notes of citrus, lavender, and wood. Ideal for the modern man, it exudes sophistication and confidence throughout the day."
+    "description": "Care:nel Day and Night Cream provides deep hydration and nourishment, protecting skin during the day and repairing it overnight for a smooth, rejuvenated complexion."
+  },
+  {
+    "id": 6,
+    "name": "Natural Aura Night Cream",
+    "price": "1450",
+    "discount_price": "130.00",
+    "model": "FEME-2021",
+    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Fortuna",
+    "images": [
+      "/assets/skincare/night-cream.png",
+      "/assets/skincare/night-cream-3.png"
+    ],
+    "description": "Natural Aura Night Cream deeply nourishes and revitalizes the skin overnight, promoting a smooth, hydrated, and glowing complexion by morning."
+  },
+  {
+    "id": 7,
+    "name": "Anti Melasma Whitemn Cream",
+    "price": "1890",
+    "discount_price": "108.00",
+    "model": "NOS-2021",
+    "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
+    "brand": "Nova",
+    "images": [
+      "/assets/skincare/whitemn-cream.png",
+      "/assets/skincare/whitemn-cream-2.png",
+      "/assets/skincare/whitemn-cream-3.png"
+    ],
+    "description": "Anti Melasma Whitemn Cream targets dark spots and hyperpigmentation, brightening and evening skin tone while reducing the appearance of melasma for a clearer complexion."
+  },
+  {
+    "id": 8,
+    "name": "Care:nel Brighter Cream",
+    "price": "1450",
+    "discount_price": "44.00",
+    "model": "BGS-2021",
+    "origin": "https://upload.wikimedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
+    "brand": "Bio Glow",
+    "images": [
+      "/assets/skincare/brighter-cream.png",
+      "/assets/skincare/brighter-cream-2.png",
+      "/assets/skincare/brighter-cream-3.png"
+    ],
+    "description": "Care:nel Brighter Cream is designed to brighten and even out skin tone, helping to reduce dark spots and hyperpigmentation for a radiant, glowing complexion."
   },
   {
     "id": 9,
     "name": "Creme 21",
-    "price": "69.00",
+    "price": "850",
     "discount_price": "63.00",
     "model": "PENC-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
@@ -88,7 +131,7 @@
   {
     "id": 10,
     "name": "Dark Spot Correcting Cream",
-    "price": "89.00",
+    "price": "249",
     "discount_price": "81.00",
     "model": "HBM-2021",
     "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -103,7 +146,7 @@
   {
     "id": 11,
     "name": "CeraVe Psoriasis Cleanser",
-    "price": "2200",
+    "price": "3450",
     "discount_price": "2000",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -116,9 +159,9 @@
     "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration & soothing."
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "St. Ives Renewing Moisturizer",
-    "price": "2200",
+    "price": "1450",
     "discount_price": "2000",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -131,9 +174,515 @@
     "description": "A hydrating moisturizer with collagen and elastin to nourish and rejuvenate skin, leaving it soft, smooth, and youthful-looking."
   },
   {
+    "id": 13,
+    "name": "Care:Nel Anti-Melasma",
+    "price": "2200",
+    "discount_price": "1250",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/skincare/anti-melasma.png",
+      "/assets/skincare/anti-melasma-2.png",
+      "/assets/skincare/anti-melasma-3.png"
+    ],
+    "description": "Care:Nel Anti-Melasma Cica Cream helps reduce melasma, dark spots, and redness with soothing cica and brightening ingredients. Achieve an even, radiant complexion with daily use."
+  },
+  {
+    "id": 14,
+    "name": "Beautiful Magnolia Scented Candle - Floral Bliss",
+    "price": "15000",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/beaut_magnolia.png",
+      "/assets/fragrance/beaut_magnolia-2.png"
+    ],
+    "description": "Immerse your space in the enchanting fragrance of magnolia with this Beautiful Magnolia scented candle. Perfect for creating a calm, floral atmosphere in any room."
+  },
+  {
+    "id": 15,
+    "name": "Catherine Malandrino Mystere Eau de Parfum 100ml",
+    "price": "9000",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/cath_maland_myst.png",
+      "/assets/fragrance/cath_maland_myst-2.png",
+      "/assets/fragrance/cath_maland_myst-3.png"
+    ],
+    "description": "Unveil the elegance of Catherine Malandrino Mystere, a captivating eau de parfum blending floral and woody notes. Perfect for adding a touch of mystery and sophistication."
+  },
+  {
+    "id": 16,
+    "name": "Catherine Malandrino Violet Gem Eau de Parfum 90ml",
+    "price": "3500",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/cath_maland_vio.png",
+      "/assets/fragrance/cath_maland_vio-2.png",
+      "/assets/fragrance/cath_maland_vio-3.png"
+    ],
+    "description": "Discover the luxurious essence of Catherine Malandrino Violet Gem. A delicate blend of violet, musk, and citrus, this fragrance exudes elegance and timeless beauty."
+  },
+ 
+  {
+    "id": 17,
+    "name": "Jimmy Choo Blossom Eau de Parfum ",
+    "price": "1450",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/jimmy_choo_bloss.png",
+      "/assets/fragrance/jimmy_choo_bloss-2.png",
+      "/assets/fragrance/jimmy_choo_bloss-3.png",
+      "/assets/fragrance/jimmy_choo_bloss-4.png"
+    ],
+    "description": "Indulge in the vibrant and playful scent of Jimmy Choo Blossom. A refreshing blend of sweet berries, citrus, and floral notes, perfect for a joyful, elegant fragrance experience."
+  },
+  {
+    "id": 18,
+    "name": "Mad About You Fragrance Mist ",
+    "price": "1850",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/mad_about_u.png",
+      "/assets/fragrance/mad_about_u-2.png",
+      "/assets/fragrance/mad_about_u-3.png"
+    ],
+    "description": "Fall in love with the irresistible scent of Mad About You. A romantic blend of black currant, peony, and vanilla, this fragrance mist leaves you feeling refreshed and enchanted."
+  },
+  {
+    "id": 7,
+    "name": "Soulful Nanette Lepore Eau de Parfum",
+    "price": "4000",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/soulful_nl_perf.png",
+      "/assets/fragrance/soulful_nl_perf-2.png"
+    ],
+    "description": "Embrace the essence of elegance with Soulful Nanette Lepore. A captivating fragrance that blends floral, woody, and fruity notes, offering a sophisticated and empowering scent."
+  },
+  {
+    "id": 19,
+    "name": "Transcendent Catherine Malandrino Eau de Parfum",
+    "price": "4000",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/transc_cmal_perf.png",
+      "/assets/fragrance/transc_cmal_perf-2.png"
+    ],
+    "description": "Experience the allure of Transcendent Catherine Malandrino. A harmonious blend of florals, warm spices, and creamy notes, this fragrance embodies elegance and timeless sophistication."
+  },
+  {
+    "id": 20,
+    "name": "You're the One Fragrance Mist",
+    "price": "1850",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/you're-the-one.png",
+      "/assets/fragrance/you're-the-one-2.png"
+    ],
+    "description": "Delight in the irresistible charm of You're the One. A romantic blend of rose, vanilla, and white birch, this fragrance mist creates a captivating, warm, and enchanting scent."
+  },
+  {
+    "id": 21,
+    "name": "Zara Man Silver Eau de Toilette",
+    "price": "4500",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/fragrance/zara=man-silve.png",
+      "/assets/fragrance/zara=man-silve-2.png"
+    ],
+    "description": "Zara Man Silver is a bold and fresh fragrance with notes of citrus, lavender, and wood. Ideal for the modern man, it exudes sophistication and confidence throughout the day."
+  },
+  {
+    "id": 22,
+    "name": "Daily Tone-Up Vitamin Cica Sunscreen",
+    "price": "850",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/daily-tone-up.png",
+      "/assets/haircare/daily-tone-up-2.png"
+    ],
+    "description": "A lightweight sunscreen with Vitamin C and Cica that brightens, soothes, and protects skin from UV rays while providing a natural tone-up effect."
+  },
+  {
+    "id": 23,
+    "name": "Lois Chloe Sunscreen Cream SPF Protection",
+    "price": "1500",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/lois-chloe-cream.png",
+      "/assets/haircare/lois-chloe-cream-2.png",
+      "/assets/haircare/lois-chloe-cream-3.png"
+    ],
+    "description": "A hydrating sunscreen cream that shields skin from harmful UV rays while nourishing and keeping it soft, smooth, and naturally radiant all day."
+  },
+  {
+    "id": 24,
+    "name": "Neogence UV Defense Hydrating Sunscreen",
+    "price": "1250",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/neogence-sunscreen.png",
+      "/assets/haircare/neogence-sunscreen-2.png"
+    ],
+    "description": "A lightweight, hydrating sunscreen that protects against UVA/UVB rays while keeping skin moisturized, smooth, and radiant without a greasy feel."
+  },
+  {
+    "id": 25,
+    "name": "Guerniss Everyday Protection Lotion",
+    "price": "1750",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/guerniss-protection.png",
+      "/assets/haircare/guerniss-protection-2.png",
+      "/assets/haircare/guerniss-protection-3.png"
+    ],
+    "description": "A lightweight, non-greasy lotion that hydrates and protects skin from environmental damage, keeping it soft, smooth, and nourished all day long."
+  },
+  {
+    "id": 26,
+    "name": "Nior Aqua Splash Sunscreen",
+    "price": "950",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/nior-aqua-splash.png",
+      "/assets/haircare/nior-aqua-splash-2.png",
+      "/assets/haircare/nior-aqua-splash-3.png",
+      "/assets/haircare/nior-aqua-splash-4.png"
+    ],
+    "description": "A lightweight, water-resistant sunscreen that hydrates and protects skin from UV rays, leaving a fresh, non-greasy finish for all-day defense."
+  },
+  {
+    "id": 27,
+    "name": "Eucerin Oil Control Sunscreen",
+    "price": "2450",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/eucerin-oil.png",
+      "/assets/haircare/eucerin-oil-2.png",
+      "/assets/haircare/eucerin-oil-3.png"
+    ],
+    "description": "A mattifying, lightweight sunscreen with SPF protection that controls excess oil, reduces shine, and helps prevent sun-induced skin damage."
+  },
+  {
+    "id": 28,
+    "name": "HeedBeauty Sunscreen SPF 50",
+    "price": "999",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/heedbeauty-sunscreen.png",
+      "/assets/haircare/heedbeauty-sunscreen-2.png"
+    ],
+    "description": "A lightweight, non-greasy sunscreen that provides broad-spectrum protection, hydrates the skin, and prevents sun damage for a radiant, healthy glow."
+  },
+  {
+    "id": 29,
+    "name": "Palette Intensive Color Creme 1.1 Blue Black",
+    "price": "1250",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/intensive-color-11.png",
+      "/assets/haircare/intensive-color-11-2.png"
+    ],
+    "description": " A rich, long-lasting blue-black hair color with deep conditioning formula that nourishes hair while providing vibrant shine and intense coverage."
+  },
+  {
+    "id": 30,
+    "name": "Palette Intensive Color Creme 7.1 Cool Brown",
+    "price": "1250",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": ["/assets/haircare/intensive-color-71.png"],
+    "description": "A deep cool brown hair color with long-lasting shine, full gray coverage, and a nourishing formula that keeps hair soft, healthy, and vibrant."
+  },
+  {
+    "id": 31,
+    "name": "Palette Intensive Color Creme 4.0 Middle Brown",
+    "price": "1250",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": ["/assets/haircare/intensive-color-40.png"],
+    "description": "Achieve rich, natural middle brown hair with full gray coverage. The nourishing formula enhances shine, softness, and long-lasting vibrant color."
+  },
+  {
+    "id": 32,
+    "name": "Palette Intensive Color Creme 4-88 Dark Red",
+    "price": "1250",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/intensive-color-488.png",
+      "/assets/haircare/intensive-color-488-2.png"
+    ],
+    "description": "Get an intense dark red shade with deep pigmentation and lasting vibrancy. The nourishing formula ensures rich color, shine, and full gray coverage."
+  },
+  {
+    "id": 33,
+    "name": "Palette Intensive Color Creme 4-89 Aubergine",
+    "price": "1250",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/intensive-color-489.png",
+      "/assets/haircare/intensive-color-489-2.png"
+    ],
+    "description": "Achieve a bold aubergine shade with long-lasting vibrancy. This nourishing formula provides deep color, shine, and full gray coverage for a stunning look."
+  },
+  {
+    "id": 34,
+    "name": "Palette Intensive Color Creme 8-0 Brown",
+    "price": "1250",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/intensive-color-80.png",
+      "/assets/haircare/intensive-color-80-2.png"
+    ],
+    "description": "Get a natural brown shade with rich, long-lasting color. This formula deeply nourishes hair while providing full gray coverage and a radiant, glossy finish."
+  },
+  {
+    "id": 35,
+    "name": "Palette Intensive Color Creme Ash Blonde",
+    "price": "1250",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/haircare/intensive-color-102.png",
+      "/assets/haircare/intensive-color-102-2.png"
+    ],
+    "description": "Achieve a cool, ashy blonde shade with intense, long-lasting color. The nourishing formula provides full gray coverage and leaves hair silky and vibrant."
+  },
+  {
+    "id": 36,
+    "name": "Note Ultra Rich Color Lip Pencil",
+    "price": "350",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/lip-pencil.png",
+      "/assets/makeup/lip-pencil-2.png",
+      "/assets/makeup/lip-pencil-3.png"
+    ],
+    "description": "A creamy, highly pigmented lip pencil that glides smoothly, defining lips with intense color and long-lasting wear for a flawless finish."
+  },
+  {
+    "id": 37,
+    "name": "Topface Waterproof Lipliner",
+    "price": "360",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/topface.png",
+      "/assets/makeup/topface-2.png",
+      "/assets/makeup/topface-3.png"
+    ],
+    "description": "A smudge-proof, long-lasting lip liner with a waterproof formula that ensures precise definition, vibrant color, and all-day wear without fading."
+  },
+  {
+    "id": 38,
+    "name": "Nior Super Long-Lasting Eyeliner",
+    "price": "595",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/nior-eyeliner.png",
+      "/assets/makeup/nior-eyeliner-2.png"
+    ],
+    "description": "A highly pigmented, waterproof eyeliner that delivers intense color and precise definition, ensuring a smudge-proof, all-day wear."
+  },
+  {
+    "id": 39,
+    "name": "Essence Longlasting Eye Pencil",
+    "price": "400",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/essence-eye pencil.png",
+      "/assets/makeup/essence-eye pencil-2.png",
+      "/assets/makeup/essence-eye pencil-3.png"
+    ],
+    "description": "A smooth, highly pigmented eye pencil in a stunning purple shade, offering long-lasting, smudge-proof wear for bold and defined eye looks."
+  },
+  {
+    "id": 40,
+    "name": "3 Fashion Eyelashes - 3 Faux Cils",
+    "price": "300",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/eyelashes.png",
+      "/assets/makeup/eyelashes-2.png",
+      "/assets/makeup/eyelashes-3.png"
+    ],
+    "description": "A set of three stylish faux eyelashes, adding volume and length for a glamorous, natural, or dramatic eye look. Lightweight and comfortable wear."
+  },
+  {
+    "id": 41,
+    "name": "Pink Magic Waterproof Black Kajal",
+    "price": "120",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/pink-magic-kajal.png",
+      "/assets/makeup/pink-magic-kajal-2.png",
+      "/assets/makeup/pink-magic-kajal-3.png"
+    ],
+    "description": "A smudge-proof, waterproof kajal that delivers intense black color for all-day wear. Glides smoothly for precise application and bold definition."
+  },
+  {
+    "id": 42,
+    "name": "Evely Beauties HD Loose Setting Powder",
+    "price": "750",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/evely-powder.png",
+      "/assets/makeup/evely-powder-2.png",
+      "/assets/makeup/evely-powder-3.png"
+    ],
+    "description": "A lightweight, finely milled setting powder that blurs imperfections, controls shine, and provides a smooth, long-lasting matte finish."
+  },
+  {
+    "id": 8,
+    "name": "Weightless Full Cover Fit Foundation",
+    "price": "1150",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/liquid-foundation.png",
+      "/assets/makeup/liquid-foundation-2.png",
+      "/assets/makeup/liquid-foundation-3.png"
+    ],
+    "description": "A high-coverage, lightweight foundation that blends seamlessly, providing a flawless, natural matte finish while keeping skin hydrated and breathable."
+  },
+  {
+    "id": 9,
+    "name": "I Love Extreme Volume Mascara",
+    "price": "650",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/i-love-maskara.png",
+      "/assets/makeup/i-love-maskara-2.png",
+      "/assets/makeup/i-love-maskara-3.png"
+    ],
+    "description": "A high-impact mascara that delivers intense volume and bold, dramatic lashes with a deep black formula, ensuring long-lasting, smudge-proof wear."
+  },
+  {
+    "id": 10,
+    "name": "Beauti4me Matte Finish Primer",
+    "price": "1300",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/beauti4me.png",
+      "/assets/makeup/beauti4me-2.png",
+      "/assets/makeup/beauti4me-3.png"
+    ],
+    "description": "A lightweight primer that controls oil, minimizes pores, and creates a smooth matte finish, ensuring a flawless, long-lasting makeup look."
+  },
+  {
+    "id": 11,
+    "name": "Beauti4me Light Beige Concealer Stick",
+    "price": "680",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/beige-concealer.png",
+      "/assets/makeup/beige-concealer-2.png",
+      "/assets/makeup/beige-concealer-3.png"
+    ],
+    "description": "A smooth, lightweight concealer that hides dark circles, blemishes, and imperfections while providing a natural, long-lasting finish."
+  },
+  {
     "id": 12,
     "name": "Beauti4me VD Brown Matte Lipstick",
-    "price": "100",
+    "price": "680",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -147,7 +696,7 @@
   {
     "id": 13,
     "name": "Everly Beauties Blush & Sculpt Kit",
-    "price": "100",
+    "price": "450",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -161,7 +710,7 @@
   {
     "id": 14,
     "name": "Essence Lash Princess Mascara",
-    "price": "100",
+    "price": "700",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -176,7 +725,7 @@
   {
     "id": 15,
     "name": "Bote Makeup Instyle Matte Powder 04",
-    "price": "100",
+    "price": "1050",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -186,5 +735,21 @@
       "/assets/makeup/matte-powder-2.png"
     ],
     "description": " A lightweight matte powder that controls shine, blurs imperfections, and provides a smooth, flawless finish for a long-lasting, natural look."
+  },
+  {
+    "id": 16,
+    "name": "French Love Matte Lipstick - Long-Lasting & Velvety",
+    "price": "750",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/luxly-matte-lipstick.png",
+      "/assets/makeup/luxly-matte-lipstick-2.png",
+      "/assets/makeup/luxly-matte-lipstick-3.png"
+    ],
+    "description": " French Love Matte Lipstick delivers intense color with a smooth, velvety matte finish. Lightweight, long-lasting, and non-drying, it keeps your lips soft and beautifully bold all day."
   }
+
 ]

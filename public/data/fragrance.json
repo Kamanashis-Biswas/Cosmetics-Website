@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Beautiful Magnolia Scented Candle - Floral Bliss",
-    "price": "100",
+    "price": "15000",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "name": "Catherine Malandrino Mystere Eau de Parfum 100ml",
-    "price": "100",
+    "price": "9000",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -31,7 +31,7 @@
   {
     "id": 3,
     "name": "Catherine Malandrino Violet Gem Eau de Parfum 90ml",
-    "price": "100",
+    "price": "3500",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -43,25 +43,11 @@
     ],
     "description": "Discover the luxurious essence of Catherine Malandrino Violet Gem. A delicate blend of violet, musk, and citrus, this fragrance exudes elegance and timeless beauty."
   },
-  {
-    "id": 4,
-    "name": "Catherine Malandrino's Special Moments Eau de Parfum",
-    "price": "100",
-    "discount_price": "90",
-    "model": "INF-ES-2021",
-    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
-    "brand": "NOIR",
-    "images": [
-      "/assets/fragrance/cath_malandrino.png",
-      "/assets/fragrance/cath_malandrino-2.png",
-      "/assets/fragrance/cath_malandrino-3.png"
-    ],
-    "description": "Celebrate life's unforgettable occasions with Catherine Malandrino's Special Moments. A sophisticated fragrance combining floral and fruity notes for a lasting impression."
-  },
+ 
   {
     "id": 5,
     "name": "Jimmy Choo Blossom Eau de Parfum ",
-    "price": "100",
+    "price": "1450",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -77,7 +63,7 @@
   {
     "id": 6,
     "name": "Mad About You Fragrance Mist ",
-    "price": "100",
+    "price": "1850",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -92,7 +78,7 @@
   {
     "id": 7,
     "name": "Soulful Nanette Lepore Eau de Parfum",
-    "price": "100",
+    "price": "4000",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -106,7 +92,7 @@
   {
     "id": 8,
     "name": "Transcendent Catherine Malandrino Eau de Parfum",
-    "price": "100",
+    "price": "4000",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -120,7 +106,7 @@
   {
     "id": 9,
     "name": "You're the One Fragrance Mist",
-    "price": "100",
+    "price": "1850",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -134,7 +120,7 @@
   {
     "id": 10,
     "name": "Zara Man Silver Eau de Toilette",
-    "price": "100",
+    "price": "4500",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",

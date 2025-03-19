@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "name": "CARE:NEL Dr. Skin Niacinamide Zinc Serum",
-    "price": "55.00",
+    "name": "CARE:NEL by Dr.SKIN",
+    "price": "1150",
     "discount_price": "50.00",
     "model": "GGT-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -26,8 +26,8 @@
   },
   {
     "id": 3,
-    "name": "Mucin Powder Essence - Hydrating & Repairing 50g",
-    "price": "139.00",
+    "name": "Mucin Powder Essence",
+    "price": "1850",
     "discount_price": "123.00",
     "model": "FICO-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
@@ -41,8 +41,8 @@
   },
   {
     "id": 4,
-    "name": "Dr. Clinic Eye Makeup Remover - Gentle & Effective",
-    "price": "39.00",
+    "name": "Dr. Clinic Eye Makeup Remover",
+    "price": "1600",
     "discount_price": "34.00",
     "model": "AND-2021",
     "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
@@ -57,7 +57,7 @@
   {
     "id": 5,
     "name": "Day and Night Cream",
-    "price": "95.00",
+    "price": "1450",
     "discount_price": "87.00",
     "model": "IGBO-2021",
     "origin": "https://upload.wikimedia/commons/b/b9/Flag_of_Australia.svg",
@@ -71,8 +71,8 @@
   },
   {
     "id": 6,
-    "name": "Olay Natural Aura Night Cream & Day Cream SPF 15",
-    "price": "140.00",
+    "name": "Natural Aura Night Cream",
+    "price": "1450",
     "discount_price": "130.00",
     "model": "FEME-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
@@ -86,7 +86,7 @@
   {
     "id": 7,
     "name": "Anti Melasma Whitemn Cream",
-    "price": "115.00",
+    "price": "1890",
     "discount_price": "108.00",
     "model": "NOS-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
@@ -101,7 +101,7 @@
   {
     "id": 8,
     "name": "Care:nel Brighter Cream",
-    "price": "49.00",
+    "price": "1450",
     "discount_price": "44.00",
     "model": "BGS-2021",
     "origin": "https://upload.wikimedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
@@ -115,8 +115,8 @@
   },
   {
     "id": 9,
-    "name": "Creme 21 All Day Cream With Vitamin E",
-    "price": "69.00",
+    "name": "Creme 21",
+    "price": "850",
     "discount_price": "63.00",
     "model": "PENC-2021",
     "origin": "https://upload.wikimedia/commons/0/03/Flag_of_Italy.svg",
@@ -131,7 +131,7 @@
   {
     "id": 10,
     "name": "Dark Spot Correcting Cream",
-    "price": "89.00",
+    "price": "249",
     "discount_price": "81.00",
     "model": "HBM-2021",
     "origin": "https://upload.wikimedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -146,7 +146,7 @@
   {
     "id": 11,
     "name": "CeraVe Psoriasis Cleanser",
-    "price": "2200",
+    "price": "3450",
     "discount_price": "2000",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -159,9 +159,9 @@
     "description": "CeraVe Foaming Facial Cleanser gently removes excess oil, dirt & makeup while maintaining the skin’s natural barrier. Ideal for normal to oily skin, it features ceramides & niacinamide for hydration & soothing."
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "St. Ives Renewing Moisturizer",
-    "price": "2200",
+    "price": "1450",
     "discount_price": "2000",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -174,10 +174,10 @@
     "description": "A hydrating moisturizer with collagen and elastin to nourish and rejuvenate skin, leaving it soft, smooth, and youthful-looking."
   },
   {
-    "id": 12,
-    "name": "Care:Nel Anti-Melasma Cica Cream - Dark Spot Corrector 50ml",
+    "id": 13,
+    "name": "Care:Nel Anti-Melasma",
     "price": "2200",
-    "discount_price": "2000",
+    "discount_price": "1250",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "brand": "NOIR",

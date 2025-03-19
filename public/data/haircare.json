@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Daily Tone-Up Vitamin Cica Sunscreen",
-    "price": "100",
+    "price": "850",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "name": "Lois Chloe Sunscreen Cream SPF Protection",
-    "price": "100",
+    "price": "1500",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -31,7 +31,7 @@
   {
     "id": 3,
     "name": "Neogence UV Defense Hydrating Sunscreen",
-    "price": "100",
+    "price": "1250",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -45,7 +45,7 @@
   {
     "id": 4,
     "name": "Guerniss Everyday Protection Lotion",
-    "price": "100",
+    "price": "1750",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -60,7 +60,7 @@
   {
     "id": 5,
     "name": "Nior Aqua Splash Sunscreen",
-    "price": "100",
+    "price": "950",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -76,7 +76,7 @@
   {
     "id": 6,
     "name": "Eucerin Oil Control Sunscreen",
-    "price": "100",
+    "price": "2450",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -91,7 +91,7 @@
   {
     "id": 7,
     "name": "HeedBeauty Sunscreen SPF 50",
-    "price": "100",
+    "price": "999",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -105,7 +105,7 @@
   {
     "id": 8,
     "name": "Palette Intensive Color Creme 1.1 Blue Black",
-    "price": "100",
+    "price": "1250",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -119,7 +119,7 @@
   {
     "id": 9,
     "name": "Palette Intensive Color Creme 7.1 Cool Brown",
-    "price": "100",
+    "price": "1250",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -130,7 +130,7 @@
   {
     "id": 10,
     "name": "Palette Intensive Color Creme 4.0 Middle Brown",
-    "price": "100",
+    "price": "1250",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -141,7 +141,7 @@
   {
     "id": 11,
     "name": "Palette Intensive Color Creme 4-88 Dark Red",
-    "price": "100",
+    "price": "1250",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -155,7 +155,7 @@
   {
     "id": 12,
     "name": "Palette Intensive Color Creme 4-89 Aubergine",
-    "price": "100",
+    "price": "1250",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -169,7 +169,7 @@
   {
     "id": 13,
     "name": "Palette Intensive Color Creme 8-0 Brown",
-    "price": "100",
+    "price": "1250",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
@@ -183,7 +183,7 @@
   {
     "id": 14,
     "name": "Palette Intensive Color Creme Ash Blonde",
-    "price": "100",
+    "price": "1250",
     "discount_price": "90",
     "model": "INF-ES-2021",
     "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",

@@ -91,6 +91,7 @@ const Makeup = () => {
                   >
                     {item.name} | {item.model}
                   </h5>
+                  <h3 className="text-lg text-primary font-semibold text-gray-900">৳ {item.price}</h3>
                 </div>
               </div>
             ))
@@ -149,6 +150,11 @@ const Makeup = () => {
                     <FaStar key={i} className="text-yellow-400" />
                   ))}
                   <FaRegStar className="text-yellow-400" />
+                </div>
+                <div>
+                <h2 className="text-gray-800 text-xl md:text-2xl font-bold mb-2 text-start">
+                ৳ {selectedProduct.price}
+                </h2>
                 </div>
                 <Link
                   to="https://www.facebook.com/shoppersperk"
