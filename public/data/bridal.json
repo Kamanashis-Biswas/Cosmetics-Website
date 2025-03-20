@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Ultimate Bridal Package",
+    "images": [
+      "../assets/bridal/bridal-pac-1.jpg"
+    ],
+    "price": "149.99",
+    "description": "Includes Luxury Bridal Lipstick, HD Foundation, Smokey Eyeshadow Palette, and more!"
+  },
+  {
+    "id": 2,
+    "name": "Deluxe Bridal Package",
+    "images": [
+      "../assets/bridal/bridal-pac-2.jpg",
+      "../assets/bridal/bridal-pac-22.jpg",
+      "../assets/bridal/bridal-pac-23.jpg",
+      "../assets/bridal/bridal-pac-24.jpg"
+    ],
+    "price": "129.99",
+    "description": "Includes Deluxe Bridal Lipstick, HD Foundation, Smokey Eyeshadow Palette, and more!"
+  },
+  {
+    "id": 3,
+    "name": "Premium Bridal Package",
+     "images": [
+      "../assets/bridal/bridal-pac-3.jpg",
+      "../assets/bridal/bridal-pac-31.jpg"
+    ],
+    "price": "139.99",
+    "description": "Includes Premium Bridal Lipstick, HD Foundation, Smokey Eyeshadow Palette, and more!"
+  },
+  {
+    "id": 4,
+    "name": "Classic Bridal Package",
+    "images": [
+      "../assets/bridal/bridal-pac-4.jpg",
+      "../assets/bridal/bridal-pac-42.jpg",
+      "../assets/bridal/bridal-pac-43.jpg"
+    ],
+    "price": "119.99",
+    "description": "Includes Classic Bridal Lipstick, HD Foundation, Smokey Eyeshadow Palette, and more!"
+  }
+]

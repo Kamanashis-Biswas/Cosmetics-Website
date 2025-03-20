@@ -1,3 +1,4 @@
+import BridalCosmetics from "../components/BridalCosmetics";
 import Carousel from "../components/Carousel";
 import FragranceFeatureProduct from "../components/FragranceFeatureProduct";
 import GrandSell from "../components/GrandSell";
@@ -16,6 +17,7 @@ const HomePage = () => {
       <MakeupFeatureProduct />
       <HaircareFeatureProduct />
       <FragranceFeatureProduct />
+      <BridalCosmetics />
       {/* <Testimonial /> */}
       {/* <OurStory /> */}
     </div>
