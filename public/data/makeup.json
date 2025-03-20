@@ -234,5 +234,21 @@
       "/assets/makeup/luxly-matte-lipstick-3.png"
     ],
     "description": " French Love Matte Lipstick delivers intense color with a smooth, velvety matte finish. Lightweight, long-lasting, and non-drying, it keeps your lips soft and beautifully bold all day."
+  },
+  {
+    "id": 17,
+    "name": "Trendy Beauty Liquid Matte Lipstick - Long-Lasting Color",
+    "price": "300",
+    "discount_price": "90",
+    "model": "INF-ES-2021",
+    "origin": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "brand": "NOIR",
+    "images": [
+      "/assets/makeup/trendy-lipstick.jpg",
+      "/assets/makeup/trendy-lipstick-2.jpg",
+      "/assets/makeup/trendy-lipstick-3.jpg",
+      "/assets/makeup/trendy-lipstick-4.jpg"
+    ],
+    "description": "Trendy Beauty Liquid Matte Lipstick glides on smoothly, delivering intense color with a lightweight, non-drying matte finish. Stay bold and beautiful with all-day wear."
   }
 ]
